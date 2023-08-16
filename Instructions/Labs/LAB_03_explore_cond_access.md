@@ -16,15 +16,17 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
-1. When the password reset window opens, select **Reset Password**.
+1. When the password reset window opens, select **Reset Password** and copy the password.
 
    >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
-9. Close the **Users** window by selecting the **X** at the top right corner of the page.
+1. Close users window by selecting the **X** at the top right corner of the page.
 
-10. Keep this window open.
+1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+
+1. Keep the browser page open, as you will in the subsequent tasks.
 
 ## Task 2: Process of creating a conditional access policy in Azure AD. 
 
