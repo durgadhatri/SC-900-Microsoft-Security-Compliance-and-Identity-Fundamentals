@@ -29,7 +29,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
-  >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
            
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
