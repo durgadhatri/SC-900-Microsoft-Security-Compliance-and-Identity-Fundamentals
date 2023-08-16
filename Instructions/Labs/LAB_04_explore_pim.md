@@ -115,68 +115,68 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
-
-   ![](../Images/my-roles10.png)
+1. On the **Privileged Identity Management | Quick start** page, from the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
 
 1. In the last column of the table, labeled action, select **Activate**.
 
-   ![](../Images/activate10.png)
+   ![](../Images/sc900lab4-image4.png)
 
 1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
-   ![](../Images/click-to-continue10.png)
+   ![](../Images/sc900lab4-image5.png)
 
 1. You are notified that more information is required, select **Next**.
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
-   ![](../Images/keep-secure10.png)
+  ![](../Images/sc900lab3-image7.png)
 
 1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
 
-   ![](../Images/keep-acc-secure10.png)
-
+   ![](../Images/sc900lab3-image8.png)
+   
 1. Enter the 6 digit code you received on your phone and select **Next**. 
 
-   ![](../Images/enter-code10.png)
+   ![](../Images/sc900lab3-image9.png)
 
 1. You will see a notification that your phone was registered successfully. Select **Next**, then select **Done**.
 
-   ![](../Images/sms-verified-10.png)
-
-   ![](../Images/default-sign-in10.png)
-
 1. You are asked if you want to stay signed in.  Select **Yes**.
+   
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
-   ![](../Images/activate-role10.png)
+  ![](../Images/sc900lab4-image7.png)
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
    ![](../Images/3-stage10.png)
 
-1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh). 
+1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
+   
 1. Close the window, by selecting the **X** on the top right corner of the screen.
+   
 1. Close the Privileged Identity Management | Quickstart window by selecting the **X** on the top right corner of the screen.
+   
 1. Close the Identity Governance window by selecting the **X** on the top right corner of the screen.
+   
 1. You are now back on the Azure Active Directory page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
+   
 1. From the users' list, select **Bianca Pisani**.
 
-   ![](../Images/add-user-2-10.png)
+  ![](../Images/sc900lab4-image8.png)
    
-1. From the left navigation panel, select **Licenses**.
+1. From the left navigation panel, under **Manage** section select **Licenses**.
 
 1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
 
-   ![](../Images/bianca-licences10.png)
-
 1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-   ![](../Images/update-licence10.png)
+   ![](../Images/sc900lab4-image9.png)
 
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
+   
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+   
 1. The duration of the user admin role is limited to the time that was configured.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
