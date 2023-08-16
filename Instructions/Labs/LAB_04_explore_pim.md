@@ -49,17 +49,17 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the main window, ensure **Getting started** is underlined then from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-1. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under Manage Access.
+1. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under **Manage Access**.
 
-   ![](../Images/manage-role10.png)
+   ![](../Images/sc900lab4-image1.png)
 
-1. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+1. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**. From the search results, select **User Administrator**.
 
-   ![](../Images/user-admin10.png)
+   ![](../Images/sc900lab4-image2.png)
 
 1. From the top of the page, select **+ Assignments**.
 
-   ![](../Images/assignments10.png)
+  ![](../Images/sc900lab4-image3.png)
 
 1. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
@@ -91,12 +91,12 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
-  > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
-  - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
- 
+   > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
+   - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
 In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
