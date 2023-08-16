@@ -106,7 +106,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. Sign in as Diego Siciliani.
     1. In the Sign in window enter **DiegoS@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
-    1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab**.
+    1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     1. When prompted to stay signed- in, select **Yes**.
 
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
