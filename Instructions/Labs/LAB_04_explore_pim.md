@@ -12,23 +12,25 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
    
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
-   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
    
 1. Now enter the following password and click on **Sign in**.
-   * Password: <inject key="AzureAdUserPassword"></inject>
+
+   * Password: <inject key="AzureAdUserPassword"></inject>
    
 1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure Active Directory** and press the **Enter** key.  
 
-1. From the left navigation panel select **Users**.
+1. From the left navigation panel under **Manage** section, select **Users**.
 
 1. Select **Diego Siciliani** from the list of users.
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
 
-1. When the password reset window opens, select **Reset Password**.  IMPORTANT, make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+1. When the password reset window opens, select **Reset Password** and copy the password.
 
-     ![](../Images/ss1.png)
-              
+  >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+           
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
 1. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
@@ -43,69 +45,58 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. Go to the Azure Active Directory page.  
 
-2. From the left navigation panel, select **Identity Governance**.
+1. From the left navigation panel under **Manage** section, select **Identity Governance**.
 
-   ![](../Images/ss2.png)
+1. From the main window, ensure **Getting started** is underlined then from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
 
-3. From the main window, ensure **Getting started** is underlined then select from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
-
-   ![](../Images/identity10.png)
-
-4. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under Manage Access.
+1. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under Manage Access.
 
    ![](../Images/manage-role10.png)
 
-5. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
+1. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
    ![](../Images/user-admin10.png)
 
-6. From the top of the page, select **+ Assignments**.
+1. From the top of the page, select **+ Assignments**.
 
    ![](../Images/assignments10.png)
 
-7. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
+1. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
-8. Leave the Scope type to its default value, Directory.  
+1. Leave the Scope type to its default value, Directory.  
 
-9. Under Select members, select **No members selected**. This opens the Select a member window. 
+1. Under Select members, select **No members selected**. This opens the Select a member window. 
 
-10. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
+1. In the search bar, enter **Diego**.  From the search results, select **Diego Siciliani** then press **Select** on the bottom of the page.  
 
-11. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
+1. Under Select members you will see 1 Member(s) selected and the name and email of the selected member(s), Deigo Siciliani. From the bottom of the Add assignments page, select **Next**.
 
-     ![](../Images/ss4.png)
+1. You are now on the Setting page.  Leave the Assignment type to the default setting, **Eligible**.
 
-12. You are now on the Setting page.  Leave the Assignment type to the default setting, Eligible.
+1. If the Permanently eligible box is checked, select **Permanently eligible**, to remove the checkmark.
 
-13. If the Permanently eligible box is checked, select **Permanently eligible**, to remove the checkmark.
+1. In the Assignment start fields, keep the default date and time, which are today and the current time.
 
-14. In the Assignment start fields, keep the default date and time, which are today and the current time.
-
-15. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
+1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
      ![](../Images/permanently-eligible10.png)
 
-16. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
+1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
-17. From the top of the page, select **Settings**.
+1. From the top of the page, select **Settings**.
 
-18. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
+1. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
 
      ![](../Images/settings10.png)
 
-19. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
   > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
-
+  - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
- 
-
-- Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
-
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
 In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
@@ -119,13 +110,10 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
     1. When prompted to stay signed- in, select **Yes**.
 
 1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
+   
 1. From the left navigation panel, select **Identity Governance**.
 
-   ![](../Images/ss3.png)
-
 1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
-
-   ![](../Images/aad-role10.png)
 
 1. From the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
 
