@@ -79,7 +79,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-   ![](../Images/permanently-eligible10.png)
+    ![](../Images/permanently-eligible10.png)
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
@@ -134,7 +134,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
 
-   ![](../Images/sc900lab3-image8.png)
+    ![](../Images/sc900lab3-image8.png)
    
 1. Enter the 6 digit code you received on your phone and select **Next**. 
 
@@ -164,7 +164,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. From the users' list, select **Bianca Pisani**.
 
-  ![](../Images/sc900lab4-image8.png)
+    ![](../Images/sc900lab4-image8.png)
    
 1. From the left navigation panel, under **Manage** section select **Licenses**.
 
