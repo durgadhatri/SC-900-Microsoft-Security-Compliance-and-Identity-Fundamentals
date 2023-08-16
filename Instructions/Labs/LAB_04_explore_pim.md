@@ -59,7 +59,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the top of the page, select **+ Assignments**.
 
-  ![](../Images/sc900lab4-image3.png)
+   ![](../Images/sc900lab4-image3.png)
 
 1. In the Add assignments page, ensure that **Membership** is underlined.  Here you will configure the membership settings for the user administrator role in PIM.
 
@@ -79,7 +79,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-     ![](../Images/permanently-eligible10.png)
+   ![](../Images/permanently-eligible10.png)
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
@@ -87,7 +87,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
 
-     ![](../Images/settings10.png)
+   ![](../Images/settings10.png)
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
@@ -104,6 +104,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
 1. Sign in as Diego Siciliani.
+   
     1. In the Sign in window enter **DiegoS@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
@@ -119,17 +120,17 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. In the last column of the table, labeled action, select **Activate**.
 
-   ![](../Images/sc900lab4-image4.png)
+    ![](../Images/sc900lab4-image4.png)
 
 1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
-   ![](../Images/sc900lab4-image5.png)
+    ![](../Images/sc900lab4-image5.png)
 
 1. You are notified that more information is required, select **Next**.
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
-  ![](../Images/sc900lab3-image7.png)
+    ![](../Images/sc900lab3-image7.png)
 
 1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
 
@@ -137,7 +138,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. Enter the 6 digit code you received on your phone and select **Next**. 
 
-   ![](../Images/sc900lab3-image9.png)
+    ![](../Images/sc900lab3-image9.png)
 
 1. You will see a notification that your phone was registered successfully. Select **Next**, then select **Done**.
 
@@ -145,11 +146,11 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
-  ![](../Images/sc900lab4-image7.png)
+    ![](../Images/sc900lab4-image7.png)
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
-   ![](../Images/3-stage10.png)
+    ![](../Images/3-stage10.png)
 
 1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
    
@@ -171,7 +172,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
-   ![](../Images/sc900lab4-image9.png)
+    ![](../Images/sc900lab4-image9.png)
 
 1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
    
