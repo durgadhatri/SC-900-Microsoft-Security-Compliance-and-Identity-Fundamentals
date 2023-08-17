@@ -5,6 +5,19 @@
 
 In this lab, you'll access Azure Active Directory. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
++ Task 2: Creating a basic group
++ Task 3: Create a new user in the Azure Active Directory and explore some of the services
++ Task 4: Sign in to the user first time
+
+## Architecture diagram
+
+![](../Images/sc900lab1.png)
+
 ## Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
 
 As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
@@ -185,4 +198,5 @@ In this task, you will sign in as Sara Perez, for the first time.
 ### Review
 In this lab, you started your initial exploration of Azure AD. Since subscribers to Microsoft 365 are automatically using Azure AD, you found that you access Azure AD features and services through either the Microsoft 365 admin portal or through the Azure portal.  Whichever approach you prefer to get to the same place.  You also walked through the process of creating a new user and the different settings that can be configured, including groups to which the user can be assigned, the availability of roles, and assigning of user licenses.
 
+## You have successfully completed the lab
 
