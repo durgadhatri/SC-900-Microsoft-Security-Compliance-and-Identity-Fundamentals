@@ -10,6 +10,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore the Microsoft Purview compliance center
 + Task 2: Compliance posture through Compliance Manager
 
+## Estimated timing: 30-45 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab12.png)
