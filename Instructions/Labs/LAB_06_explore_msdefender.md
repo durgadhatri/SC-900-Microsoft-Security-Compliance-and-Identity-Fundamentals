@@ -4,6 +4,17 @@
 ## Lab scenario
 In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture. NOTE: the Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore on Microsoft Defender for Cloud
++ Task 2: How to enable/disable the various Microsoft Defender for Cloud plans
+
+## Architecture diagram
+
+![](../Images/sc900lab6.png)
+
 ## Task 1: Explore on Microsoft Defender for Cloud
 
 In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
@@ -34,23 +45,23 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
    
-   i. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
+   1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
-   ![Picture 1](../Images/sc900-6-5.png)
+      ![Picture 1](../Images/sc900-6-5.png)
         
       >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
       
-   ii. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
+   1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
    
-   ![Picture 1](../Images/recommendation01.png)
+      ![Picture 1](../Images/recommendation01.png)
    
-   iii. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
+   1. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
   
-   iv. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
+   1. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
    
-   >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isnt visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
+    >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isnt visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
 
     ![Picture 1](../Images/sc900-6-4.png)
 
@@ -60,19 +71,20 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
     ![Picture 1](../Images/scope.png)
      
-    i. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
+    1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
       ![Picture 1](../Images/sc900-6-6.png)
        
      >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task
 
-   ii. It takes 2-3 hrs to fetch this list of controls.
-      1. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
+   1. It takes 2-3 hrs to fetch this list of controls.
+   
+      i. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
     
-      ![Picture 1](../Images/sc900-6-7.png)
+         ![Picture 1](../Images/sc900-6-7.png)
     
-     1. Select the **X** on the top-right corner of the screen to close the page.
-     1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
+     ii. Select the **X** on the top-right corner of the screen to close the page.
+    iii. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
      
  1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
@@ -89,13 +101,13 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 1. From the Microsoft Defender for Cloud overview page, select the **Environment settings** from the left navigation panel.
 1. Expand the **Azure** list then select the **Existing Subscription** listed next to the yellow key icon.
 
-      ![Picture 1](../Images/sc900-6-8.png)
+   ![Picture 1](../Images/sc900-6-8.png)
       
 1. On the Defender plans page, notice how you can select Enable all or select individual Defender plans. 
     1. Verify that CSPM status is set to **On**, if not, set it now.  
     1. Enable the plan for Servers.  Select **On** for the Servers line item, then select **Save** from the top of the page.
    
-      ![Picture 1](../Images/sc900-6-2.png)
+       ![Picture 1](../Images/sc900-6-2.png)
       
 1. Close all the open browser tabs.
       
@@ -103,3 +115,4 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 
 In this lab, you explored Microsoft Defender for Cloud.
 
+## You have successfully completed the lab
