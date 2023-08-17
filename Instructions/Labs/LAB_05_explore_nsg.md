@@ -12,7 +12,9 @@ In this lab, you will complete the following tasks:
 + Task 2: Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 + Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 + Task 4: Allow outbound internet traffic to validate that you can connect to the internet
-  
+
+## Estimated timing: 30-45 minutes
+ 
 ## Architecture diagram
 
 ![](../Images/sc900lab5.png)
