@@ -12,6 +12,8 @@ In this lab, you will complete the following tasks:
 + Task 3: Create an eDiscovery hold
 + Task 4: Create a search query
 
+## Estimated timing: 25-30 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab15.png)
