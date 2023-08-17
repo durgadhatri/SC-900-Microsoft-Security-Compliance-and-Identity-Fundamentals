@@ -11,6 +11,8 @@ In this lab, you will complete the following tasks:
 + Task 2: How to apply a label
 + Task 3: Impact of that label
 
+## Estimated timing: 20-25 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab13.png)
