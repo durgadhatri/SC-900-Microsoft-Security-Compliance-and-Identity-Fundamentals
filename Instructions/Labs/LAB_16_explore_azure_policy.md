@@ -3,6 +3,18 @@
 ## Lab scenario
 Azure Policy helps to enforce organizational standards and to assess compliance at-scale. Azure Policy evaluates resources in Azure by comparing the properties of those resources to business rules. In this lab, you will start by exploring the Azure policy landing page. After the initial exploration of the Azure policy page, you will create a policy and see the impact of that policy.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Briefly explore the Azure policy page
++ Task 2: Impact of tag
++ Task 3: Steps to remediate a non-compliant resource group
+
+## Architecture diagram
+
+![](../Images/sc900lab16.png)
+
 ## Task 1: Briefly explore the Azure policy page
 
 1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
@@ -111,7 +123,7 @@ In this task you'll see the impact of the Azure policy assignment, by attempting
 1. You are now in the Azure services home page.  Keep this page open, you will need it for the next task.
  
  
-## Task 3 (Optional): Steps to remediate a non-compliant resource group.
+## Task 3 (Optional): Steps to remediate a non-compliant resource group
 In this task, you'll walk through the steps to remediate a non-compliant resource group. NOTE: the Azure subscription used for the lab will experience longer than normal delay to update the compliance status of a remediated resource group.
 
 1. From the Azure home page, select **policy**. This opens the Policy home page that provides a dashboard view.  The scope for the Dashboard view is the Azure subscription provided by the authorized lab hoster.  
@@ -128,13 +140,15 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
 1. Now return to the policy page.  Place your mouse cursor on the blue search box on the top of the page and select **Policy**.
 
 1. From the left navigation panel, select **Compliance**.  As with the overview page, here you can view the compliance state of the listed policies and/or initiatives.  NOTE: although you've added the tag to the resource group, it will take time for the status to update.  Azure subscriptions used for lab purposes may experience longer than normal delays. If you wish you to wait for the compliance status for this resource to update, do not end the lab. Depending on the lab environment, it can take an hour or more to update.
- 
-  > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-  - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-  - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-  - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-  - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 
 In this lab, you went through the Azure policy landing page. After the initial exploration of the Azure policy page, you went through the process of creating a policy and you were able to see the impact of that policy.
+
+## You have successfully completed the lab
