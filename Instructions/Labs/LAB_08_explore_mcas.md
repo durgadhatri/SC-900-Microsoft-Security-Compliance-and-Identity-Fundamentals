@@ -4,24 +4,41 @@
 ## Lab scenario
 In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore Cloud Discovery
++ Task 2: Explore the Cloud app catalog
++ Task 3: Explore the Activity log and Files
++ Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security
+
+## Architecture diagram
+
+![](../Images/sc900lab8.png)
+
 ## Task 1: Explore Cloud Discovery
 
 1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
-   
-1. Sign in with your admin credentials. In the Sign in window, Enter Email/Username: <inject key="AzureAdUserEmail"></inject> , then select **Next**. Enter the admin * Password: <inject key="AzureAdUserPassword"></inject> and  select **Sign in**.
+
+1. Sign in with the following credentials.
+    
+1. In the Sign in window enter following email  then select **Next**.
+
+   * Email : **<inject key="AzureAdUserEmail"></inject>**
+     
+1. Enter the admin following password and select **Sign in**.
+
+   * Password : **<inject key="AzureAdUserPassword"></inject>** 
    
 1. On the left menu Under **Discover** select **Create snapshot report**. 
   
-
-    **Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot  Reports**, and click **+ Create Snapshot Report**.
-
-   
-    
+   >**Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot  Reports**, and click **+ Create Snapshot Report**.
+ 
      ![Picture 1](../Images/setting.png)
    
      ![Picture 1](../Images/createsnapst.png)
-    
-    
+        
 1. Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
 
 1. If you don't have a log file follow the below steps to download a sample log file.
@@ -80,20 +97,16 @@ In this lab, you will explore the capabilities of Microsoft Cloud App Security. 
  
 1. From the top of the page, select the **IP addresses** tab (this is equivalent to selecting IP addresses from the left navigation pane).
 
-
    >**Note:** Here you will find data including number of transactions, amount of traffic and upload amounts, by IP addresses.  Note that you can also filter by specific IP 
    address or    export the data for further analysis.
-
 
    ![Picture 1](../Images/ipadd.png)
   
 1. From the top of the page (or the left navigation pane) select **Users**.
 
-
-   **Note:** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific 
-    user and      export data for further analysis.
-
-   
+   >**Note:** This is the same type of information provided when you select IP addresses, but instead it is listed for individual users.  Here again, you filter by specific 
+    user and export data for further analysis.
+ 
 1. Click on view all discovered app to view the detailed information.
 
 1. The information provided in these tabs is based on either snap-shot reports from traffic logs you manually upload from your firewalls and proxies or from continuous reports that analyze all logs that are forwarded from your network using Cloud App Security.
@@ -126,8 +139,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/appcatalog.png)
 
-    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the        page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example,         filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 
-       27001, SOC 2, and PCI-DSS.
+    >**Note**: The Cloud app catalog enables you to choose apps that fit your organization's security requirements. Admins can do basic filtering of apps as shown on the top of the page, which includes whether the app is sanctioned, unsanctioned, or has no tag, risk score, Compliance risk factor, and security risk factor.  For example, filtering by compliance risk factor lets you search for a specific standards, certification, and compliance that the app may comply with. Examples include HIPAA, ISO 27001, SOC 2, and PCI-DSS.
 
 1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
@@ -135,12 +147,11 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
     ![Picture 1](../Images/yammer.png)
 
-
 ## Task 3: Explore the Activity log and Files
 
 1. From the left navigation pane, select and explore the **Files** option and note the options to filter data by app, owner, access level, file type, and matched policy. Also, note the option to create a new policy from search and export of the data.
 
-    >**Note**: On the Files page, if it says For Defender for Cloud Apps to monitor files in your SaaS apps, go to Settings and Enable file monitoring, select **Enable file monitoring**, then select the check box for enabling file monitoring, and select **Save**.
+   >**Note**: On the Files page, if it says For Defender for Cloud Apps to monitor files in your SaaS apps, go to Settings and Enable file monitoring, select **Enable file monitoring**, then select the check box for enabling file monitoring, and select **Save**.
 
 1. Select **+ New policy from search**.
 
@@ -174,12 +185,14 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Close the browser window.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   
+   - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 In this lab, you explored the capabilities of Microsoft Cloud App Security.  You walked through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control the impact to your organization through policies.
+
+## You have successfully completed the lab
