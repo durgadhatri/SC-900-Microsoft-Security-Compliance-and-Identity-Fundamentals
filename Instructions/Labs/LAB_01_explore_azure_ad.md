@@ -14,6 +14,8 @@ In this lab, you will complete the following tasks:
 + Task 3: Create a new user in the Azure Active Directory and explore some of the services
 + Task 4: Sign in to the user first time
 
+## Estimated timing: 10-15 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab1.png)
