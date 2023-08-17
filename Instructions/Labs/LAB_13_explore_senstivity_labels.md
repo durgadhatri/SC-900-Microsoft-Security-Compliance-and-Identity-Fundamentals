@@ -3,6 +3,17 @@
 ## Lab scenario
 In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore the capabilities of sensitivity labels
++ Task 2: How to apply a label
++ Task 3: Impact of that label
+
+## Architecture diagram
+
+![](../Images/sc900lab13.png)
 
 ## Task 1: Explore the capabilities of sensitivity labels
 In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
@@ -196,6 +207,8 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Close the open browser tabs.
 
-
 ### Review
 In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+
+## You have successfully completed the lab
+
