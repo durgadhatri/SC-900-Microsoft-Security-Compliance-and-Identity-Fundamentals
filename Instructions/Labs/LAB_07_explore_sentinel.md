@@ -61,26 +61,14 @@ With the Microsoft Sentinel instance created, it is important that users that wi
    >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
 
    >**Note**:  For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources as shown in the description. It is important, however, to understand the available Sentinel specific roles. Note the current role is Owner.
-       
-1. Close the assignments window by selecting the **X** on the top-right corner of the window.
 
-    ![Picture 1](../Images/image(3)-lab7.png)
-    
     >**NOTE:**  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel: https://docs.microsoft.com/en-us/azure/sentinel/roles
    
-1. From the access control page, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
-
-1. From the Access control page, select **View my access**.
+1. Select the **Access Control (IAM)**, select **View my access** to confirm the owner role has been added, then close the window by select the **X** on the top-right corner of the window.
    
-   >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as             shown in the description. It is important, however, to understand the available Sentinel specific roles.
+   >**Note**: For the Azure subscription provided to you by the Authorized Lab Hoster, a role has been defined that will give you access to manage all necessary resources, as  shown in the description. It is important, however, to understand the available Sentinel specific roles.
    
    >**Note the current role is Owner.**
-
-1. Close the assignments window by selecting the **X** on the top-right corner of the window.
-
-    ![Picture 1](../Images/image(3)-lab7.png)
-    
-    >**Note**:  As a best practice you should assign the least privilege required for the role.  As a reference, review permissions in Azure Sentinel:  https://docs.microsoft.com/en-us/azure/sentinel/roles
 
 1. Return to the All services page of Azure, by selecting **All Services** from the top-left corner of the page, above where it says Resource groups.
 
