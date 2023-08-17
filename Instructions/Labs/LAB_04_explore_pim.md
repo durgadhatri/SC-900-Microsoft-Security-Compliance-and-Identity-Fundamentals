@@ -4,6 +4,17 @@
 ## Lab scenario
 In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Azure AD Premium P2.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Azure AD Premium P2 license.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Reset the password for the user
++ Task 2: Assign an Azure AD role in Privileged Identity Management
++ Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
+
+## Architecture diagram
+
+![](../Images/sc900lab4.png)
 
 ## Task 1: Reset the password for the user
 
@@ -188,3 +199,6 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 ### Review
 In this lab; you explored PIM.  You, as the admin, configured Diego with user admin privileges for a specified amount of time.  Then you, as Diego, walked through the process of activating the user admin privileges and configuring user settings.  Recall that PIM requires an Azure AD Premium P2 license.
+
+## You have successfully completed the lab
+
