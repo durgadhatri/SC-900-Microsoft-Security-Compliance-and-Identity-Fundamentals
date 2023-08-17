@@ -3,6 +3,20 @@
 ## Lab scenario
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore the Microsoft Purview compliance center
++ Task 2: Compliance posture through Compliance Manager
+
+## Estimated timing: 30-45 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab12.png)
+
+
 ## Task 1: Explore the Microsoft Purview compliance center
  In this task  you will Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
@@ -69,7 +83,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      ![](../Images/module4/lab12/5.png)
 
 
-**Note**- If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
+     >**Note**- If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
 
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 24 hours to update.  Notice the available filters.
 
@@ -120,3 +134,5 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
 ### Review
 
 In this lab you explored the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
+
+## You have successfully completed the lab

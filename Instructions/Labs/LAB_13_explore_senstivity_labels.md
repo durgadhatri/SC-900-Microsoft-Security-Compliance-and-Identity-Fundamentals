@@ -3,6 +3,19 @@
 ## Lab scenario
 In this lab, you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that have been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore the capabilities of sensitivity labels
++ Task 2: How to apply a label
++ Task 3: Impact of that label
+
+## Estimated timing: 20-25 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab13.png)
 
 ## Task 1: Explore the capabilities of sensitivity labels
 In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
@@ -101,7 +114,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
       
 1. Click on **Publish label** from the **Label** Window.
 
-      ![](../Images/lab13-1-2.png)     
+      ![](../Images/lab13-1-(2).png)     
     
 1. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
 
@@ -122,7 +135,6 @@ In this task you will gain an understanding of what sensitivity labels can do by
 1. Under the policy settings.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
     ![](../Images/sc-900-lab13-20.png)
-
 
 1. Under the **Apply a Default label to documents**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
@@ -149,7 +161,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
     
     ![](../Images/sc-900-lab13-27.png)    
     
-**Note**- The label created cannot be deleted, it can only be edited. 
+    >**Note**- The label created cannot be deleted, it can only be edited. 
 
 1. From the left navigation panel, select Home to return to the Microsoft Purview.
 
@@ -162,7 +174,7 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-      ![](/Instructions/Images/lab13-1-5.png) 
+   ![](/Instructions/Images/lab13-1-5.png) 
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
@@ -197,6 +209,8 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Close the open browser tabs.
 
-
 ### Review
 In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+
+## You have successfully completed the lab
+

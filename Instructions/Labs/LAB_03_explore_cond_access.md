@@ -4,10 +4,34 @@
 ## Lab scenario
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin will create a policy that will require a user to go through multi-factor authentication when accessing a cloud-based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
 
-## Task 1:  Reset the password for the user.
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Reset the password for the user
++ Task 2: Process of creating a conditional access policy in Azure AD
++ Task 3: Impact of the conditional access policy
+
+## Estimated timing: 30 minutes
+
+## Architecture diagram
+
+![](../Images/sc900lab3.png)
+
+## Task 1:  Reset the password for the user
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
+1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
+
+1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.
+   
+   * Email/Username: <inject key="AzureAdUserEmail"></inject>
+
+1. Now enter the following password and click on **Sign in**.
+   
+   * Password: <inject key="AzureAdUserPassword"></inject>
+   
 1. On the Azure portal locate the search bar at the top of the page. Select the search result for **Azure Active Directory**.
 
 1. From the left navigation panel select **Users**.
@@ -28,7 +52,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Process of creating a conditional access policy in Azure AD. 
+## Task 2: Process of creating a conditional access policy in Azure AD
 
  In this task, you will go through the process of creating a conditional access policy in Azure AD. 
 
@@ -36,7 +60,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
    ![](../Images/sc900lab3-image1.png)
    
-   **>Note**: if Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**.
+   >**Note**: if Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**.
  
 1. Go back to the Azure Active Directory Home page. From the left navigation panel, under **Manage** section, select **Security**.
 
@@ -139,3 +163,5 @@ In this task, you will see the impact of the conditional access policy, from the
   
 ### Review
 In this lab, you went through the process of setting up a conditional access policy that requires users to go through MFA when they access the Microsoft Azure Management cloud application.  Then, as a user, you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.
+
+## You have successfully completed the lab
