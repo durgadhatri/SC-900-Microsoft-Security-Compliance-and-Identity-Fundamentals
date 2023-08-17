@@ -12,6 +12,8 @@ In this lab, you will complete the following tasks:
 + Task 2: Process of creating a conditional access policy in Azure AD
 + Task 3: Impact of the conditional access policy
 
+## Estimated timing: 30 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab3.png)
