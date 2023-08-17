@@ -4,6 +4,17 @@
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Explore the Service Trust portal
++ Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
+
+## Architecture diagram
+
+![](../Images/sc900lab11.png)
+
 ## Task 1: Explore the Service Trust portal
 
 In this task you will explore the Service Trust portal and the different types of content available, you will learn how to access reports, and how to save reports to your library.
@@ -85,3 +96,5 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 ### Review
 
 In this lab you explored some of the options available under the Service Trust Portal, how to access reports, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review Microsoft's Privacy principles.
+
+## You have successfully completed the lab
