@@ -11,6 +11,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore on Microsoft Defender for Cloud
 + Task 2: How to enable/disable the various Microsoft Defender for Cloud plans
 
+## Estimated timing: 30 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab6.png)
