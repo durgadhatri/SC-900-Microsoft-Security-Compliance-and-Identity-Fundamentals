@@ -75,27 +75,27 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
      
     1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
-      ![Picture 1](../Images/sc900-6-6.png)
+       ![Picture 1](../Images/sc900-6-6.png)
        
-     >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task
+       >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task
 
-   1. It takes 2-3 hrs to fetch this list of controls.
+    1. It takes 2-3 hrs to fetch this list of controls.
    
-      i. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
+       i. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
     
-         ![Picture 1](../Images/sc900-6-7.png)
+          ![Picture 1](../Images/sc900-6-7.png)
     
-     ii. Select the **X** on the top-right corner of the screen to close the page.
-    iii. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
+      ii. Select the **X** on the top-right corner of the screen to close the page.
+     iii. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
      
  1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
 
-**Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   
 ## Task 2: How to enable/disable the various Microsoft Defender for Cloud plans
 
 Recall that Microsoft Defender for Cloud is offered in two modes: without enhanced security features (free) and with enhanced security features that are available through the Microsoft Defender for Cloud plans. In this task, you discover how to enable/disable the various Microsoft Defender for Cloud plans.
