@@ -33,20 +33,23 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
     ![Picture 1](../Images/Overview001.png)   
 
 1. From the top of the page, select **Assessed resources**.  (Note that this is equivalent to having selected Inventory from the left navigation panel of the Microsoft Defender for Cloud home page).
-    1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
+   
+   i. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
-    
-        ![Picture 1](../Images/sc900-6-5.png)
+   ![Picture 1](../Images/sc900-6-5.png)
         
-         >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
-    3. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
-       ![Picture 1](../Images/recommendation01.png)
-    4. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
-    5. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
-
-
+      >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
+      
+   ii. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
+   
+   ![Picture 1](../Images/recommendation01.png)
+   
+   iii. Note the detailed description.  Select the drop-down arrow next to the Remediation steps. Note how remediation instructions (or links to instructions) are provided along with the option to take action.  Exit the window without taking any action.
+  
+   iv. Return to the Microsoft Defender for Cloud overview page, by selecting **Microsoft Defender for Cloud | Overview** from the top of the page, above where it says Resource health.
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
+   
    >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isnt visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
 
     ![Picture 1](../Images/sc900-6-4.png)
@@ -57,14 +60,16 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
     ![Picture 1](../Images/scope.png)
      
-    1. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
+    i. Let's explore one of the control domains areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
        
-       ![Picture 1](../Images/sc900-6-6.png)
+      ![Picture 1](../Images/sc900-6-6.png)
        
-        >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task 2. It takes 2-3 hrs to fetch this list of controls.
+     >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task
+
+   ii. It takes 2-3 hrs to fetch this list of controls.
       1. Select **NS-10. Microsoft Defender for DNS should be enabled**. Note the list of automated assessments (which include automated assessments for AWS) and how each assessment line item provides information including the resource type, failed resources and compliance stations. Select the assessments listed.  Here you see information including a description, Remediation steps, and Affected resources.
     
-          ![Picture 1](../Images/sc900-6-7.png)
+      ![Picture 1](../Images/sc900-6-7.png)
     
      1. Select the **X** on the top-right corner of the screen to close the page.
      1. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.

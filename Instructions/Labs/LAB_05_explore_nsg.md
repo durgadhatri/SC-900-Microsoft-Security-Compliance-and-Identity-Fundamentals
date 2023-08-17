@@ -8,41 +8,41 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. On the main window, under Azure Services, select Virtual Machines.  If  you don't see Virtual machines listed, enter it in the search bar, then select it from the search results.
 
-   ![Picture 1](../Images/sc900-5-12.png)
+     ![Picture 1](../Images/sc900-5-12.png)
 
 1. From the top left of the page, select **+Create** then select **Azure Virtual machine**.
 
-   ![Picture 1](../Images/sc900-5-1.png)
+     ![Picture 1](../Images/sc900-5-1.png)
 
 1. From the basics tab, fill in the following information (for anything not listed, leave the default settings):
 
-    1. Subscription:  Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-    1. Resource group:  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**.
-    1. Virtual machines name:  enter **SC900-WinVM**.
-    1. Region : Leave the default region.
-    1. Availability Options : Select **No infrastructure redundancy required** from the drop-down.
-    1. Security type : Select **Standard** from the drop-down.
-    1. Image:  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**.
-    1. Size:  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page.
-    1. Username:  enter **AzureUser**.
-    1. Password:  enter **SC900AzureLabs**.
-    1. Public inbounds ports:  select **None**.
-    1. Licensing:  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box.
+   | Setting | Action |
+   | -- | -- |
+   | **Subscription** |  Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+   | **Resource group** |  select the existing resourcegroup **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**. |
+   | **Virtual machines name** |  enter **SC900-WinVM**. |
+   | **Region** |  Leave the default region. |
+   | **Availability Options** | Select **No infrastructure redundancy required** from the drop-down. |
+   | **Security type** |  Select **Standard** from the drop-down.
+   | **Image** |  from the drop-down, select **Windows 10 Pro, Version 22H2 – x64 Gen 2**. |
+   | **Size** |  select **see all sizes** from the drop-down and select **B2s**, then press **Select** on the bottom of the page. |
+   | **Username** |  enter **AzureUser**. |
+   | **Password** |  enter **SC900AzureLabs**. |
+   | **Public inbounds ports** |  select **None**. |
+   | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
+   | **Select** | **Next: Disks**. | 
        
-       ![Picture 1](../Images/createvm.png)
+    ![Picture 1](../Images/createvm.png)
        
-       1. Select **Next: Disks**. 
-   
-       ![Picture 1](../Images/sc900-5-3.png)
-
-
+    ![Picture 1](../Images/sc900-5-3.png)
     
 1. You are now in the Disks tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
 
-      ![Picture 1](../Images/sc900-5-4.png)
+   ![Picture 1](../Images/sc900-5-4.png)
       
 1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
-    1. NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
+    
+    - NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
 
       ![Picture 1](../Images/sc900-5-11.png)
 
@@ -72,15 +72,16 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. Open the downloaded file and select **Connect**. 
 
-**Note: The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.**
+   > **Note:** The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must 
+be configured.  You'll do that in the next task, when you create a network security group.
 
    ![Picture 1](../Images/08.png)
    
-18. From the left navigation panel, select **Networking**.  
-     1. The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-     1. Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+1. From the left navigation panel, select **Networking**.  
+     - The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
+     - Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
-19. Leave this browser tab open.
+1. Leave this browser tab open.
 
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 
@@ -91,12 +92,14 @@ In this lab, you will explore the function of network security groups in Azure. 
 1. From the top of Network security groups page, select **+ Create**.
 
 1. On the Basics tab of the Create network security group page, specify the following settings:
-    
-    1. Subscription: Leave the default value (this is the Azure subscription provided by the authorized lab hoster)
-     1. Resource group: Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>**
-    1. Name:  **NSG-SC900**
-    1. Region:  leave the default value
-    5. Select **Review + create** then select **Create**.
+
+   | Setting | Action |
+   | -- | -- |
+   | **Subscription** | Leave the default value (this is the Azure subscription provided by the authorized lab hoster) |
+   | **Resource group** | Select **LabsSC900-<inject key="DeploymentID" enableCopy="false"/>** |
+   | **Name** |  **NSG-SC900** |
+   | **Region** |  leave the default value |
+   | **Select** | **Review + create** then select **Create**. |
     
      ![Picture 1](../Images/sc900-5-5.png)
 
@@ -111,35 +114,35 @@ In this lab, you will explore the function of network security groups in Azure. 
 
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
 
-     ![Picture 1](../Images/sc900-5-6.png)
-
 1. Once the interface is associated to the NSG, it will show up on the list.
 
 1. Navigate to SC900-WinVM Overview page, select **Networking** from the left navigation pane and then select **Add inbound port rule**.
+
+1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP 
+    traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
+
+     ![Picture 1](../Images/sc900-5-6.png)
   
      ![Picture 1](../Images/sc900-5-7.png)
 
-
-1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
-
-From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
+1. From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
     
-   1. Source:  **Any**
-   1. Source port ranges: **\***
-   1. Destination:  **Any**
-   1. Service:  **RDP**
-   1. Action:  **Allow**
-   1. Priority:  **1000**. Note: rules with lower numbers have higher priority and are processed first.
-   1. Name:  Leave the default name or create your own descriptive name.
-   1. Note the warning sign at the bottom of the page.  We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
-   1. Select **Add**
+    | Setting | Action |
+    | -- | -- |
+    | **Source** |  **Any** |
+    | Source port ranges | **\*** |
+    | Destination |  **Any** |
+    | Service |  **RDP** |
+    | Action |  **Allow** |
+    | Priority |  **1000**. Note: rules with lower numbers have higher priority and are processed first. |
+    | Name |  Leave the default name or create your own descriptive name. |
+    | Select **Add** |
 
-      ![Picture 1](../Images/sc900-5-8.png)
-
-
-
-
->- **Note** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning         sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
+    ![Picture 1](../Images/sc900-5-8.png)
+    
+    > **Note:** the warning sign at the bottom of the page. We're using RDP only for testing purposes and to demonstrate the functionality of the NSG.
+  
+    > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
@@ -163,10 +166,10 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. After a few seconds on the Welcome screen you'll see a window to Choose privacy settings for your device, select **Accept**.  On the Networks window, select **No**.
 
 1. With the VM up and running, test outbound connectivity to the internet from the VM.
-    1. From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start       
+    - From the VM, select **Microsoft Edge** to open the browser.  Since this is the first time you open Microsoft Edge, you may get a pop-up window, select **Start       
     without your data**, then select **Continue without this data**, then select **Confirm and start browsing**.
-    1. Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
-    1. Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
+    - Enter **www.bing.com** in the browser address bar and confirm you're able to connect to the search engine.
+    - Once you've confirmed that you can access www.bing.com, close the browser window in the VM, but leave the VM up.
 
 1. Minimize the VM, by selecting the underscore **_** in the blue tab that shows the VM's IP address. This brings you back to the SC900-WinVM | Connect page. 
 
@@ -179,25 +182,29 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Networking**.
 
 1. Select the **Outbound port rules** tab.  You'll see the default outbound rules.
-   >- **Note** the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by 
+
+   > **Note** the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by 
       creating a rule with higher priority. From the right side of the page,
+
 1. Select **Add outbound port rule**.
 
    ![Picture 1](../Images/sc900-5-9.png)
 
 1. On the Add outbound security rule page, specify the following settings:
-    
-    1. Source:  **Any**
-    1. Source port ranges:  **\***
-    1. Destination:  **Service Tag**
-    1. Destination service tag:  **Internet**
-    1. Service:  **Custom** (leave the default)
-    1. Destination port ranges:  * (be sure to put an asterisk in the destination port ranges field)
-    1. Protocol: **Any**
-    1. Action: **Deny**
-    1. Priority:  **4000**
-    1. Name:  **DenyInternet**
-    1. Select **Add**
+
+    | Setting | Action |
+    | -- | -- |
+    | Source |  **Any** |
+    | Source port ranges |  **\*** |
+    | Destination |  **Service Tag** |
+    | Destination service tag |  **Internet** |
+    | Service |  **Custom** (leave the default) |
+    | Destination port ranges |  * (be sure to put an asterisk in the destination port ranges field) |
+    | Protocol | **Any** |
+    | Action | **Deny** |
+    | Priority |  **4000** |
+    | Name |  **DenyInternet** |
+    | Select | **Add** |
     
    ![Picture 1](../Images/sc900-5-10.png)
 
@@ -207,19 +214,18 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Open the Edge browser in your VM and enter **https://www.bing.com**.  The page should not display.
 
-    >- **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes         a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again.
-    >- Azure subscriptions in the lab environment may experience longer       than normal delays.
+   > **Note:** if you are able to connect to the internet and you verified that all the parameters for the outbound rule were properly set, it is likely because it takes                   a few minutes for the rule to take effect.  Close the browser, wait a few minutes and try again. Azure subscriptions in the lab environment may experience                   longer than normal delays.   
 
 1. Close the remote desktop connection, by selecting the **X** on the top center of the page where the IP address is shown.  A pop-up windows indicates Your remote session will be disconnected. Select **OK**.
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-
-- Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ### Review
 
