@@ -11,6 +11,8 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore the Service Trust portal
 + Task 2: Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
 
+## Estimated timing: 10-15 minutes
+
 ## Architecture diagram
 
 ![](../Images/sc900lab11.png)
