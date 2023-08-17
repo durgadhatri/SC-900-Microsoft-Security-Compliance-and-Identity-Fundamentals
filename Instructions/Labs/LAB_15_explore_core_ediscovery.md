@@ -3,6 +3,19 @@
 ## Lab scenario
 In this lab you will go through the steps required for setting up Core eDiscovery and then go through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query, and then exporting the results of the search.  Note:  Licensing for Core eDiscovery requires the appropriate organization subscription and per-user licensing. If you aren’t sure which licenses support core eDiscovery, visit Get started with Core eDiscovery.
 
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: Add specific users as members of the eDiscovery Manager role group
++ Task 2: Create a case to start using Core eDiscovery
++ Task 3: Create an eDiscovery hold
++ Task 4: Create a search query
+
+## Architecture diagram
+
+![](../Images/sc900lab15.png)
+
 ## Task 1: Add specific users as members of the eDiscovery Manager role group
 To access Core eDiscovery or be added as a member of a Core eDiscovery case, a user must be assigned the appropriate permissions. In this task, you as the global admin, will add specific users as members of the eDiscovery Manager role group.
 
@@ -194,3 +207,5 @@ With a hold in place, you will create a search query.  Once your search is compl
 ### Review
 
 In this lab you went through the steps required to get started with core eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query and then you read on the process of exporting the results of the search to use further investigation.
+
+## You have successfully completed the lab
