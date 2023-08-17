@@ -3,6 +3,19 @@
 
 ## Lab scenario
 In this lab, you will explore the function of network security groups in Azure.  You will do this by create the VM without any network security group (NSG).  Without any NSG to filter traffic, all the ports in the VM are exposed to the public internet.  You will then go through the process of creating an NSG and assigning the VM's interface to that NSG.  Once configured you will test the connection to the VM, using the default NSG rules and also rules that you will create.
+
+## Objectives
+
+In this lab, you will complete the following tasks:
+
++ Task 1: In this task you will create a Windows 10 virtual machine
++ Task 2: Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
++ Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
++ Task 4: Allow outbound internet traffic to validate that you can connect to the internet
+  
+## Architecture diagram
+
+![](../Images/sc900lab5.png)
   
 ## Task 1:  In this task you will create a Windows 10 virtual machine
 
@@ -231,3 +244,4 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
 
+## You have successfully completed the lab
