@@ -69,7 +69,7 @@ In this lab, you will explore the Microsoft Purview compliance center home page 
      ![](../Images/module4/lab12/5.png)
 
 
-**Note**- If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
+     >**Note**- If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
 
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 24 hours to update.  Notice the available filters.
 
