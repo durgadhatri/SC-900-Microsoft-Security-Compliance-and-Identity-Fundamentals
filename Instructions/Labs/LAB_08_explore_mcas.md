@@ -85,13 +85,11 @@ In this lab, you will complete the following tasks:
 
     ![Picture 1](../Images/disapp.png)
 
-1. From any item on the list, select the **ellipses** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
- 
-     ![Picture 1](../Images/moreop.png)
+1. From any item on the list, select the ellipses **(⋮)** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
 
 1. Selecting a specific line item opens a details page for the specific app. Select an item from the list and review the information available on the overview page.  For the selected item,
 
-1. select the **IP Addresses**, **Users**, and **Discovered resources** tab to see more detailed information.
+1. Select the **IP Addresses**, **Users**, and **Discovered resources** tab to see more detailed information.
 
 1. When you're done exploring the details page, return to discovered apps page, by selecting **Cloud Discovery** from the bread crumb on the top of the page.
 
