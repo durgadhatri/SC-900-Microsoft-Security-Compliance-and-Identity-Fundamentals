@@ -208,9 +208,14 @@ In addition to content marking, the label protection setting was set for encrypt
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
 1. Close the open browser tabs.
+   
+In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
 
 ### Review
-In this lab you will explore the capabilities of sensitivity labels.  You will go through the settings for existing sensitivity labels that had already been created and the corresponding policy to publish the label.   Then you will see how to apply a label and the impact of that label, from the perspective of a user.
+In this lab, you have completed:
+- Explore the capabilities of sensitivity labels
+- How to apply a label
+- Impact of that label
 
 ## You have successfully completed the lab
 

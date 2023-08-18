@@ -161,7 +161,12 @@ In this task, you will see the impact of the conditional access policy, from the
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
   
-### Review
 In this lab, you went through the process of setting up a conditional access policy that requires users to go through MFA when they access the Microsoft Azure Management cloud application.  Then, as a user, you went through the registration process for MFA and saw the impact of the conditional access policy that required you to use MFA when accessing the Azure portal.
 
+### Review
+In this lab, you have completed:
+- Reset the password for the user
+- Process of creating a conditional access policy in Azure AD
+- Impact of the conditional access policy
+  
 ## You have successfully completed the lab

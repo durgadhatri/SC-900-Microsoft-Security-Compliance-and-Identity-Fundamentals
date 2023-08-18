@@ -186,9 +186,14 @@ In this task, you'll walk through some of the options available in Sentinel.
     - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
-
 In this demo you walked through the steps for connecting Microsoft Sentinel to data sources, you set up a workbook, and walked several options available in Microsoft Sentinel.
+
+### Review
+In this lab, you have completed:
+- Create a Microsoft Sentinel instance
+- Built-in Microsoft Sentinel roles
+- Data connector to your instance of Microsoft Sentinel
+- Explore on capabilities available in Sentinel
 
 ## You have successfully completed the lab
 

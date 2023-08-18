@@ -192,7 +192,13 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
 In this lab, you explored the capabilities of Microsoft Cloud App Security.  You walked through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control the impact to your organization through policies.
+
+### Review
+In this lab, you have completed:
+- Explore Cloud Discovery
+- Explore the Cloud app catalog
+- Explore the Activity log and Files
+- In this task you will explore the policies and alerts pages in Microsoft Cloud app security
 
 ## You have successfully completed the lab
