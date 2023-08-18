@@ -239,6 +239,7 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 In this lab, you, as an admin, went through the process of enabling a self-service password reset. With SSPR enabled, you will then assumed the role of a user to go through the process of registering for SSPR and also resetting your password.  Lastly, you as the admin, learn where to access audit logs and usage & insights data for SSPR.
 
 ### Review
+In this lab, you have completed:
 - Creating a basic group
 - Configure Password reset for users
 - Registration process for a self-service password reset
