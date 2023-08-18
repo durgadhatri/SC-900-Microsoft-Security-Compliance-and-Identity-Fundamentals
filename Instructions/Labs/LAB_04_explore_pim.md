@@ -7,6 +7,7 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 ## Objectives
 
 In this lab, you will complete the following tasks:
+
 + Task 1: Reset the password for the user
 + Task 2: Assign an Azure AD role in Privileged Identity Management
 + Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
