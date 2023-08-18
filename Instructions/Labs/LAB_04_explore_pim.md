@@ -7,7 +7,6 @@ In this lab, you will explore some of the basic functionality of Privileged Iden
 ## Objectives
 
 In this lab, you will complete the following tasks:
-
 + Task 1: Reset the password for the user
 + Task 2: Assign an Azure AD role in Privileged Identity Management
 + Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
@@ -199,8 +198,13 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
 In this lab; you explored PIM.  You, as the admin, configured Diego with user admin privileges for a specified amount of time.  Then you, as Diego, walked through the process of activating the user admin privileges and configuring user settings.  Recall that PIM requires an Azure AD Premium P2 license.
 
+### Review
+In this lab, you have completed:
+- Reset the password for the user
+- Assign an Azure AD role in Privileged Identity Management
+- Sign in to the Azure Portal, to access the Privileged Identity Management
+  
 ## You have successfully completed the lab
 
