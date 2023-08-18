@@ -237,14 +237,18 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    
     - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
     - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
     - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
-
 In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
+
+### Review
+In this lab, you have completed:
+- In this task you will create a Windows 10 virtual machine
+- Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
+- Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
+- Allow outbound internet traffic to validate that you can connect to the internet
 
 ## You have successfully completed the lab
