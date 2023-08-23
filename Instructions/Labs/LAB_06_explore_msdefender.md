@@ -113,8 +113,6 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
       
 1. Close all the open browser tabs.
       
-In this lab, you explored Microsoft Defender for Cloud.
-
 ### Review
 In this lab, you have completed:
 - Explore on Microsoft Defender for Cloud
