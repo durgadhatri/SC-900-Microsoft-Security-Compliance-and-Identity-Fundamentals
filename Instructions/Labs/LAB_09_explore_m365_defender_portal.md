@@ -90,11 +90,9 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
     
     >**Note:** If you can't see deatils on the **History** and **Metrics & treads** tabs, this is beacause after making configuration changes. it will take about 24 hours to update.
     
-    >For more details visit: https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score?view=o365-worldwide
+    >**Note:** For more details visit: https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score?view=o365-worldwide
     
 1. Close the browser page.
-
-In this lab you explored the Microsoft 365 Defender portal by walking through the content displayed on the landing page, you explored the options on the navigation panel which provides quick access to functionality that is part of Microsoft’s Extended Detection and Response (XDR) solution, Microsoft Defender for Endpoints, and Microsoft Defender for Office 365 (email and collaboration).  Lastly, you explored how Microsoft Secure Score can help an organization improve its security posture.
 
 ### Review
 In this lab, you have completed:
