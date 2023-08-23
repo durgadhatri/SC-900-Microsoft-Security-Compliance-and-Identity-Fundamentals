@@ -21,7 +21,6 @@ In this lab, you will complete the following tasks:
  In this task  you will Explore the Microsoft Purview compliance center home page and learn to customize the card view and the navigation panel.
 
 1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
-   ![](../Images/module4/lab12/main-1.png)
 
 1. Sign in with your admin credentials.
    
