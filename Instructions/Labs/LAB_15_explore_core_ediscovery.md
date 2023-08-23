@@ -206,8 +206,6 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Check the location of your download to verify the download was successfully completed. 
 
-In this lab you went through the steps required to get started with core eDiscovery, including setting up the role permissions for eDiscovery and creating an eDiscovery case.  With the case, created you went through the Core eDiscovery workflow, by creating an eDiscovery hold, creating a search query and then you read on the process of exporting the results of the search to use further investigation.
-
 ### Review
 In this lab, you have completed:
 - Add specific users as members of the eDiscovery Manager role group

@@ -149,8 +149,6 @@ In this task, you'll walk through the steps to remediate a non-compliant resourc
     - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-In this lab, you went through the Azure policy landing page. After the initial exploration of the Azure policy page, you went through the process of creating a policy and you were able to see the impact of that policy.
-
 ### Review
 In this lab, you have completed:
 - Briefly explore the Azure policy page

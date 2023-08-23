@@ -95,8 +95,6 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
-In this lab you explored some of the options available under the Service Trust Portal, how to access reports, and how to use My Library to save documents for future review.  Additionally, you visited the Trust Center to access and review Microsoft's Privacy principles.
-
 ### Review
 In this lab, you have completed:
 - Explore the Service Trust portal

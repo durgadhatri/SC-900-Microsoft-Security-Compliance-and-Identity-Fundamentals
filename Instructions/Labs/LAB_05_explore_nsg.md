@@ -242,8 +242,6 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
     - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-In this lab you walked through the process of setting a VM with and without a network security group (NSG) and see the impact of default NSG rules.  You also walked through the process of creating NSG rules.
-
 ### Review
 In this lab, you have completed:
 - In this task you will create a Windows 10 virtual machine

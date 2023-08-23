@@ -185,8 +185,6 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/sc-900-lab14-T3-19.png) 
 
-In this lab, you walked through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.
-
 ### Review
 In this lab, you have completed:
 - Process of setting up an insider risk policy

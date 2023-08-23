@@ -131,8 +131,6 @@ In this lab, you will complete the following tasks:
 
 1. Close the open browser tabs.
 
-In this lab you explored the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
-
 ### Review
 In this lab, you have completed:
 - Explore the Microsoft Purview compliance center
