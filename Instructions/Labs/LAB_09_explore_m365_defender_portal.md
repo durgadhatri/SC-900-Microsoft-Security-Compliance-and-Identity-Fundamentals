@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 1: Explore the Microsoft 365 Defender landing page
 + Task 2: Explore on Microsoft Secure Score
 
-## Estimated timing: 10-15 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
