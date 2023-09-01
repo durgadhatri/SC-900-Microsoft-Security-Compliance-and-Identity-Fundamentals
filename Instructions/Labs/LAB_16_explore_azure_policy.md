@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Impact of tag
 + Task 3: Steps to remediate a non-compliant resource group
 
-## Estimated timing: 15-20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
