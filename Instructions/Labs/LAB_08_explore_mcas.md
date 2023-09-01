@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Explore the Activity log and Files
 + Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security
 
-## Estimated timing: 15-20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 
