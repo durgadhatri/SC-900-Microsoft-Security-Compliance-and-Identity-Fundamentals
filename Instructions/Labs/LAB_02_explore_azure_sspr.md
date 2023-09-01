@@ -15,7 +15,7 @@ In this lab, you will complete the following tasks:
 + Task 4: Process of resetting your password
 + Task 5: View the Audit logs and the Usage & insights data associated with password reset
 
-## Estimated timing: 15-20 minutes
+## Estimated timing: 30 minutes
 
 ## Architecture diagram
 

@@ -11,7 +11,7 @@ In this lab, you will complete the following tasks:
 + Task 2: How to apply a label
 + Task 3: Impact of that label
 
-## Estimated timing: 20-25 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture diagram
 

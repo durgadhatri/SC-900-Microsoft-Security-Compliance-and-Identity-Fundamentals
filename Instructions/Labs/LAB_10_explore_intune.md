@@ -5,7 +5,7 @@
 
 In this lab you will explore Microsoft Intune in Microsoft Endpoint Manager. Note: no endpoints or devices are configured in this lab instance, so this walk-through will not show any actual endpoint information. This walk-through serves only to guide the learner on the information that would be available and where to find that information.  For a more detailed walk-through refer to the video (<https://www.microsoft.com/en-us/videoplayer/embed/RE4LTIu>) in the associated Learn content.
 
-**Estimated Time**: 10-15 minutes
+## Estimated timing: 30 minutes
 
 ## Task: Explore Microsoft Intune in Microsoft Endpoint Manager
 In this task you will explore Microsoft Intune in Microsoft Endpoint Manager

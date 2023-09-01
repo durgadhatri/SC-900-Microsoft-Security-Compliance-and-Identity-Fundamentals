@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Data connector to your instance of Microsoft Sentinel
 + Task 4: Explore on capabilities available in Sentinel
 
-## Estimated timing: 45-60 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture diagram
 

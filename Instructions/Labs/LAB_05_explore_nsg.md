@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 + Task 4: Allow outbound internet traffic to validate that you can connect to the internet
 
-## Estimated timing: 30-45 minutes
+## Estimated timing: 60 minutes
  
 ## Architecture diagram
 
