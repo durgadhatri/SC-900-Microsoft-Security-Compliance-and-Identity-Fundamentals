@@ -12,7 +12,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Assign an Azure AD role in Privileged Identity Management
 + Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
-## Estimated timing: 45-60 minutes
+## Estimated timing: 60 minutes
 
 ## Architecture diagram
 
