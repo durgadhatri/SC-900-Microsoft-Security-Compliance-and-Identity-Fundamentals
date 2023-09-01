@@ -86,6 +86,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
           ![Picture 1](../Images/sc900-6-7.png)
     
       ii. Select the **X** on the top-right corner of the screen to close the page.
+   
      iii. Select **Overview** from the left navigation panel to  return to the Microsoft Defender for Cloud Overview page.
      
  1. Keep the Microsoft Defender for Cloud overview page open, you'll use in the next task.
