@@ -1,9 +1,9 @@
 
-# Lab-01: Explore Azure Active Directory
+# Lab-01: Explore Microsoft Entra ID
 
 ## Lab scenario
 
-In this lab, you'll access Azure Active Directory. Additionally, you'll create a user and configure the different settings, including adding licenses.
+In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory). Additionally, you'll create a user and configure the different settings, including adding licenses.
 
 ## Objectives
 
