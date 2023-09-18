@@ -3,7 +3,7 @@
 ## Lab scenario
 In this lab, you will explore the Microsoft Purview compliance center home page and ways in which the capabilities of Compliance manager can help organizations improve their compliance posture.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
