@@ -242,7 +242,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
     - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
+## Review
 In this lab, you have completed:
 - In this task you will create a Windows 10 virtual machine
 - Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
