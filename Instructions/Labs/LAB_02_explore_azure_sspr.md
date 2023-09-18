@@ -131,7 +131,7 @@ In this task, you, as user Adele Vance, will go through the registration process
 1. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
 1. Sign in as Adele Vance,
-    1. In the Sign in window enter **Adelev@azureholxxxx.onmicrosoft.com**  then select **Next**.
+    1. In the Sign in window enter **Adelev@azureholxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
