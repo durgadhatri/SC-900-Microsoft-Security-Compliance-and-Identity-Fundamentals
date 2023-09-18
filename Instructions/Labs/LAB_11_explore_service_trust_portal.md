@@ -95,7 +95,7 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
-### Review
+## Review
 In this lab, you have completed:
 - Explore the Service Trust portal
 - Explore on Trust Center and navigate to Microsoft’s six, key privacy principles
