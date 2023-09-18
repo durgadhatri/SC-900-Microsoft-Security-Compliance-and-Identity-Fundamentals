@@ -3,7 +3,7 @@
 ## Lab scenario
 In this lab, you will walk through the process of setting up an insider risk policy, along with the basic prerequisites to configure and use insider risk management policies.  Note:  this lab will only provide visibility into what is required for setting up Insider risk management and options associated with creating a policy.  This lab does not include a task to trigger the policy, as the number of events that would need to occur to trigger a policy are outside of the scope of this exercise.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -185,7 +185,7 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/sc-900-lab14-T3-19.png) 
 
-### Review
+## Review
 In this lab, you have completed:
 - Process of setting up an insider risk policy
 - Enable the Audit log search capability

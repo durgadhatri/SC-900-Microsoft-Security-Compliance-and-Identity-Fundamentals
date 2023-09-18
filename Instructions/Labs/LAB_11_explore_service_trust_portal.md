@@ -4,7 +4,7 @@
 
 In this lab, you will explore the features and content available from the Service Trust Portal. You will also visit the Trust Center and navigate to the six key privacy principles.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -95,7 +95,7 @@ In this task you will visit the Trust Center and navigate to Microsoft’s six, 
 
 1. Close your browser windows to exit out the Service Trust Portal and the Trust Center.
 
-### Review
+## Review
 In this lab, you have completed:
 - Explore the Service Trust portal
 - Explore on Trust Center and navigate to Microsoft’s six, key privacy principles

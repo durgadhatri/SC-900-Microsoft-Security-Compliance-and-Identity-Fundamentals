@@ -4,7 +4,7 @@
 ## Lab scenario
 In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -192,7 +192,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-### Review
+## Review
 In this lab, you have completed:
 - Explore Cloud Discovery
 - Explore the Cloud app catalog

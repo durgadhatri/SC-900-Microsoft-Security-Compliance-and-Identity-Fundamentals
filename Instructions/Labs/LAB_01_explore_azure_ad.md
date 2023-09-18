@@ -5,7 +5,7 @@
 
 In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory). Additionally, you'll create a user and configure the different settings, including adding licenses.
 
-## Objectives
+## Lab objectives
 
 In this lab, you will complete the following tasks:
 
@@ -197,7 +197,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
-### Review
+## Review
 In this lab, you have completed:
 - Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
 - Creating a basic group
