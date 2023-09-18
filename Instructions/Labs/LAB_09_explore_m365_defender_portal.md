@@ -94,7 +94,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
     
 1. Close the browser page.
 
-### Review
+## Review
 In this lab, you have completed:
 - Explore the Microsoft 365 Defender landing page
 - Explore on Microsoft Secure Score
