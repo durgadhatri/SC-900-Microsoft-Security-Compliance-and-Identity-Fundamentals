@@ -236,7 +236,7 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 
 1. Close the open browser tabs.
 
-### Review
+## Review
 In this lab, you have completed:
 - Creating a basic group
 - Configure Password reset for users
