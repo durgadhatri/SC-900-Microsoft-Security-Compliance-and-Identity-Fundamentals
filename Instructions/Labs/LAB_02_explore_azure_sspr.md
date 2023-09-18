@@ -45,15 +45,15 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
     3. Group description: **Add an optional description to your group**.
        
-    ![](../Images/sc-900lab-02.png)
+    ![](../Images/lab2-1.1.png)
 
 1. On the **Azure Active Directory** home page, select **Password reset**.
 
-1. From the Properties page, under the option Self-service password reset enabled is selected and click on **Select group**
+1. From the Properties page, under the option Self service password reset enabled is selected and click on **Select group**
 
 1. Browse for and select your Azure AD group, SSPRSecurityGroupUsers, after that choose Select, then select save.
 
-   ![](../Images/aad-password-reset(1)-1.png)
+   ![](../Images/lab2-2.png)
    
 1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
@@ -63,7 +63,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. In the Search box, enter **Adele**.  Once the user, **Adele Vance**, appears below the search box, select it then press **Select** from the bottom of the page.
 
-    ![](../Images/sspr-add-member(1)-1.png)
+    ![](../Images/lab2-3.png)
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
@@ -78,8 +78,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. When the Reset password window opens, select **Reset Password**.  
 
     >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+    >**IMPORTANT**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/adele-reset-password-(1)-1.png)
+     ![](../Images/lab2-4.png)
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -97,13 +98,13 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. From the left navigation pane, select **Password reset**.  
 
-1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says "select group" and note what it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
+1. The properties for self-service password reset are displayed.  Ensure that **Self service password reset enabled** is **selected** for the group which is listed, the **SSPRSecurityGroupUsers**.  Put your cursor over the information icon next to where it says "select group" and note what it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password. Click here to learn more about administrator password policies."
 
 1. From the left navigation panel of Password reset, select **Authentication Methods**.
 
 1. In the Number of methods required to rest, select **1**. Note the information box on the screen.
 
-1. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them and click save.
+1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
 
    ![](../Images/auth-methods-(1).png)
 
@@ -130,7 +131,7 @@ In this task, you, as user Adele Vance, will go through the registration process
 1. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
 1. Sign in as Adele Vance,
-    1. In the Sign in window enter **Adele@azureholxxxx.onmicrosoft.com**  then select **Next**.
+    1. In the Sign in window enter **Adelev@azureholxxxx.onmicrosoft.com**  then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. When prompted to stay signed- in, select **Yes**
 
@@ -160,9 +161,9 @@ In this task, you, as user Adele Vance, will go through the registration process
 
 1. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
-1. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
+1. You can now complete your sign-in. You should be on the Microsoft 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
-1. Sign out of the Office 365 page and close your browser window.
+1. Sign out of the Microsoft 365 page and close your browser window.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -178,13 +179,13 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Go to [login.microsoftonline.com](https://www.office.com) portal.
 
-1. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
+1. Sign in as Adele Vance, by entering your email **Adelev@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
 1. From the Enter password window, select **Forgot my password**. 
 
-1. The Get back into your account window opens. Verify that the email for Adele Vance, Adele@azureholxxxx.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
+1. The Get back into your account window opens. Verify that the email for Adele Vance, Adelev@azureholxxxx.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
 
-   ![](../Images/sc900-forgetpassword.png)
+   ![](../Images/lab2-5.png)
 
 1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.  If during the registration you selected email, the Get back into your account window will indicate You will receive an email containing a verification code at your alternate email address.  Select **Email**. 
 
@@ -194,11 +195,11 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. In the next screen you are prompted to enter the new password and confirm the new password.  Enter those now and select the **Finish** button.
 
-1. You will see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
+1. You will see a message on the screen that your password has been reset. To sign in with your new password, **click here**.
 
-1. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
+1. From the Pick an account information box, select **Adelev@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
 
-1. You should now be on the Office 365 Page.
+1. You should now be on the Microsoft 365 Page.
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
