@@ -185,7 +185,7 @@ In this task, you will walk through the creation of a policy.
 
     ![](../Images/sc-900-lab14-T3-19.png) 
 
-### Review
+## Review
 In this lab, you have completed:
 - Process of setting up an insider risk policy
 - Enable the Audit log search capability
