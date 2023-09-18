@@ -206,7 +206,7 @@ With a hold in place, you will create a search query.  Once your search is compl
 
 1. Check the location of your download to verify the download was successfully completed. 
 
-### Review
+## Review
 In this lab, you have completed:
 - Add specific users as members of the eDiscovery Manager role group
 - Create a case to start using Core eDiscovery
