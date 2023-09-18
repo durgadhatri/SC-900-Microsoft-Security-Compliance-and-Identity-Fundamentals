@@ -209,7 +209,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Close the open browser tabs.
    
-### Review
+## Review
 In this lab, you have completed:
 - Explore the capabilities of sensitivity labels
 - How to apply a label
