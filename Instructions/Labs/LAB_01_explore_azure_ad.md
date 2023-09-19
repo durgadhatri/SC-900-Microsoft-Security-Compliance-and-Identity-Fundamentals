@@ -63,7 +63,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. You are now seeing the Microsoft Entra ID for your Microsoft 365 tenant. Whichever approach you use to access Microsoft Entra ID services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Microsoft Entra ID where you can administer all the Azure AD services.
 
-   ![](../Images/sc900-image8.png)
+   ![](../Images/lab1-1.png)
    
 1. Keep this browser page open for the next task.
 
@@ -109,7 +109,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     1. Password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
 
-      ![](../Images/sc-900-1.png)
+      ![](../Images/sc-900-1.1.png)
 
 1. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
