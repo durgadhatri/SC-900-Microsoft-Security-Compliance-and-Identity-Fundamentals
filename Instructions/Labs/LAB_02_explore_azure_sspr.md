@@ -33,7 +33,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Now enter the following password and click on **Sign in**.
    * Password: <inject key="AzureAdUserPassword"></inject>
 
-1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Azure Active Directory** and press the **Enter** key.
+1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Microsoft Entra ID** and press the **Enter** key.
 
 1. On the Active Directory page, select **Groups** under **Manage** and then select **New group**.
    
@@ -47,7 +47,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
        
     ![](../Images/lab2-1.1.png)
 
-1. On the **Azure Active Directory** home page, select **Password reset**.
+1. On the **Microsoft Entra ID** home page, select **Password reset**.
 
 1. From the Properties page, under the option Self service password reset enabled is selected and click on **Select group**
 
@@ -55,7 +55,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/lab2-2.png)
    
-1. In Azure Active Directory Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section. In the Search groups field, enter **SSPR**, then from the search results select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
 1. From the left navigation pane, select **Members** under **Manage**.
 
@@ -67,7 +67,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
-1. Return to the **Azure Active Directory** page.
+1. Return to the **Microsoft Entra ID** page.
 
 1. From the left navigation panel select **Users**.
 
@@ -94,7 +94,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 In this task, you, as the admin, will learn how to configure Password reset for users, including the configuration of the types of authentication methods to use.
 
-1. Go to the Azure Active Directory home page
+1. Go to the Microsoft Entra ID home page
 
 1. From the left navigation pane, select **Password reset**.  
 
@@ -219,7 +219,7 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
   
      * When prompted to stay signed- in, select **Yes**.
 
-1. Select **Azure Active Directory**.  
+1. Select **Microsoft Entra ID**.  
 
 1. From the left navigation pane, select **Password reset**.
 
