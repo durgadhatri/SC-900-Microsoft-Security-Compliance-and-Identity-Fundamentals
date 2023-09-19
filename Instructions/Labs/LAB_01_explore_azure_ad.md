@@ -9,7 +9,7 @@ In this lab, you'll access Microsoft Entra ID (previously referred to as Azure A
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Accessing Microsoft Entra ID (previously referred to as Azure Active Directory) through the Microsoft 365 Admin portal and through the Azure portal
++ Task 1: Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 + Task 2: Creating a basic group
 + Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 + Task 4: Sign in to the user first time
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Accessing Microsoft Entra ID (previously referred to as Azure AD) through the Microsoft 365 Admin portal and through the Azure portal
 
-As a subscriber to Microsoft 365 you're already using Microsoft Entra ID (previously referred to as Azure AD).  In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
+As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. Open another tab in Microsoft Edge, in the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
@@ -113,7 +113,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
 1. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
-   1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
+   1. Usage location: **United States** (select the drop-down then scroll down to find this option). Configuring usage location is required for assigning licenses.
 
      ![](../Images/sc900-image(11).png)
    
