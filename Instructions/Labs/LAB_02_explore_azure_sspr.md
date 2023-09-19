@@ -106,7 +106,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
 
-   ![](../Images/auth-methods-(1).png)
+   ![](../Images/auth-methods-(1.1).png)
 
 1. From the left navigation panel of Password reset, select **Registration**.  
 
