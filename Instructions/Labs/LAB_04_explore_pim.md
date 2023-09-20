@@ -2,7 +2,7 @@
 # Lab-04: Explore identity governance in Azure AD with Privileged Identity management
 
 ## Lab scenario
-In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Azure AD Premium P2.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Azure AD Premium P2 license.
+In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
 
 ## Lab objectives
 
@@ -32,7 +32,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Azure Active Directory** and press the **Enter** key.  
+1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Microsoft Entra ID** and press the **Enter** key.  
 
 1. From the left navigation panel under **Manage** section, select **Users**.
 
@@ -48,7 +48,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
 
-1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Microsoft Entra ID page.
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
@@ -56,7 +56,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
-1. Go to the Azure Active Directory page.  
+1. Go to the Microsoft Entra ID page.  
 
 1. From the left navigation panel under **Manage** section, select **Identity Governance**.
 
@@ -70,7 +70,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
    ![](../Images/sc900lab4-image2.png)
 
-1. From the top of the page, select **+ Assignments**.
+1. From the top of the page, select **+ Add Assignments**.
 
    ![](../Images/sc900lab4-image3.png)
 
@@ -92,7 +92,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-    ![](../Images/permanently-eligible10.png)
+    ![](../Images/lab-4-1.png)
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
@@ -112,18 +112,18 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
   
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
-In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Azure Active Directory to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
+In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Microsoft Entra ID to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
 
 1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
 
 1. Sign in as Diego Siciliani.
    
-    1. In the Sign in window enter **DiegoS@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
+    1. In the Sign in window enter **diegos@azureholxxxx.onmicrosoft.com** (user email id of the Diego Siciliani  ) then select **Next**.
     1. Enter the temporary password that you noted from the previous task and select **Sign in**.  Select **Sign in**.
     1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the main Welcome page, under Azure services, select **Azure Active Directory**.
+1. From the main Welcome page, under Azure services, select **Microsoft Entra ID**.
    
 1. From the left navigation panel, select **Identity Governance**.
 
@@ -159,7 +159,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
-    ![](../Images/sc900lab4-image7.png)
+    ![](../Images/lab-4-2.png)
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
@@ -173,11 +173,11 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. Close the Identity Governance window by selecting the **X** on the top right corner of the screen.
    
-1. You are now back on the Azure Active Directory page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
+1. You are now back on the Microsoft Entra ID page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
    
-1. From the users' list, select **Bianca Pisani**.
+1. From the users list, select **Bianca Pisani**.
 
-    ![](../Images/sc900lab4-image8.png)
+    ![](../Images/lab-4-3.png)
    
 1. From the left navigation panel, under **Manage** section select **Licenses**.
 

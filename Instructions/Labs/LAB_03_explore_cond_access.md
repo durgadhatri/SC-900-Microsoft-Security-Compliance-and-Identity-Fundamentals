@@ -1,5 +1,5 @@
 
-# Lab-03 : Explore access management in Azure AD with Conditional
+# Lab-03 : Microsoft Entra Conditional Access
 
 ## Lab scenario
 In this lab, you will explore conditional access MFA, from the perspective of an admin and a user.  As the admin will create a policy that will require a user to go through multi-factor authentication when accessing a cloud-based Microsoft Azure Management application.  From a user perspective, you will see the impact of the conditional access policy, including the process to register for MFA.
@@ -9,7 +9,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 In this lab, you will complete the following tasks:
 
 + Task 1: Reset the password for the user
-+ Task 2: Process of creating a conditional access policy in Azure AD
++ Task 2: Process of creating a conditional access policy in Microsoft Entra ID
 + Task 3: Impact of the conditional access policy
 
 ## Estimated timing: 30 minutes
@@ -32,7 +32,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
    
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. On the Azure portal locate the search bar at the top of the page. Select the search result for **Azure Active Directory**.
+1. On the Azure portal locate the search bar at the top of the page. Select the search result for **Microsoft Entra ID**.
 
 1. From the left navigation panel select **Users**.
 
@@ -43,26 +43,28 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
    >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**IMPORTANT**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
 1. Close users window by selecting the **X** at the top right corner of the page.
 
-1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Azure Active Directory page.
+1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Microsoft Entra ID page.
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
-## Task 2: Process of creating a conditional access policy in Azure AD
+## Task 2: Process of creating a conditional access policy in Microsoft Entra ID
 
- In this task, you will go through the process of creating a conditional access policy in Azure AD. 
+ In this task, you will go through the process of creating a conditional access policy in Microsoft Entra ID. 
 
-1. On the **Azure Active Directory** page, under **Manage** section, select **Properties**, click on **Manage Security defaults** link, ensure that Security defaults is set to **Disabled**.
+1. On the **Microsoft Entra ID** page, under **Manage** section, select **Properties**, click on **Manage Security defaults** link, ensure that Security defaults is set to **Disabled**.
 
    ![](../Images/sc900lab3-image1.png)
    
-   >**Note**: if Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**.
+   >**Note**: If Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**. <br>
+   >**Note**: If Security defaults is set to **Disabled** and You cannot see **Manage Security defaults** link. Proceed with the next step.
  
-1. Go back to the Azure Active Directory Home page. From the left navigation panel, under **Manage** section, select **Security**.
+1. Go back to the Microsoft Entra ID Home page. From the left navigation panel, under **Manage** section, select **Security**.
 
 1. On **Security** page, from the left navigation panel, under **Protect** section, select **Conditional Access**.
 
@@ -72,7 +74,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
     - In the Name field, enter **MFA Test Policy**.
 
-    - Under Users and groups, select **0 users and groups selected**.
+    - Under Users, select **0 users and groups selected**.
 
     - You will now see the option to Include or Exclude users or groups.  Make sure **Include** is selected (underlined).
 
@@ -96,11 +98,11 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. Now you will set the access controls.  Under Grant, select **0 controls selected**.
 
-1. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multi-factor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
+1. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multifactor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
 
-1. AT the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
+1. At the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
-    ![](../Images/grant-access.png)
+    ![](../Images/lab3-1.png)
 
 1. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
@@ -115,7 +117,7 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
-    1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tabin the Lab Guide section) then select **Next**.
+    1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
     1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of MFA).  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**

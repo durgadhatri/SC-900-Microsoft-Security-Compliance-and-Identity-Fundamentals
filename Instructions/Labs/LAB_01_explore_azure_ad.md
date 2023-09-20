@@ -3,15 +3,15 @@
 
 ## Lab scenario
 
-In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory). Additionally, you'll create a user and configure the different settings, including adding licenses.
+In this lab, you'll access Microsoft Entra ID. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
 ## Lab objectives
 
 In this lab, you will complete the following tasks:
 
-+ Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
++ Task 1: Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 + Task 2: Creating a basic group
-+ Task 3: Create a new user in the Azure Active Directory and explore some of the services
++ Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 + Task 4: Sign in to the user first time
 
 ## Estimated timing: 30 minutes
@@ -20,9 +20,9 @@ In this lab, you will complete the following tasks:
 
 ![](../Images/sc900lab1.png)
 
-## Task 1: Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
+## Task 1: Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 
-As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, you will walk through accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal.
+As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
 
 1. Open another tab in Microsoft Edge, in the address bar enter **[admin.microsoft.com](https://admin.microsoft.com/)** to access the Microsoft 365 admin center.
 
@@ -45,7 +45,7 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
    ![](../Images/sc900-image5.png)
 
-1. A new browser page opens to the My Dashboard page of the Azure Active Directory admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’ Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
+1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
 1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
@@ -59,17 +59,17 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
 
    ![](../Images/sc900-image7.png)
 
-1. Select More Services, then select Azure Active Directory. If you don't immediately see it, you can enter Azure Active Directory on the blue search bar and select Azure Active Directory from result list.
+1. Select More Services, then select Microsoft Entra ID. If you don't immediately see it, you can enter Microsoft Entra ID on the blue search bar and select Microsoft Entra ID from result list.
 
-1. You are now seeing the Azure Active Directory for your Microsoft 365 tenant. Whichever approach you use to access Azure Active Directory services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Azure Active Directory where you can administer all the Azure AD services.
+1. You are now seeing the Microsoft Entra ID for your Microsoft 365 tenant. Whichever approach you use to access Microsoft Entra ID services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Microsoft Entra ID where you can administer all the Azure AD services.
 
-   ![](../Images/sc900-image8.png)
+   ![](../Images/lab1-1.png)
    
 1. Keep this browser page open for the next task.
 
 ## Task 2: Creating a basic group
 
-1. On the Active Directory page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
+1. On the Microsoft Entra ID page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
 1. Populate the **New Group** fields as follows and Select **Create**
 
@@ -89,11 +89,11 @@ As a subscriber to Microsoft 365 you are already using Azure AD.  In this task, 
     > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
-## Task 3: Create a new user in the Azure Active Directory and explore some of the services
+## Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 
-In this task, you’ll learn how to create a new user in the Azure Active Directory and explore some of the services that can be managed at the user level.
+In this task, you’ll learn how to create a new user in the Microsoft Entra ID and explore some of the services that can be managed at the user level.
 
-1. In Azure Active Directory Overview page, from the left navigation select **Users** under the **Manage** section.
+1. In Microsoft Entra ID Overview page, from the left navigation select **Users** under the **Manage** section.
 
 1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
@@ -105,15 +105,15 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
     1. Display Name : **Sara Perez**
 
-    1. Uncheck **Auto generate password**
+    1. Uncheck **Auto-generate password**
 
-    1. Initial password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
+    1. Password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
 
-      ![](../Images/sc900-image(10).png)
+      ![](../Images/sc-900-1.1.png)
 
 1. On the **Properties** tab under settings specify the following and select **Next: Assignments >**
 
-   1. Usage location: **United States** (select the drop-down then scroll down to find this option).  Configuring usage location is required for assigning licenses.
+   1. Usage location: **United States** (select the drop-down then scroll down to find this option). Configuring usage location is required for assigning licenses.
 
      ![](../Images/sc900-image(11).png)
    
@@ -125,13 +125,13 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
       ![](../Images/sc900-image12.png)
 
-1. Next to Roles, select **Add Roles**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
+1. Next to Roles, select **Add role**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
       ![](../Images/sc900-image13.png)
 
-1. From the bottom of the page, select the **Review + create** button.
+1. From the bottom of the page, select the **Review + create** and **Create** button.
 
-1. Navigate back to **Azure active dircotry** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
+1. Navigate back to **Microsoft Entra ID** user blade and verify the user appears on the user list (names are listed in alphabetical order).Kindly refresh the screen if the newly created user is not visible.
 
 1. From the user list select the user you just created, **Sara Perez**, the profile page opens.
 
@@ -155,9 +155,9 @@ In this task, you’ll learn how to create a new user in the Azure Active Direct
 
 1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
 
-1. Return to the Azure Active Directory Overview page
+1. Return to the Microsoft Entra ID Overview page
 
-1. You have successfully created and configured a user in Azure Active Directory.
+1. You have successfully created and configured a user in Microsoft Entra ID.
 
 1. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
 
@@ -195,13 +195,13 @@ In this task, you will sign in as Sara Perez, for the first time.
 
      ![](../Images/sc900-image21.png)
 
-1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
 ## Review
 In this lab, you have completed:
 - Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
 - Creating a basic group
-- Create a new user in the Azure Active Directory and explore some of the services
+- Create a new user in the Microsoft Entra ID and explore some of the services
 - Sign in to the user first time
 
 ## You have successfully completed the lab
