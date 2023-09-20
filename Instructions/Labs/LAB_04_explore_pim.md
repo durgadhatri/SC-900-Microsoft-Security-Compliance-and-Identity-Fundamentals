@@ -2,7 +2,7 @@
 # Lab-04: Explore identity governance in Azure AD with Privileged Identity management
 
 ## Lab scenario
-In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 licensing.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
+In this lab, you will explore some of the basic functionality of Privileged Identity Management (PIM). PIM does require Microsoft Entra ID P2 license.  In this lab, you, as the admin, will configure one of your users, Diego Siciliani, with an Azure AD user administrator role, through Privileged ID management (PIM).   With user admin privileges, Diego will be able to create users and groups manage licenses and more. Both the admin and the user, Diego, must be configured for the Microsoft Entra ID P2 license.
 
 ## Objectives
 
