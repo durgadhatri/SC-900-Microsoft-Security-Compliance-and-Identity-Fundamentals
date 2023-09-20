@@ -199,7 +199,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 ## Review
 In this lab, you have completed:
-- Accessing Azure AD through the Microsoft 365 Admin portal and through the Azure portal
+- Accessing  Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 - Creating a basic group
 - Create a new user in the Microsoft Entra ID and explore some of the services
 - Sign in to the user first time
