@@ -3,7 +3,7 @@
 
 ## Lab scenario
 
-In this lab, you'll access Microsoft Entra ID (previously referred to as Azure Active Directory). Additionally, you'll create a user and configure the different settings, including adding licenses.
+In this lab, you'll access Microsoft Entra ID. Additionally, you'll create a user and configure the different settings, including adding licenses.
 
 ## Objectives
 
@@ -20,7 +20,7 @@ In this lab, you will complete the following tasks:
 
 ![](../Images/sc900lab1.png)
 
-## Task 1: Accessing Microsoft Entra ID (previously referred to as Azure AD) through the Microsoft 365 Admin portal and through the Azure portal
+## Task 1: Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 
 As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In this task, you will walk through accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal.
 
