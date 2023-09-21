@@ -2,7 +2,7 @@
 
 ## Lab overview
 
-In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture. NOTE: the Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
+In this lab, you will explore Microsoft Defender for Cloud and learn how Azure Secure Score can be used to improve your organization's security posture. NOTE: The Azure subscription provided by the Authorized Lab Hoster (ALH) limits access and may experience longer than normal delays.
 
 ## Objectives
 
