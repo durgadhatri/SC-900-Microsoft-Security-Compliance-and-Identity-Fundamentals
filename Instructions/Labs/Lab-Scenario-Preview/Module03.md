@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-03 : Explore access management in Azure AD with Conditional
+# Lab Scenario Preview: Lab-03 : Explore access management in Microsoft Entra ID with Conditional
 
 ## Lab overview
 
@@ -10,7 +10,7 @@ In this lab, you will explore conditional access MFA, from the perspective of an
 After completing this lab, you will be able to:
 
 - Reset the password for the user
-- Process of creating a conditional access policy in Azure AD
+- Process of creating a conditional access policy in Microsoft Entra ID
 - Impact of the conditional access policy
 
 ## Architecture Diagram
