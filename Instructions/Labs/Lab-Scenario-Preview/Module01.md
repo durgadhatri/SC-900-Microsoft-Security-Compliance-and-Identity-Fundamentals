@@ -1,4 +1,4 @@
-# Lab Scenario Preview: Lab-01: Explore Azure Active Directory
+# Lab Scenario Preview: Lab-01: Explore Microsoft Entra ID
 
 ## Lab overview
 
@@ -10,7 +10,7 @@ After completing this lab, you will be able to:
 
 - Accessing Microsoft Entra ID through the Microsoft 365 Admin portal and through the Azure portal
 - Creating a basic group
-- Create a new user in the Azure Active Directory and explore some of the services
+- Create a new user in the Microsoft Entra ID and explore some of the services
 - Sign in to the user first time
 
 
