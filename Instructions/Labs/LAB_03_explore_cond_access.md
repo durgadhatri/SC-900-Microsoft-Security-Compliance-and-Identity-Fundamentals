@@ -64,7 +64,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
    >**Note**: If Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**. <br>
    >**Note**: If Security defaults is set to **Disabled** and You cannot see **Manage Security defaults** link. Proceed with the next step.
  
-1. Go back to the Microsoft Entra ID Home page. From the left navigation panel, under **Manage** section, select **Security**.
+1. Go back to the [Microsoft Entra ID Home page](https://entra.microsoft.com). From the left navigation panel, under **Manage** section, select **Security**.
 
 1. On **Security** page, from the left navigation panel, under **Protect** section, select **Conditional Access**.
 
