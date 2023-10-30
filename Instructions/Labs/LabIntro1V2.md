@@ -20,7 +20,7 @@ To get a better understanding of your lab resources and credentials, navigate to
  
 ## **Utilizing the Split Window Feature**
  
-For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the bottom right corner.
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the top right corner.
  
 ![Use the Split Window Feature](../Images/spl.png)
  
@@ -70,7 +70,7 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
 
 1. In the Sign in window, sign in with your admin credentials.
    * Username: <inject key="AzureAdUserEmail"></inject>
-   
+
        ![](../Images/module4/lab12/main-4.png)
 1. Now enter the password and click on Sign in.
   
