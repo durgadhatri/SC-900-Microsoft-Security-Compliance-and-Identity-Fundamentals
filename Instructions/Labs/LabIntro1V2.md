@@ -1,51 +1,91 @@
-# Getting Started
+# **Getting Started with Your SC-900: Microsoft Security, Compliance, and Identity Fundamentals Workshop**
+ 
+Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamentals workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+ 
+## **Accessing Your Lab Environment**
+ 
+Once you're ready to dive in, your virtual machine and lab guide will be right at your fingertips within your web browser.
+ 
+![Access Your VM and Lab Guide](../Images/labguide.png)
 
-1. Once the environment is provisioned, a virtual machine and lab guide will get loaded into your browser. Use this virtual machine throughout the workshop to perform the lab.
+### **Virtual Machine & Lab Guide**
+ 
+Your virtual machine is your workhorse throughout the workshop. The lab guide is your roadmap to success.
+ 
+## **Exploring Your Lab Resources**
+ 
+To get a better understanding of your lab resources and credentials, navigate to the **Environment Details** tab.
+ 
+![Explore Lab Resources](../Images/env.png)
+ 
+## **Utilizing the Split Window Feature**
+ 
+For convenience, you can open the lab guide in a separate window by selecting the **Split Window** button from the bottom right corner.
+ 
+![Use the Split Window Feature](../Images/spl.png)
+ 
+## **Managing Your Virtual Machine**
+ 
+Feel free to start, stop, or restart your virtual machine as needed from the **Resources** tab. Your experience is in your hands!
+ 
+![Manage Your Virtual Machine](../Images/res.png)
+ 
+## **Let's Get Started with Azure Portal**
+ 
+1. On your virtual machine, click on the Azure Portal icon as shown below:
+ 
+    ![Launch Azure Portal](../Images/sc900-image(1).png)
 
-1. To get the lab environment details, you can select the **Environment Details** tab.
+ 
+2. You'll see the **Sign into Microsoft Azure** tab. Here, enter your credentials:
+ 
+   - **Email/Username:** <inject key="AzureAdUserEmail"></inject>
+ 
+    ![Enter Your Username](../Images/sc900-image-1.png)
+ 
+3. Next, provide your password:
+ 
+   - **Password:** <inject key="AzureAdUserPassword"></inject>
+ 
+   ![Enter Your Password](../Images/sc900-image-2.png)
+ 
+4. If prompted to stay signed in, you can click "No."
+ 
+5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
+ 
+6. Click "Next" from the bottom right corner to embark on your Lab journey!
+ 
+     ![Start Your Azure Journey](../Images/sc900-image(3).png)
 
-    ![](../Images/image-100.png)
-
-1. You can also open the Lab Guide on a separate full window by selecting the **Split Window** button on the bottom right corner.
-
-    ![](../Images/image-200.jpg)    
-
-1. Also, you can **start, stop and restart** the virtual machines from the **Resources** tab.
-
-    ![](../Images/image002.jpg)
-    
 ### Log in to Microsoft 365 Admin Centre
 
 1. In the virtual machine (VM) on the left, click on Microsoft Edge shortcut as shown below.
 
-    ![](../Images/edgeshortcut.png)
+    ![](../Images/sc900-image(1).png)
 
     >**Note**:On the Welcome to Microsoft Edge page, select **Start without your data** and on the help for importing Google browsing data page, select the **Continue without this data** button. Then, proceed to select **Confirm and start browsing** on the next page
-
-1. Open a new tab and enter **admin.microsoft.com** and sign in with your admin credentials.
-
-1. On **Sign in** blade, you will see a login screen, in that enter the following email/username 
- 
-    * Email/Username: **<inject key="AzureAdUserEmail"></inject>** and then click on **Next**.
-
-      ![](../Images/module4/lab12/main-2.png)
-        
-1. On **Enter Password** blade, enter the following password   
-
-    * Password: **<inject key="AzureAdUserPassword"></inject>** and then click on **signin**
-
-      ![](../Images/module4/lab12/main-3.png)
-        
-1. When prompted to protect the account, Please select **Skip for now**.
+1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**. Please open this in a new private window.
 
       ![](../Images/module4/lab12/main-4.png)
-        
-1. When prompted to Action Required, Please select **Ask later**
 
-      ![](../Images/lab14-1-3.png)          
+1. In the Sign in window, sign in with your admin credentials.
+   * Username: <inject key="AzureAdUserEmail"></inject>
+   
+       ![](../Images/module4/lab12/main-4.png)
+1. Now enter the password and click on Sign in.
+  
+    1.  Get the user credentials provided in the environment details page and paste the value in the username section and then select **Next**.
      
-1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
-        
-1. Click on **Next** from the bottom right and follow the instructions to perform the lab.
+    1. Enter the admin password which should be provided by your lab hosting provider. Select **Sign in**.
+        * Password: <inject key="AzureAdUserPassword"></inject>
+    
+        ![](../Images/module4/lab12/main-3.png)
+     
+    1. When prompted to protect the account, Please select **Skip for now**.
+   
+    1. When prompted to Action Required, Please select **Ask later**
 
-     ![](../Images/Sc-900-numbering.png)       
+    1. When prompted to stay signed- in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+ 
+Now you're all set to explore the powerful world of technology. Feel free to reach out if you have any questions along the way. Enjoy your workshop!
+
