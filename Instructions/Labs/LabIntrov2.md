@@ -1,6 +1,6 @@
 # **Getting Started with Your SC-900: Microsoft Security, Compliance, and Identity Fundamentals Workshop**
  
-Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamentals workshop! We've prepared a seamless environment for you to explore and learn about Azure services. Let's begin by making the most of this experience:
+Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamentals workshop! We've prepared a seamless environment for you familiarize yourself with the fundamentals of security, compliance, and identity (SCI) across cloud-based and related Microsoft services. Let's begin by making the most of this experience:
  
 ## **Accessing Your Lab Environment**
  
