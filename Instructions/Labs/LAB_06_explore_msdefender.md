@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
 1. Sign in with your admin credentials.
    
