@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
 
    ![Picture 1](../Images/image2-lab7.png)
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
 1. Keep this page open, as you will use it in the next task.
 
