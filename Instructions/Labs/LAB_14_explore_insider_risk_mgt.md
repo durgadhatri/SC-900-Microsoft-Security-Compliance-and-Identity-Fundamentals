@@ -57,7 +57,7 @@ In this task, you, as the global administrator, will enable permissions for Insi
    
     ![](../Images/insiderriskmanagementedit1.png)
 
-1. To add members to this role group, select **Choose users (1)** . From the list of names, select **Megan Bowen and ODL_User unique id (2)** and click on **Select (3)** at the bottom of page. 
+1. To add members to this role group, select **Choose users (1)** . From the list of names, select **Megan Bowen and ODL_User **<inject key="DeploymentId"></inject>** (2)** and click on **Select (3)** at the bottom of page. 
 
     ![](../Images/chooseuser21.png).
 
