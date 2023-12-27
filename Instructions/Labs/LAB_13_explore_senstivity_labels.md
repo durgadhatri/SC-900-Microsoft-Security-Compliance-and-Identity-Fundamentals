@@ -50,9 +50,9 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/sc-900-lab13-001.png)
 
-1. Now select the **Labels** tab from the dropdown and then select **Create a label**
+1. Now select **Labels** from the left navigation pane and then select **Create a label**
 
-    ![](../Images/sc-900-lab13-2.png)
+    ![](../Images/L13T1S10.png)
 
 1. Configuration starts provide a name and description for your label. Select **Next** at the bottom of the page.
 
@@ -147,9 +147,9 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
     ![](../Images/sc-900-lab13-23.png)
     
-1. Under the **Apply a default label to Power BI content**.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Under the **Apply a default label to Fabric and Power BI content**.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-    ![](../Images/sc-900-lab13-24.png)
+    ![](../Images/L13T1S31.png)
     
 1. The last configuration option is to name your policy. Enter the policy name as **Confidential-Finance Policy**.  Select **Next** on the bottom of the page to exit the policy configuration and return to the Information protection page.
 
@@ -178,7 +178,9 @@ In this task, you will go through the process of applying a label from the persp
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-1. From the top menu bar, select **Sensitivity**.(**Note**: If the option is not available, it will take sometime to reflect Alternatively try refreshing the page or sign-out and sign-in again) From the drop down select **Confidential-Finance**
+   ![](/Instructions/Images/L13T2S2.png)
+
+1. From the top menu bar, select **Sensitivity**. From the drop down select **Confidential-Finance** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
 
       ![](../Images/95.png)      
 
@@ -191,19 +193,19 @@ In this task, you will go through the process of applying a label from the persp
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
 ## Task 3 (optional): Impact of that label
-In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the WWLxZZZZ.OnMicrosoft.com domain and see what happens when you try to open the attachment.  
+In addition to content marking, the label protection setting was set for encryption. Per the permissions that were configured with this label, members of the finance group can co-author documents with this label applied and users in the Contoso tenant can view (or any document/email with the label applied).  In this task you will send this document to an email address to which you have access (ie., a personal email address) and that is NOT part of the .OnMicrosoft.com domain and see what happens when you try to open the attachment.  
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
       ![](../Images/lab13-1-6.png)
 
-1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the WWLxZZZZ.OnMicrosoft.com domain and enter **Test** in the subject line.
+1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the .OnMicrosoft.com domain and enter **Test** in the subject line.
 
 1. Select **Attach**.
 
-1. Select **Browse cloud locations**.
+1. Select **OneDrive**.
 
-1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Next** and select **Attach as a copy**.  Press **Send**.
+1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Share link** and press **Send**.
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
