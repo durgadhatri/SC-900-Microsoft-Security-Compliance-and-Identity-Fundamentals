@@ -51,13 +51,13 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
     ![](../Images/sc-900-lab15-1-4.png)
 
-1. In the search bar, enter **eDiscovery** then select the search icon (magnifying glass).  Select **eDiscovery Manager**.
+1. In the search bar, type **eDiscovery** then click on Enter on your keyboard.  Select **eDiscovery Manager**.
 
-    ![](../Images/sc-900-lab15-1-5.png)
+    ![](../Images/L15T1S8.1.png)
     
-    ![](../Images/sc-900-lab15-1-6.png)
+    ![](../Images/L15T1S8-2.png)
 
-1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab lab, we will add members to the eDiscovery Administrator sub-group.
+1. In the window that opens, notice how there are two sub-groups, eDiscovery Manager and eDiscovery Administrator.  Read the description of each.  For this lab, we will add members to the eDiscovery Administrator sub-group.
 
 1. Select **Edit** 
 
@@ -138,7 +138,8 @@ Now that you have created a Core eDiscovery case, you can begin to work with the
 1. Keep this browser tab open, as you will use it in the subsequent task.
 
 ## Task 4: Create a search query
-With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   Note:  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
+With a hold in place, you will create a search query.  Once your search is complete you will go export and download the results for future investigation.   
+**Note:**  Searches associated with a Core eDiscovery case are not listed on the Content search page in the Microsoft 365 compliance center. These searches are listed only on the Searches page of the associated Core eDiscovery case.
 
 1. Open the SC900 Test case tab on your browser.
 
@@ -179,7 +180,8 @@ With a hold in place, you will create a search query.  Once your search is compl
 1. From the Export results window, leave the defaults and select **Export** from the bottom of the page. You will automatically be returned to the **Test Hold - Sales search** window. Select **close** on the bottom of the page.
 
       ![](../Images/sc-900-lab15-T2-20.png)  
-    
+
+    **Note:** If the export fails with a permission error, please refresh and try to perform the export once again. 
 1. From the SC900-Test case page, select **Exports** from the top of the page.
 
 1. Select **Test Hold - Sales Search_Export**
