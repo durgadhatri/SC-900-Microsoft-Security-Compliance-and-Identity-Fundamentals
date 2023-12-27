@@ -48,7 +48,7 @@ In this lab, you will complete the following tasks:
 1. Under overview tab, click **Next**.
     
 1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log 
-   formate** then Download sample log and click on **Next**.
+   format** then Download sample log and click on **Next**.
  
    ![Picture 1](../Images/createsnapsotanddown.png)
  
