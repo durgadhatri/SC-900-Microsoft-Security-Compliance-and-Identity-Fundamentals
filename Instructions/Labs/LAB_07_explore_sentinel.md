@@ -90,7 +90,7 @@ In this task you will walk through the steps involved in setting up a data conne
 
     ![Picture 1](../Images/image5-lab7.png)
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel | Data connector** page and refresh the page to get **Microsoft Defender for Cloud** option.
+1. Once installation process is done, navigate back to **Microsoft Sentinel | Data connector** page and refresh the page to get **Microsoft Defender for Cloud** option.
 
 1. On the **Microsoft Sentinel | Data connector** page , select **Microsoft Defender for Cloud**.
    
