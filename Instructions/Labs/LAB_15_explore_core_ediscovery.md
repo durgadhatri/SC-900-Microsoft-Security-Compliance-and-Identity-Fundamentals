@@ -67,7 +67,7 @@ To access Core eDiscovery or be added as a member of a Core eDiscovery case, a u
 
    ![](../Images/image2.png)
 
-1. On **Manage ediscovery Administrator**, click on **Choose User** and select **ODL_User and Megan Bowen** from the list and click on **select** and **Next**.
+1. On **Manage ediscovery Administrator**, click on **Choose User (1)** and select **ODL_User **<inject key="DeploymentId"></inject>** and Megan Bowen (2)** from the list and click on **Select (3)** and **Next**.
 
    ![](../Images/image3.png)
 
