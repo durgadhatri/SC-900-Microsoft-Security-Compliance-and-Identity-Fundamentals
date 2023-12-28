@@ -154,7 +154,9 @@ In this task, you'll walk through some of the options available in Sentinel.
    
     ![Picture 1](../Images/sc900-hunting-query.png)
    
-1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
+1. From the left navigation panel, select **MITRE ATT&CK**. MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework. Select any cell from the matrix and note the information available on the right side of the screen.
+
+>**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
 
     ![Picture 2](../Images/sc900-Mitreattck.png)
 
