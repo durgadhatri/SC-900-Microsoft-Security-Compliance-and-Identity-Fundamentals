@@ -77,8 +77,8 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. When the Reset password window opens, select **Reset Password**.  
 
-    >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
-    >**IMPORTANT**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
+    >**Note**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+    >**Note**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
 
      ![](../Images/lab2-4.png)
 
