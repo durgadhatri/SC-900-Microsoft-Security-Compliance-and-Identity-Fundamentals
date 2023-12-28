@@ -107,7 +107,7 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     1. Uncheck **Auto-generate password**
 
-    1. Password: Please provide the desired password and make sure to note it down
+    1. Password:  enter a temporary password that adheres to the password requirements and make note of it, as you will need it to complete the subsequent task.
     
     >**Note** : When Sara signs in for the first time, she will be prompted to change her password.
 
@@ -163,6 +163,8 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
 1. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
 
+   >**Note** : You can retrieve the email ID from the environment details page.
+
 1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
@@ -183,11 +185,13 @@ In this task, you will sign in as Sara Perez, for the first time.
 
    ![](../Images/sc900-image18.png)
 
+ >**Note** : You can retrieve the email ID from the environment details page.
+
 1. Enter the temporary password that you have provided earlier.
 
     ![](../Images/sc900-image19.png)
 
-1. You are now prompted to Update your password. In the Current password field, enter the password that you have provided earlier.
+1. You are now prompted to Update your password. In the Current password field, enter the temporary password that you have provided earlier.
 
 1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
