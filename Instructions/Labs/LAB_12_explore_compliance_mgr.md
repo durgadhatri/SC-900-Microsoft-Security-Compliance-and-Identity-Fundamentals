@@ -77,7 +77,7 @@ In this lab, you will complete the following tasks:
 
 1. If any pop-up appears, Please close it. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
-     ![](../Images/module4/lab12/5.png)
+     ![](../Images/5.1.png)
 
     >**Note:** If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
  
