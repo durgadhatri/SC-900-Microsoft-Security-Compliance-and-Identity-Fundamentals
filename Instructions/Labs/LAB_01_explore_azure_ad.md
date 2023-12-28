@@ -107,7 +107,9 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     1. Uncheck **Auto-generate password**
 
-    1. Password: **Naja8996** When Sara signs in for the first time, she will be prompted to change her password.
+    1. Password: Please provide the desired password and make sure to note it down
+    
+    >**Note** : When Sara signs in for the first time, she will be prompted to change her password.
 
       ![](../Images/sc-900-1.1.png)
 
@@ -181,11 +183,11 @@ In this task, you will sign in as Sara Perez, for the first time.
 
    ![](../Images/sc900-image18.png)
 
-1. Enter the temporary password **Naja8996**.
+1. Enter the temporary password that you have provided earlier.
 
     ![](../Images/sc900-image19.png)
 
-1. You are now prompted to Update your password. In the Current password field, enter **Naja8996**.
+1. You are now prompted to Update your password. In the Current password field, enter the password that you have provided earlier.
 
 1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
