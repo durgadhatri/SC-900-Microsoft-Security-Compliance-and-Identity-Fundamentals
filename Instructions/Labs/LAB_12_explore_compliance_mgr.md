@@ -60,12 +60,10 @@ In this lab, you will complete the following tasks:
 
      ![](../Images/module4/lab12/4.png)
      
-1. From the Customize your navigation pane window, select **Audit (1)**  and **eDiscovery (2)**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
+1. From the Customize your navigation pane window, select **compliance  Manager**  and **Catalogue**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
-     ![](../Images/lab12-(1).png)
-     
-     ![](../Images/lab12-2.png)
-     
+     ![](../Images/catalogue_01.png)
+    
 1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
 1. Select **Show less** to hide.
