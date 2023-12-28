@@ -118,7 +118,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
-     ![](../Images/registration-(1).png)
+     ![](../Images/registration_01.png)
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
@@ -137,15 +137,13 @@ In this task, you, as user Adele Vance, will go through the registration process
 
 1. Since this is your first sign-in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC900-Lab** in the confirm password field.  Select **Sign in**.  Note: we are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
-1. A pop-up displays indicating that **Help us protect your account**. Click on **Skip for now (14 days until this is required)** and then you will get another pop-up saying **More information is required**.  This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button. Again you will get a pop-up display indicating that **Help us protect your account**. Click on **Skip for now (14 days until this is required)**. Then When prompted to stay signed- in, select **Yes**
+1. A pop-up displays indicating that **Action Required**.  his is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in.  Select the **Next** button. Then When prompted to stay signed- in, select **Yes**
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
-   ![](../Images/default-secure(1).png)
+   ![](../Images/lab_022.png)
 
-   ![](../Images/more-info(1).png)
-
-   ![](../Images/stay-sign-in(1).png)
+   ![](../Images/stay_in.png)
 
 1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
 
@@ -153,11 +151,11 @@ In this task, you, as user Adele Vance, will go through the registration process
 
 1. The **Keep your account secure** page opens.  The window that appears is for the Phone authentication method, if you don’t have a mobile device with you that is capable of receiving text messages, skip to the next step.  You are prompted to enter a phone number. Ensure the option **Text me a code** is enabled.   Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**. 
 
-   ![](../Images/keep-acc-secure(1).png)
+   ![](../Images/keep-acc-secure_1.png)
 
-   ![](../Images/enter-code(1).png)
+   ![](../Images/enter-code_1.png)
 
-   ![](../Images/sms-verified-upd(1).png)
+   ![](../Images/sms-verified-upd_1.png)
 
 1. Skip this step if you were able to configure SSPR with your mobile phone number.  Alternatively, you can set up a different method as shown on the bottom left of the window.  If you choose to set up a different method, select **I want to set up a different method**, a pop-up window shows up, asking Which method would you like to use?  From the drop-down, select your preferred method, **Email**, then select the **Confirm** button.  Enter the email you would like to use then select **Next**.  A new window opens indicating a code was just sent to the email you entered.  Access the email you entered to obtain the code.  Enter the code you are received and select **Next**. A window opens indicating Success and showing your Default sign-in method.  Select **Done**.
 
@@ -189,7 +187,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.  If during the registration you selected email, the Get back into your account window will indicate You will receive an email containing a verification code at your alternate email address.  Select **Email**. 
 
-   ![](../Images/verification(1).png)
+   ![](../Images/verification_1.png)
 
 1. Enter the verification code then press **Next**.
 
@@ -227,7 +225,7 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
 
 1. Select **Download**.  Note that you can format the download as CSV or JSON.  Close the window by selecting the **X** on the top right corner of the screen.
 
-   ![](../Images/audit-logs(1)-01.png)
+   ![](../Images/audit-logs_1.png)
 
 1. From the left navigation pane, select **Usage & insights**.
 
