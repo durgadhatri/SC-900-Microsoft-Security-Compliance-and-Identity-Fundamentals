@@ -42,8 +42,8 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
-   >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
-   >**IMPORTANT**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**Note**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -90,9 +90,9 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
 
-1. In the search bar, Type/Search and select **Microsoft Azure Management**, then press **Select** at the bottom of the page.  Notice the warning.  
+1. In the search bar, Type/Search and select **Microsoft admin portal**, then press **Select** at the bottom of the page.  Notice the warning.  
 
-    ![](../Images/sc-900-task-2-step-12.png)
+ ![](../Images/mirco_01.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 

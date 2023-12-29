@@ -60,12 +60,10 @@ In this lab, you will complete the following tasks:
 
      ![](../Images/module4/lab12/4.png)
      
-1. From the Customize your navigation pane window, select **Audit (1)**  and **eDiscovery (2)**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
+1. From the Customize your navigation pane window, select **compliance  Manager**  and **Catalogue**.  Select **Save (3)** on the bottom of the window.  Notice how the Solutions section of the navigation panel has been updated.
 
-     ![](../Images/lab12-(1).png)
-     
-     ![](../Images/lab12-2.png)
-     
+     ![](../Images/catalogue_01.png)
+    
 1. From the left navigation panel of the Microsoft 365 compliance center home page, notice that under Solutions only Catalog is displayed.  From the left navigation panel, select **...Show all**.  Notice how all the additional solutions appear under the solutions section.  
 
 1. Select **Show less** to hide.
@@ -79,25 +77,25 @@ In this lab, you will complete the following tasks:
 
 1. If any pop-up appears, Please close it. From the top of the Compliance Manager page, ensure **Overview** is selected (underlined). Scroll down to see all the information available on the page.  Information on this page includes your compliance score, as a percentage and based on your points achieved and Microsoft managed points achieved.   You will see Key improvement actions, Solutions that effect your score and compliance score breakdown by categories or assessments.
 
-     ![](../Images/module4/lab12/5.png)
+     ![](../Images/5.1.png)
 
     >**Note:** If the Compliance Score is shown as zero percentage, try refreshing the page or sign-out and sign-in again.
  
 1. From the top of the Overview page, select **Improvement actions**.  These are actions that can improve the organization’s compliance score, points may take up to 24 hours to update.  Notice the available filters.
 
-     ![](../Images/module4/lab12/6-1.png)
+     ![](../Images/6_1.png)
 
 1. From the list of improvement actions, select **Enable self-service password reset**.  Each improvement action has an overview section along with the details page from which you can select implementation, testing, the related standards and regulatory requirements, and documents.
 
-     ![](../Images/module4/lab12/6-2.png)
+     ![](../Images/7_1.png)
 
 1. Exit out of this improvement action by selecting the **X** on the top right corner of the screen.  Alternatively, you select **Improvement Actions** from the breadcrumb on the top left of the page.  You are now back on the improvement actions page.
 
-     ![](../Images/module4/lab12/6.png)
+     ![](../Images/8_1.png)
 
 1. From the top of the page, select **Solutions**. On this page you will see how solutions contribute to your score and their remaining opportunity for improvement.
 
-     ![](../Images/module4/lab12/6-3.png)
+     ![](../Images/9_1.png)
 
 1. From the top of the page, select **Assessments**. On this page you will see the Data Protection Baseline.  This is a default assessment Microsoft provides in Compliance Manager for the Microsoft 365 data protection baseline.  This baseline assessment has a set of controls for key regulations and standards for data protection and general data governance. Compliance Manager becomes more helpful as you build and manage your own assessments to meet your organization's particular needs.
 
