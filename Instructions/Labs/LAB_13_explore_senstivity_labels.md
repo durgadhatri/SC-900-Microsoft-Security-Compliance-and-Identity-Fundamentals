@@ -66,25 +66,25 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. Note the scope for this label.  The scope is set to **Items**.  Read the description but don’t change anything.  Select **Next** at the bottom of the page.
 
-      ![](../Images/sc-900-lab13-4.png)
+      ![](../Images/sc-900-jap8.png)
 
 1. On the Choose protection settings for labeled items select the **Apply or remove encryption** and **Apply content marking**, then select **Next**.
 
-    ![](../Images/sc-900-lab13-5.png)
+    ![](../Images/sc-900-jap9.png)
     
 1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire.  You can also assign permissions to specific users and groups By clicking on the **Assign permission**.
     
-    ![](../Images/sc-900-lab13-6.png)
+    ![](../Images/sc-900-jap10.png)
   
 1. Click on **+Add Users or Groups**, select your **user name**  and **Megan Bowen** and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
 
-      ![](../Images/sc-900-lab13-7.png)
+      ![](../Images/sc-900-jap11.png)
       
       ![](../Images/sc-900-jap12.png)
       
-      ![](../Images/sc-900-lab13-9.png)
+      ![](../Images/sc-900-jap13.png)
       
-      ![](../Images/sc-900-lab13-10.png)
+      ![](../Images/sc-900-jap14.png)
       
 
 1. On the content markings page, take note of the information box on the top of the page. Turn on the Content Making and select **Add a watermark**, **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.  The content marking associated with this label is a watermark. Select **Next** on the bottom of the page.
@@ -93,24 +93,24 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it. Select **Next** on the bottom of the page.
 
-      ![](../Images/sc-900-lab13-12.png)
+      ![](../Images/sc-900-jap17.png)
 
 1. This next window defines protection settings for groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
-      ![](../Images/sc-900-lab13-13.png)
+      ![](../Images/sc-900-jap18.png)
 
-1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose.  This features is not enabled. Select **Next** on the bottom of the page.
+1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose. This features is not enabled. Select **Next** on the bottom of the page.
 
-      ![](../Images/sc-900-lab13-14.png)
+      ![](../Images/sc-900-jap19.png)
        
       
 1.  Review the settings and click on **Create label**.
 
-      ![](../Images/sc-900-lab13-15.png)
+      ![](../Images/sc-900-jap20.png)
       
 1. Click on **Done** on next window.   
 
-      ![](../Images/sc-900-jap21.png)
+      ![](../Images/sc-900-jap33.png)
           
 1. A new window of Create policy will open. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
 
