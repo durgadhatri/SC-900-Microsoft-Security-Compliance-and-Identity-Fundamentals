@@ -110,7 +110,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
       
 1. Click on **Done** on next window.   
 
-      ![](../Images/sc-900-jap33.png)
+      ![](../Images/sc-900-jap21.png)
           
 1. A new window of Create policy will open. Select **Choose sensitivity labels to publish**. A window opens that provides information about the policy. This policy serves to publish the IT-Department-Demo. Select **Confidential-Finance** from label and select **Add** on the bottom of the page. And then click on **Next**.
 
