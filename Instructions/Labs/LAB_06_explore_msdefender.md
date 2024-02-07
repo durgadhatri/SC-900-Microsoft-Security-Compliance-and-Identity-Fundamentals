@@ -54,11 +54,11 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
       >**Important**: If you're unable to view any resources, please follow these steps:
          -  Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
 
-            ![Picture 1](../Images/sc-900-lab6-image1)
+             ![Picture 1](../Images/sc-900-lab6-image1.png)
      
          - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
       
-            ![Picture 1](../Images/sc-900-lab6-image2)
+             ![Picture 1](../Images/sc-900-lab6-image(2).png)
 
          - Return to the Inventory page and refresh to view the resources.
 
