@@ -50,7 +50,18 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
    1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
       ![Picture 1](../Images/sc900-6-5.png)
-        
+
+      >**Important**: If you're unable to view any resources, please follow these steps:
+         -  Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
+
+            ![Picture 1](../Images/sc-900-lab6-image1)
+     
+         - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
+      
+            ![Picture 1](../Images/sc-900-lab6-image2)
+
+         - Return to the Inventory page and refresh to view the resources.
+
       >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
       
    1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
@@ -77,7 +88,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
        
        ![Picture 1](../Images/sc900-6-6.png)
        
-       >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task.
+       >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task 2.
 
     1. It takes 2-3 hrs to fetch this list of controls.
    
