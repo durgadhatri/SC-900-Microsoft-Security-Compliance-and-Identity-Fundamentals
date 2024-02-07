@@ -51,7 +51,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
        
       ![Picture 1](../Images/sc900-6-5.png)
 
-      >**Important**: If you're unable to view any resources, please follow these steps:
+      >**Important**: If you're unable to view any resources, please follow below steps:
          -  Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
 
              ![Picture 1](../Images/sc-900-lab6-image1.png)
