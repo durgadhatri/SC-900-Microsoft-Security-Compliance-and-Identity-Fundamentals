@@ -21,7 +21,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you'll do a high-level walk-through of some of the capabilities of Microsoft Defender for Cloud
 
-1. Open Microsoft Edge. In the address bar enter **admin.microsoft.com**.
+1. Open Microsoft Edge. In the address bar enter **portal.azure.com**.
 
 1. Sign in with your admin credentials.
    
@@ -50,7 +50,18 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
    1. This brings you to the **Inventory** page that lists the current resources. Select the virtual machine resource, **sc900-win2**. This resource is associated with the virtual machine you used in the previous lab.
        
       ![Picture 1](../Images/sc900-6-5.png)
-        
+
+      >**Important**: If you're unable to view any resources, please follow below steps:
+         -  Navigate to  **Environment settings (1)** under **Management** section. On the **Microsoft Defender for Cloud | Environment settings** page, select **Subscription (2)**
+
+             ![Picture 1](../Images/sc-900-lab6-image1.png)
+     
+         - In the settings page, from the left navigation pane, choose **Security policies (1)** and enable the toggle for **Microsoft cloud security benchmark (2)**.
+      
+             ![Picture 1](../Images/sc-900-lab6-image(2).png)
+
+         - Return to the Inventory page and refresh to view the resources.
+
       >**Note** : It will take around 1-1.5 hr to fetch all the resources inside the Inventory.
       
    1. The Resource health page for the VM provides a list of recommendations.  From the available list, select any item from the list that shows an **unhealthy** status.
@@ -63,7 +74,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
    
-    >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isnt visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
+    >**Note** : If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
 
     ![Picture 1](../Images/sc900-6-4.png)
 
@@ -77,7 +88,7 @@ In this task, you'll do a high-level walk-through of some of the capabilities of
        
        ![Picture 1](../Images/sc900-6-6.png)
        
-       >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task
+       >**Note** : If you are not able to see the list of controls as provided in the Screenshot, skip the below steps and start Task 2.
 
     1. It takes 2-3 hrs to fetch this list of controls.
    

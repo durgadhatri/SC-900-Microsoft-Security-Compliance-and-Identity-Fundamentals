@@ -47,7 +47,7 @@ In this lab, you will complete the following tasks:
 
    ![Picture 1](../Images/image2-lab7.png)
 
-1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display., including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
+1. Once the new workspace is added, the Microsoft Sentinel | News & guides page will display, including that the Microsoft Sentinel free trial is activated. Select **OK**  Note the three steps listed on the Get started page.
 
 1. Keep this page open, as you will use it in the next task.
 
@@ -84,15 +84,15 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. The first step with Microsoft Sentinel is to be able to collect data. From the left navigation panel select **Data connectors**, listed under configuration.
 
-1. On the **Microsoft Sentinel | Data connctor** page scroll down and select **Go to Content hub**.
+1. On the **Microsoft Sentinel | Data connector** page scroll down and select **Go to Content hub**.
 
 1. On **Content hub** page in  the Search bar, search for **Microsoft Defender for Cloud** and then from the list select **Microsoft Defender for Cloud** and click **Install**
 
     ![Picture 1](../Images/image5-lab7.png)
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel | Data connctor** page and refresh the page to get **Microsoft Defender for Cloud** option.
+1. Once installation process is done, navigate back to **Microsoft Sentinel | Data connector** page and refresh the page to get **Microsoft Defender for Cloud** option.
 
-1. On the **Microsoft Sentinel | Data connctor** page , select **Microsoft Defender for Cloud**.
+1. On the **Microsoft Sentinel | Data connector** page , select **Microsoft Defender for Cloud**.
    
 1. The Microsoft Defender for Cloud connector window opens. Review the description then Select **Open connector page**.
  
@@ -112,13 +112,13 @@ In this task you will walk through the steps involved in setting up a data conne
    
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
        
-1. From the left navigation panel, select **Workbooks**, scroll dowm and select **Go to Content hub**.
+1. From the left navigation panel, select **Workbooks**, scroll down and select **Go to Content hub**.
 
 1. On **Content hub** page in the Search bar, search for **ASC Compliance and Protection**  and then from the list select **ASC Compliance and Protection (1)** and click **Install (2)**
 
     ![Picture 1](../Images/image8-lab7.png) 
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
+1. Once installation process is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
 
 1. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
 
@@ -140,13 +140,13 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.
 
-1. GO-TO the **queries** tab, scroll dowm and select **Go to Content hub**.
+1. GO-TO the **queries** tab, scroll down and select **Go to Content hub**.
 
-1. On **Content hub** select **Content title** and select **Install/Upadte**.
+1. On **Content hub** select **Content title** and select **Install/Update**.
 
     >**Note**: wait till installation process to complete.
 
-1. Once installation procees is done, navigate back to **Microsoft Sentinel | Hunting** page and refresh the page.
+1. Once installation process is done, navigate back to **Microsoft Sentinel | Hunting** page and refresh the page.
    
 1. Select the **queries** tab which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
@@ -154,7 +154,9 @@ In this task, you'll walk through some of the options available in Sentinel.
    
     ![Picture 1](../Images/sc900-hunting-query.png)
    
-1. From the left navigation panel, select **MITRE ATT&CK**.  MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework.  Select any cell from the matrix and note the information available on the right side of the screen.  
+1. From the left navigation panel, select **MITRE ATT&CK**. MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework. Select any cell from the matrix and note the information available on the right side of the screen.
+
+>**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
 
     ![Picture 2](../Images/sc900-Mitreattck.png)
 

@@ -42,7 +42,7 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
-   >**IMPORTANT**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
+   >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
            
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -60,7 +60,9 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the left navigation panel under **Manage** section, select **Identity Governance**.
 
-1. From the main window, ensure **Getting started** is underlined then from the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+1. From the main window, ensure **Getting started** is underlined then from the right navigation panel, under **Role Assignments**, select **Manage Azure AD roles**.
+
+   ![](../Images/identity_go_01_1.png)
 
 1. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under **Manage Access**.
 

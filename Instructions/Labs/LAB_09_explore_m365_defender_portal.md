@@ -88,7 +88,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
     ![Picture 1](../Images/sc900-mandt.png)
     
     
-    >**Note:** If you can't see deatils on the **History** and **Metrics & treads** tabs, this is beacause after making configuration changes. it will take about 24 hours to update.
+    >**Note:** If you can't see details on the **History** and **Metrics & treads** tabs, this is because after making configuration changes. it will take about 24 hours to update.
     
     >**Note:** For more details visit: https://learn.microsoft.com/en-us/microsoft-365/security/defender/microsoft-secure-score?view=o365-worldwide
     

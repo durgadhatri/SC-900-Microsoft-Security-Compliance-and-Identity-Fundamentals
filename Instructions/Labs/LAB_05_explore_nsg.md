@@ -138,7 +138,7 @@ be configured.  You'll do that in the next task, when you create a network secur
 
      ![Picture 1](../Images/sc900-5-6.png)
   
-     ![Picture 1](../Images/sc900-5-7.png)
+     ![Picture 1](../Images/inbound_port_01.png)
 
 1. From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
     
@@ -204,7 +204,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. Select **Add outbound port rule**.
 
-   ![Picture 1](../Images/sc900-5-9.png)
+   ![Picture 1](../Images/outbound_port_01.png)
 
 1. On the Add outbound security rule page, specify the following settings:
 
