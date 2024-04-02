@@ -60,17 +60,13 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the left navigation panel under **Manage** section, select **Identity Governance**.
 
-1. From the main window, ensure **Getting started** is underlined then from the right navigation panel, under **Role Assignments**, select **Manage Azure AD roles**.
+1. From the main window, ensure **Getting started** is underlined then from the right navigation panel, under **Role Assignments**, select **Manage Microsoft Entra roles**.
 
-   ![](../Images/identity_go_01_1.png)
+   ![](../Images/L4T2S3.png)
 
-1. You are now in the Privileged Identity Management Quickstart window.  Select **Manage** under **Manage Access**.
+1. In the Privileged Identity Management window, select **Roles** under **Manage**. In the search bar in roles page, search for **User Administrator**
 
-   ![](../Images/sc900lab4-image1.png)
-
-1. You are now on the Roles page.  In the search bar, on the top of the page, enter **user**. From the search results, select **User Administrator**.
-
-   ![](../Images/sc900lab4-image2.png)
+   ![](../Images/L4T2S4.1.png)
 
 1. From the top of the page, select **+ Add Assignments**.
 
@@ -129,13 +125,13 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
    
 1. From the left navigation panel, select **Identity Governance**.
 
-1. From the left navigation panel, under Privileged Identity Management, select **Azure AD roles**.
+1. From the left navigation panel, under Privileged Identity Management, select **Microsoft Entra Roles**.
 
 1. On the **Privileged Identity Management | Quick start** page, from the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
 
 1. In the last column of the table, labeled action, select **Activate**.
 
-    ![](../Images/sc900lab4-image4.png)
+    ![](../Images/myroles.png)
 
 1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
