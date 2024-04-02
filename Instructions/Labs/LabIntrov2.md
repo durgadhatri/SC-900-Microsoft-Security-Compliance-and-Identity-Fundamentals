@@ -1,6 +1,6 @@
 # Getting Started with Your SC-900: Microsoft Security, Compliance, and Identity Fundamentals Workshop
  
-Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamentals workshop! We've prepared a seamless environment for you familiarize yourself with the fundamentals of security, compliance, and identity (SCI) across cloud-based and related Microsoft services. Let's begin by making the most of this experience:
+Welcome to your SC-900: Microsoft Security, Compliance, and Identity Fundamentals workshop! We've prepared a seamless environment for you to familiarize yourself with the fundamentals of security, compliance, and identity (SCI) across cloud-based and related Microsoft services. Let's begin by making the most of this experience:
  
 ## Accessing Your Lab Environment
  
@@ -61,12 +61,14 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    - **Password:** <inject key="AzureAdUserPassword"></inject>
  
    ![Enter Your Password](../Images/sc900-image-2.png)
+
+4. If a **Action Required** window appears, click on **Ask later**.
+
+5. If prompted to stay signed in, you can click "No."
  
-4. If prompted to stay signed in, you can click "No."
+6. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
  
-5. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Maybe Later" to skip the tour.
- 
-6. Click "Next" from the bottom right corner to embark on your Lab journey!
+7. Click "Next" from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](../Images/sc900-image(3).png)
  
