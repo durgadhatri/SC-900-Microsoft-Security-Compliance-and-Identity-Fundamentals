@@ -93,6 +93,13 @@ be configured.  You'll do that in the next task, when you create a network secur
 
 1. Leave this browser tab open.
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Network security groups**, and then select **Network security groups** under services (do not select Network security groups classic).
@@ -121,7 +128,7 @@ be configured.  You'll do that in the next task, when you create a network secur
 
 1. Once the interface is associated to the NSG, it will show up on the list.
 
-1. Navigate to SC900-WinVM Overview page, under **Networking**  select **Network settings** from the left navigation pane and then **Inbound port rule** from the **+ Create port** rule drop down.
+1. Navigate to SC900-WinVM Overview page, under **Networking**  select **Network settings** from the left navigation pane and then **Inbound port rule** from the **+ Create port rule** drop down.
 
     ![Picture 1](../Images/sc900-lab5-3.png)
 
@@ -145,6 +152,12 @@ be configured.  You'll do that in the next task, when you create a network secur
   
     > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
+    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+      
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
@@ -188,7 +201,7 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
    > **Note** the default rule "AllowInternetOutBound". This rule allows all outbound internet traffic. You cannot remove the default rule, but you can override it by 
       creating a rule with higher priority. From the right side of the page,
 
-1. Select **Outbound port rule** from the **+ Create port** rule drop down
+1. Select **Outbound port rule** from the **+ Create port rule** drop down
 
    ![Picture 1](../Images/sc900-lab5-4.png)
 
