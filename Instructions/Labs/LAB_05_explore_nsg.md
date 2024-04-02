@@ -81,9 +81,7 @@ In this lab, you will complete the following tasks:
 
 1. You are now in the SC900-WinVM page.  Note the public IP address. 
 
-1. From the top of the page, select **Connect** then select **RDP**. 
-
-1. Verify the IP address is set to Public IP address, leave the default port number and select **Download RDP file**. 
+1. From the top of the page, select **Connect** > **connect** then under **Navtive RDP** select **Download RDP file**. 
 
 1. Open the downloaded file and select **Connect**. 
 
