@@ -115,13 +115,9 @@ be configured.  You'll do that in the next task, when you create a network secur
    | **Region** |  leave the default value |
    | **Select** | **Review + create** then select **Create**. |
     
-     ![Picture 1](../Images/sc900-5-5.png)
-
 1. Once the deployment is complete, select **Go to resource**.
 
 1. On the top of the page underneath where it says Essentials, you'll see some basic information about the NSG you created.  Two points to note are that there are no Custom Security rules and there are no subnets nor network interfaces associated with this NSG.  Although there are no custom security rules, there are default inbound and outbound rules that are included with every NSG, as shown on the page.  Review both the inbound and outbound rules. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer.  The outbound rules deny all outbound traffic except traffic between virtual networks and outbound traffic to the internet.
-
-   ![Picture 1](../Images/sc900nsgessensiallch.png)
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 1. Select the **Associate**, above search box.
@@ -135,11 +131,7 @@ be configured.  You'll do that in the next task, when you create a network secur
 1. The default inbound rules deny all inbound traffic that is not from a virtual network or an Azure load balancer so you need to set up a rule to allow inbound RDP 
     traffic (traffic on port 3389). Recall that you cannot remove the default rules, but you can override them by creating rules with higher priorities.
 
-     ![Picture 1](../Images/sc900-5-6.png)
-  
-     ![Picture 1](../Images/inbound_port_01.png)
-
-1. From the top of the page, select **Add**. On the Add inbound security rule window, specify the following settings:
+1. From the left navigation pane under **settings** select Inbound security rules and specify the following settings:
     
     | Setting | Action |
     | -- | -- |
