@@ -90,9 +90,10 @@ be configured.  You'll do that in the next task, when you create a network secur
 
    ![Picture 1](../Images/08.png)
    
-1. From the left navigation panel, select **Networking**.  
+1. From the left navigation panel, under **Networking** section select **Network settings**.
+    
      - The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-     - Select **Effective security rules** next to where it says Network interface.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+     - Select **Effective security rules 0** link.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
 1. Leave this browser tab open.
 
