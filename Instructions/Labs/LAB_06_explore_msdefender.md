@@ -105,7 +105,7 @@ Recall that Microsoft Defender for Cloud is offered in two modes: without enhanc
 
 1. Verify that Foundational CSPM status is set to **On**, if not, set it now.  
 
-1. Enable the plan for Servers and then select **Save** from the top of the page.
+1. Select **Save** from the top of the page.
    
    ![Picture 1](../Images/sc900-6-2.png)
       
