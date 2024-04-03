@@ -58,14 +58,12 @@ In this lab, you will complete the following tasks:
 
 1. From the main left navigation panel, select **Regulatory compliance**. The regulatory compliance page provides a list of compliance controls based on the Microsoft Cloud security benchmark (verify that the Microsoft Cloud security benchmark tab is selected/underlined). Under each control domain is a subset of controls and for each control, there are one or more assessments. Each assessment provides information including description, remediation, and affected resources.
    
-    >**Note**: If you are not able to see the assessments Go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** and select **Default initiative** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review+Create** and Click on **Create**. under **Industry & Regulatory Standards** section Microsoft cloud security benchmark got disabled. It may take a few hours to reflect.
+    >**Note**: If the assessments are greyed out, go to **Manage Compliance Policies** and then **Environment Settings page** open select **Subscription**(decrease the resolution if it isn't visible) then the Defender plans page open then go to **Security policy** from the left navigation pane and against **Microsoft cloud security benchmar** click on the elipsis and choose **View in Azure policy** then initiative assignment page open here In **Scope** option select Azure subscription and **Assignment name** as **Microsoft cloud security benchmark** and leave remaining as default and select **Review + Create** and click on **Create**.
 
-    ![Picture 1](../Images/sc900-6-4.png)
+    ![Picture 1](../Images/s3.png)
 
-    ![Picture 1](../Images/selectsubinsecpolicy2.png)
+    ![Picture 1](../Images/s4.png)
      
-    ![Picture 1](../Images/openinazurepolicy3.png)
-
     ![Picture 1](../Images/s2.png)
      
 1. Let's explore one of the control domain areas. Select (expand) **NS. Network Security**. A list of controls related to network security is displayed.
