@@ -19,7 +19,7 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Explore on Microsoft Defender for Cloud
 
-1. In the Azure portal in the blue search bar at the top enter **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
+1. In the Azure portal, in the **Search resources, services, and docs** search for **Microsoft Defender for Cloud**, then from the results list, select **Microsoft Defender for Cloud**.
 
 1. If this is the first time you enter Microsoft Defender for Cloud with your subscription, you may land on the Getting started page and be prompted to upgrade.  Scroll to the bottom of the page and select **Skip**. You'll be taken to the Overview page.
 
