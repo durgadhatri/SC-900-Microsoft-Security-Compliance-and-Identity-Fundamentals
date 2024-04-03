@@ -32,7 +32,7 @@ In this lab, you will complete the following tasks:
     | Setting | Action |
     | -- | -- |
     | Subscription |  **Select the given subscription (1)**  |
-    | Resource group | select **SC900-ResourceGroup** |
+    | Resource group | Select **SC900-ResourceGroup** |
     | Name | **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** |
     | Region | leave this default |
     |||
