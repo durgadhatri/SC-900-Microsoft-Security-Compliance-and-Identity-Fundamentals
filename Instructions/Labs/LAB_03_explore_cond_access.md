@@ -106,7 +106,7 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
-    ![](../Images/sc900lab3-image4.png)
+    ![](../Images/MFATestPolicy.png)
 
 1. Sign out of Azure and close your browser windows.
 
