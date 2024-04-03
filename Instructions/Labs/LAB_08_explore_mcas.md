@@ -1,8 +1,7 @@
-
-# Lab-08: Explore Microsoft Cloud App Security
+# Lab-08: Explore Microsoft Defender for Cloud Apps
 
 ## Lab scenario
-In this lab, you will explore the capabilities of Microsoft Cloud App Security.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App Security which is a user-based subscription service. 
+In this lab, you will explore the capabilities of Microsoft Cloud App.  You will walk through the information available on the Cloud Discovery dashboard as well as capabilities available to investigate findings and control impact to your organization through policies.  Note:  An organization must have a license to use Microsoft Cloud App which is a user-based subscription service. 
 
 ## Lab objectives
 
@@ -21,9 +20,8 @@ In this lab, you will complete the following tasks:
 
 ## Task 1: Explore Cloud Discovery
 
-1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**, sign in with your admin credentials.
+1.	Open Microsoft Edge. In the address bar enter **https://portal.cloudappsecurity.com**.
 
-1. Sign in with the following credentials.
     
 1. In the Sign in window enter following email  then select **Next**.
 
@@ -32,40 +30,38 @@ In this lab, you will complete the following tasks:
 1. Enter the admin following password and select **Sign in**.
 
    * Password : **<inject key="AzureAdUserPassword"></inject>** 
-   
-1. On the left menu Under **Discover** select **Create snapshot report**. 
-  
-   >**Note**: if could not found under **Discover** then select **Settings** in the top right corner and click **settings**, Under **Cloud Discovery** select **Snapshot  Reports**, and click **+ Create Snapshot Report**.
- 
-     ![Picture 1](../Images/setting.png)
-   
-     ![Picture 1](../Images/createsnapst.png)
-        
-1. Collect log files from your firewall and proxy, through which users in your organization access the Internet. Make sure to gather logs during times of peak traffic that are representative of all user activity in your organization.
 
-1. If you don't have a log file follow the below steps to download a sample log file.
+1. From the left navigation menu, under **System**, select **Settings (1)**.
+
+1. On the **Settings** page, select **Cloud apps**.
+
+1. On the **Cloud apps** page, Under **Cloud Discovery**, select **Snapshot Reports (2)**, and click **+ Create Snapshot Report (3)**.
+
+    ![Picture 1](../Images/snapshot-2.png)
  
-1. Under overview tab, click **Next**.
+1. Under **Overview** tab, click **Next >**.
     
-1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log 
-   format** then Download sample log and click on **Next**.
+1. Under **Report Details** tab, Enter a **Report name** and a **Description**. Select the **source** from which you want to upload the log files. Click **View log format** then **Download sample log** and click on **Next**.
  
    ![Picture 1](../Images/createsnapsotanddown.png)
  
-1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs**.
+1. Under **Upload Traffic Logs** Tab, In **Choose traffic logs** browse and upload the log file which you downloaded. Click **Upload logs >**.
 
-1. After the upload completes, click on **snapshot reports** link on Create new Cloud Discovery snapshot report page.
+1. After the upload completes, click on **snapshot reports** link on **Create new Cloud Discovery snapshot report** page.
 
 1. After you upload your log files, it will take some minutes for them to be parsed and analyzed. Wait till the status of your log files turns **Ready**.
 
     ![Picture 1](../Images/readysr.png)
     
-1. In the New tab  enter **admin.microsoft.com**
+1. Open a new tab  enter **admin.microsoft.com**
 
 1. Sign in with your admin credentials.
-    1. In the Sign in window enter Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
-    1. Enter the admin password  Password: <inject key="AzureAdUserPassword"></inject>
-    1. When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
+    
+    - In the Sign in window enter Email/Username: <inject key="AzureAdUserEmail"></inject>  then select **Next**.
+    
+    - Enter the admin password  Password: <inject key="AzureAdUserPassword"></inject>
+    
+    - When prompted to stay signed-in, select **Yes**. This takes you to the Microsoft 365 admin center page.
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
@@ -75,17 +71,15 @@ In this lab, you will complete the following tasks:
     
 1. If this is the first time you visit the Microsoft 365 Defender portal, you may get a pop-up window to take a quick tour.  Close this.
 
-1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Note the information 
-   available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  
+1. From the left navigation panel, select **Cloud apps** to expand the list then select **Cloud Discovery**. This takes you to the Dashboard view.  Note the information available on the dashboard. From the dashboard view, you can select different tabs from the top of the page.  
 
     ![Picture 1](../Images/dis.png)
 
-1. In the Cloud Discovery page, select the **Discovered apps** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, 
-   traffic, number of users and more.
+1. In the Cloud Discovery page, select the **Discovered apps (1)** tab.  The discovered apps window provides a more detailed view of the discovered apps, including risk score, traffic, number of users and more.
+
+1. From any item on the list, select the ellipses **(⋮) (2)** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
 
     ![Picture 1](../Images/disapp.png)
-
-1. From any item on the list, select the ellipses **(⋮)** in the actions’ column of the table.  Note the various options available, including the ability to tag an app as sanctioned or unsanctioned.  Select the ellipses, again, to close the actions box.
 
 1. Selecting a specific line item opens a details page for the specific app. Select an item from the list and review the information available on the overview page.  For the selected item,
 
@@ -119,7 +113,7 @@ In this lab, you will complete the following tasks:
 
 1. From the Microsoft Azure pop-up window, select **Connect Office 365** then select **Done**.
 
-1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left-most navigation panel.
+1. You'll see a connected status (if you don't see it, refresh the browser) and information on scanning users, data, and activities.  Return to the Cloud Discovery dashboard, by selecting **Cloud Discovery** from the left navigation panel.
     
     ![Picture 1](../Images/updated1.png)
     
@@ -143,9 +137,7 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Select **Compliance risk factor** to view the available options.  You can further filter by risk score, by moving the sliders on the risk score on the top of the page. If you moved the slide, be sure to set it so the range is set at 0 to 10.
 
-1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Yammer**, then select **Social network**.  Select **Yammer** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
-
-    ![Picture 1](../Images/yammer.png)
+1. Admins can also search for apps by category.  For example, in the Apps search bar field enter **Microsoft Viva Engage**, then select **Social network**.  Select **Microsoft Viva Engage** for a detailed view.  Hovering your mouse over any topics for a given category will show an information icon that you can select to get more information about that topic.
 
 ## Task 3: Explore the Activity log and Files
 
@@ -161,13 +153,13 @@ Cloud Discovery analyzes your traffic logs against the Microsoft Defender for Cl
 
 1. Select **Cancel** to exit of the policy creation window, then select **Leave page**.
 
-1. From the left navigation panel, select **Activity Log**. Here you get visibility into all the activities from your connected apps.
+1. From the left navigation panel, select **Activity Log**, under **Cloud apps**. Here you get visibility into all the activities from your connected apps.
 
 1. You may not see any data listed as it can take several hours to perform retroactive scans once audit is enabled and lab tenants may experience longer than normal delays. Note the available filter options and the option to create new a policy from search.
 
 ## Task 4: In this task you will explore the policies and alerts pages in Microsoft Cloud app security
 
-1. From the left navigation panel, select **Policies** then select **Policy management**.  The listed policies provide information on the number of alerts generated by the     policy, severity, etc.
+1. From the left navigation panel, select **Policies** under **Cloud apps**, then select **Policy management**.  The listed policies provide information on the number of alerts generated by the policy, severity, etc.
 
 1. Selecting any line item provides more detailed information about the policy. Select an item from the list, i.e. **Risky sign-in**. 
 
