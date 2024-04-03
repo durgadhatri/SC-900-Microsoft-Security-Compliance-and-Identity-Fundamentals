@@ -139,21 +139,10 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. You are notified that more information is required, select **Next**.
 
-1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
+1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. Select **Next** Twice.  Download the Microsoft Authenticator app from PlayStore/AppStore, open the application and Scan the QR Code. select the **App Lock OK** on Phone and select **next** in the Lab provide the verification code on Shown in the Lab sign in page in the Mobile Phone to Authenticate using the Authenticator App then select **Next**. Select **Done**
 
-    ![](../Images/sc900lab3-image7.png)
+    ![](../Images/settings_authenticator_app_new.png)
 
-1. You are prompted to enter a phone number you would like to use. Ensure the country is correct, for your telephone number’s country code.  Enter your phone number, ensure that **Text me a code** is selected, then select **Next**.
-
-    ![](../Images/sc900lab3-image8.png)
-   
-1. Enter the 6 digit code you received on your phone and select **Next**. 
-
-    ![](../Images/sc900lab3-image9.png)
-
-1. You will see a notification that your phone was registered successfully. Select **Next**, then select **Done**.
-
-1. You are asked if you want to stay signed in.  Select **Yes**.
    
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
