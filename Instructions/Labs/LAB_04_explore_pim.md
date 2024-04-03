@@ -139,7 +139,7 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. You are notified that more information is required, select **Next**.
 
-1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. Select **Next** Twice.  Download the Microsoft Authenticator app from PlayStore/AppStore, open the application and Scan the QR Code. select the **App Lock OK** on Phone and select **next** in the Lab provide the verification code on Shown in the Lab sign in page in the Mobile Phone to Authenticate using the Authenticator App then select **Next**. Select **Done**
+1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. Select **Next** Twice.  Download the Microsoft Authenticator app from PlayStore/AppStore to your Mobile Phone, open the application and Scan the QR Code. select the **App Lock OK** on Phone and select **next** in the Lab, provide the verification code on Shown in the Lab sign in page in the Mobile Phone to Authenticate using the Authenticator App then select **Next**. Select **Done**
 
     ![](../Images/settings_authenticator_app_new.png)
 
