@@ -96,9 +96,9 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. From the top of the page, select **Settings**.
 
-1. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set to yes.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
+1. In the Role setting details for the User Administrator, notice the different options.  Note that the setting to “Require justification on activation” is set to yes, and “On activation, require Azure MFA” is also set.  You will see both of these in the next task when Diego activates the role.  Also, note that “Require approval to activate” is set to No.  Leave all the settings to their default values.  Close the page by selecting the **X** on the top right corner of the screen.
 
-   ![](../Images/settings10.png)
+   ![](../Images/settings_new10.png)
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
