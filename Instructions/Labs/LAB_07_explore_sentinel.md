@@ -32,14 +32,14 @@ In this lab, you will complete the following tasks:
     | Setting | Action |
     | -- | -- |
     | Subscription |  **Select the given subscription (1)**  |
-    | Resource group | select **Create New**, then enter the name **SC900-ResourceGroup** then select **OK**. |
+    | Resource group | select **SC900-ResourceGroup** |
     | Name | **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** |
     | Region | leave this default |
     |||
 
     ![Picture 1](../Images/image1-lab7.png)
 
-1. click **Review + Create**.   
+1. Click **Review + Create**.   
 
 1. Verify the information you entered then select **Create**.
 
@@ -58,7 +58,7 @@ With the Microsoft Sentinel instance created, it is important that users that wi
 
 1. In the **Search resources, services, and docs** search for **resource groups** then select **Resource groups** from the search results. 
 
-1. From the Resource groups page, select the resource group that you created with Microsoft Sentinel, **SC900-ResourceGroup**.
+1. From the Resource groups page, select the resource group  with Microsoft Sentinel, **SC900-ResourceGroup**.
 
    >**Note**: Working at the resource group level will ensure that any role that is selected will apply to all the resources that are part of the Microsoft Sentinel instance that was created in the previous task.
 
@@ -104,11 +104,11 @@ In this task you will walk through the steps involved in setting up a data conne
 
 1. From the configuration section, select listed subscription, select your azure subscription so that a checkmark appears in a blue box,
 
-1. then select **Connect** (the connect option is shown above the search box).
+1. Then select **Connect** (the connect option is shown above the search box).
 
 1. A Connect window will appear, select **OK**.
 
-1. In the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left      side of the page, do NOT refresh the browser.
+1. In the status column, next to the subscription you should see that status update to Connected.  Don't worry if you don't see connected status in the window on the left side of the page, do NOT refresh the browser.
    
 1. Return to **Microsoft Sentinel** and from the Microsoft Sentinel page, select the workspace you created with the instance of Microsoft Sentinel, **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
        
@@ -118,20 +118,26 @@ In this task you will walk through the steps involved in setting up a data conne
 
     ![Picture 1](../Images/image8-lab7.png) 
 
-1. Once installation process is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page to get **ASC Compliance and Protection** option.
+1. Once the installation process is done, navigate back to **Microsoft Sentinel | Workbooks** page and refresh the page and go to the templates tab to view the  **ASC Compliance and Protection** option.
 
-1. under **Templates** tab search and select **ASC Compliance and Protection** (Note: ASC or Azure Security Center is now called Microsoft Defender for Cloud). This opens the workbooks page.
+   ![Picture 1](../Images/s7.png) 
 
-1. On the bottom right side of the screen, review the description then select **Save** from the bottom of the screen then select **OK** to save the workbook to the default location. Now select **View saved workbook**.
+1. Select **ASC Compliance and Protection** option and click **Save**.In the prompt that appears you can leave it to the default location and click **Yes**.
 
-   1. In the workspace field, select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>**.
-   1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
-   1. From the top of the workbook page, select the **Save icon**.
-   1. From the top-left corner of the Workbooks page, above where it says Workbooks, select **Microsoft Sentinel** and Select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** This returns 
-      you to the Overview page.
-   1. On the Overview page, select **New overview** toggle and scroll down and select **data connectors** under **Data** section then you should now see the number 1 above 
-      where it says connected, to indicate one active connector (you may need to select refresh).
+   ![Picture 1](../Images/s9.png)
 
+   >**Note:** You may have to click on the small double-headed arrow towards the right of the page to view the options.
+
+1. Now, click on **View saved Notebook**.
+
+   ![Picture 1](../Images/s10.png)
+
+1. In the workspace field, select **SC900-LogAnalytics-workspace-<inject key="DeploymentID" enableCopy="false"/>** if it is not selected already.
+
+1. From the top of the workbook page, select **Auto refresh: Off**, then select **5 minutes** and select **Apply**.
+
+1. From the top of the workbook page, select the **Save icon**.
+   
 1. Keep this page open, as you'll use it in the next task
     
 ## Task 4 : Explore on capabilities available in Sentinel
@@ -140,15 +146,9 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Hunting**.
 
-1. GO-TO the **queries** tab, scroll down and select **Go to Content hub**.
-
-1. On **Content hub** select **Content title** and select **Install/Update**.
-
-    >**Note**: wait till installation process to complete.
-
-1. Once installation process is done, navigate back to **Microsoft Sentinel | Hunting** page and refresh the page.
+1. Go to the **queries** tab.
    
-1. Select the **queries** tab which is selected (underlined), select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
+1. Select any query from the list.  Once a query is selected, note the information that is provided about that query, including the code for the query, as well as the option to run the query and see results.  Don't select anything.
    
     ![Picture 1](../Images/sc900-hunting.png)
    
@@ -156,17 +156,17 @@ In this task, you'll walk through some of the options available in Sentinel.
    
 1. From the left navigation panel, select **MITRE ATT&CK**. MITRE ATT&CK is a publicly accessible knowledge base of tactics and techniques that are commonly used by attackers. With Microsoft Sentinel you can view the detections already active in your workspace, and those available for you to configure, to understand your organization's security coverage, based on the tactics and techniques from the MITRE ATT&CK® framework. Select any cell from the matrix and note the information available on the right side of the screen.
 
->**Note**: You may need to select the "**<<**" at the far-right side of the window to see the information panel.
+   ![Picture 1](../Images/s11.png)
 
-    ![Picture 2](../Images/sc900-Mitreattck.png)
+   >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
-1. From the left navigation panel, select **Community**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen,
-
-1. select **Onboard community content**.  A new tab to the GitHub repository opens where you can download content to enable your scenarios. Scroll down to the README.md section and review the description. Return to the Azure tab in your browser.
+1. From the left navigation panel, select **Community** under **Content Management**. Microsoft security analysts constantly create and add new workbooks, playbooks, hunting queries, and more, posting them to the community for you to use in your environment. From the right side of the screen,
 
 1. From the left navigation panel, select **Analytics**.  Select the first item from the list **Advanced Multistage Attack Detection**.
 
-    >**Note**: the detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
+    >**Note**: The detailed information.  Microsoft Sentinel uses Fusion, a correlation engine based on scalable machine learning algorithms, to automatically detect multistage attacks (also known as advanced persistent threats) by identifying combinations of anomalous behaviors and suspicious activities that are observed at various stages of the kill chain. On the basis of these discoveries, Microsoft Sentinel generates incidents that would otherwise be difficult to catch.
+    
+    >**Note**: You may need to select the "**>>**" at the far-right side of the window to see the information panel.
 
 1. From the left navigation panel, select **Automation**.  Here you can create simple automation rules, integrate with existing playbooks, or create new playbooks.  Select **+ Create** dropdown, and then select **Automation rule**. Note the window that opens on the right side of the screen and the options available to create conditions and actions.  Select **Cancel** from the bottom of the screen.
  
@@ -174,28 +174,24 @@ In this task, you'll walk through some of the options available in Sentinel.
 
 1. From the left navigation panel, select **Workbooks**. From the Workbooks page, select the **My workbooks** tab, which is above the search box.  The workbook you saved earlier is listed and available for you to view and monitor your data.
   
-    >**Note**: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal                  delays in collecting data that can be visualized in the workbook.
+    >**Note**: There isn't any real activity happening in the Azure subscription to reflect in the workbook and Azure lab subscriptions may experience greater than normal  delays in collecting data that can be visualized in the workbook.
   
     ![Picture 1](../Images/sc900-2.png)
   
 1. Close the window by selecting the **X** on the top-right corner of the window.
 
-1. From the top left corner of the window, just below the blue bar, select **Home** to return to the home page of the Azure portal.
-
-1. Close all the open browser tabs.
-
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
       
 ## Review
 In this lab, you have completed:
-- Create a Microsoft Sentinel instance
+- Creating a Microsoft Sentinel instance
 - Built-in Microsoft Sentinel roles
 - Data connector to your instance of Microsoft Sentinel
-- Explore on capabilities available in Sentinel
+- Explored on capabilities available in Sentinel
 
 ## You have successfully completed the lab
 
