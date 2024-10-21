@@ -150,11 +150,10 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     ![](../Images/sc900-image15.png)
     
-1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
+1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.
+To add a license, click on **Go to the Microsoft 365 admin center** from the alert message.
 
-1. To add a license select **+ Assignments** from the top of the main window.
-
-     ![](../Images/sc900-image16.png)
+     ![](../Images/T3-S11.png)
 
 1. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
 
