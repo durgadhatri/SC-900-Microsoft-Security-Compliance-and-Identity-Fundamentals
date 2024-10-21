@@ -4,11 +4,11 @@
         "Language": "English",
         "Files": [
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LabIntrov2.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Oct-2024/Instructions/Labs/LabIntrov2.md",
                 "Order": 1
             },
             {
-                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Prod/Instructions/Labs/LAB_02_explore_azure_sspr.md",
+                "RawFilePath": "https://raw.githubusercontent.com/CloudLabs-MOC/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/Oct-2024/Instructions/Labs/LAB_02_explore_azure_sspr.md",
                 "Order": 2
             }
         ]
