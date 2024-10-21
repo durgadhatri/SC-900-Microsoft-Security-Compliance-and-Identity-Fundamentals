@@ -1,4 +1,4 @@
-
+ 
 # Lab-01: Explore Microsoft Entra ID User Settings
 
 ## Lab scenario
