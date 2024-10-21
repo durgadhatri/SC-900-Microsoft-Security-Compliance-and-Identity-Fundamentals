@@ -71,6 +71,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. On the Microsoft Entra ID page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
+    ![](../Images/T2-S1.png)
+
 1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Microsoft 365**.
