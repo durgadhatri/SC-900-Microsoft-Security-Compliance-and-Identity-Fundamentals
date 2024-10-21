@@ -103,7 +103,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. From the left navigation panel of Password reset, select **Authentication Methods**.
 
-1. In the Number of methods required to rest, select **1**. Note the information box on the screen.
+1. In the Number of methods required to reset, select **1**. Note the information box on the screen.
 
 1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
 
