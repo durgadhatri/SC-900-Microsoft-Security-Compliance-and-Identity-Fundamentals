@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will reset the password for the user Debra Berger.  This step is needed so you can initially sign in as the user in subsequent tasks.
 
-1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com with the Azure credentials.
+1. Open Microsoft Edge, and in the address bar, enter **https://entra.microsoft.com**, and sign in. 
 
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**.
    
@@ -32,11 +32,9 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
    
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. On the Azure portal locate the search bar at the top of the page. Select the search result for **Microsoft Entra ID**.
+1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
-1. From the left navigation panel select **Users**.
-
-1. Select Debra Berger from the list of users.
+1. Select **Debra Berger** from the list of users.
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
@@ -57,22 +55,18 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
  In this task, you will go through the process of creating a conditional access policy in Microsoft Entra ID. 
 
-1. On the **Microsoft Entra ID** page, under **Manage** section, select **Properties**, click on **Manage Security defaults** link, ensure that Security defaults is set to **Disabled**.
+1. Open the browser tab to the home page of the Microsoft Entra admin center. If you previously closed the browser tab, open Microsoft Edge and in the address bar enter **https://entra.microsoft.com** and sign in. 
 
-   ![](../Images/sc900lab3-image1.png)
+1. From the left navigation pane, expand **Protection** then select **Conditional Access** and click on **+ Create new policy**. 
+
+   ![](../Images/create-policy.png)
    
-   >**Note**: If Security defaults is not set to **Disabled** kindly select **Disabled** from dropdown and click on **Save**. <br>
-   >**Note**: If Security defaults is set to **Disabled** and You cannot see **Manage Security defaults** link. Proceed with the next step.
- 
-1. Go back to the [Microsoft Entra ID Home page](https://entra.microsoft.com). From the left navigation panel, under **Manage** section, select **Security**.
+   >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disable** from the drop down menu.
+   > ![](../Images/disable-security-defaults.png)
 
-1. On **Security** page, from the left navigation panel, under **Protect** section, select **Conditional Access**.
+1. Enter the following details,
 
-1. The Conditional Access Policies screen is displayed. Any existing Conditional Access Policies are listed here. Select **+ Create new policy**.
-
-    ![](../Images/sc900lab3-image2.png)
-
-    - In the Name field, enter **MFA Test Policy**.
+    - In the Name field, enter **Block admin portals**.
 
     - Under Users, select **0 users and groups selected**.
 
@@ -90,78 +84,60 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
 
-1. In the search bar, Type/Search and select **Microsoft admin portal**, then press **Select** at the bottom of the page.  Notice the warning.  
+1. In the search bar, Type/Search and select **Microsoft admin portals**, then press **Select** at the bottom of the page.  Notice the warning.  
+    
+    ![](../Images/mirco_01.png)
 
- ![](../Images/mirco_01.png)
+1. Under Network, select **Any network or location**.  Review the options but do not select any options.
+   
+    ![](../Images/select-network.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
 1. Now you will set the access controls.  Under Grant, select **0 controls selected**.
 
-1. The Grant window opens.  Ensure **Grant access** is selected and then select **Require multifactor authentication**.  Under the section For multiple controls, leave the default **Require all the selected controls**.  Press **Select** at the bottom of the page.
+1. The Grant window opens.  Ensure **Block access** is selected and then press **Select** at the bottom of the page.
+
+    ![](../Images/grant-controls.png)
 
 1. At the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
     ![](../Images/lab3-1.png)
 
-1. After a few seconds, the MFA Test policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
+1. After a few seconds, the **Block admin portals** policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
-    ![](../Images/MFATestPolicy.png)
+    ![](../Images/policy-created.png)
 
 1. Sign out of Azure and close your browser windows.
 
 ## Task 3: Impact of the conditional access policy
 
-In this task, you will see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You will start first by signing in to an application that is not included in the conditional access policy.  Then you will repeat the process for an application that is included in the conditional access policy.  Recall that the policy requires the user to go through MFA when accessing a Microsoft Azure Management application.  To use MFA, the user must first register the authentication method that will be used for MFA, for example, a code sent to a mobile device or an authenticator application.
+In this task, you will see the impact of the conditional access policy, from the perspective of the user, Debra Berger. You will start first by signing in to an application that is not included in the conditional access policy.  Then you will repeat the process for an application that is included in the conditional access policy.  Recall that the policy blocks accessing any of the Microsoft Admin Portals, including the Azure portal.
 
 1. Open Microsoft Edge.  In the address bar of the browser, enter **https://login.microsoftonline.com/**.
 
 1. Sign in as Debra Burger,
     1. In the Sign in window enter **debrab@xxxxxx.onmicrosoft.com** (where xxxxxx can be found in the Environment Details Tab in the Lab Guide section) then select **Next**.
     1. Enter the password you noted in the earlier task. Select **Sign in**.
-    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password (this is not part of MFA).  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
+    1. Since the password provided when you, as the admin, reset the password is temporary you need to update your password.  Enter the current password, then for the new password and confirm password fields enter **SC900-Lab**.
     1. When prompted to stay signed- in, select **Yes**
 
-1. You should be successfully logged in to your Microsoft 365 account.  MFA was not required for this application as it is not part of the policy.
+1. You should be successfully logged in to your Microsoft 365 account. 
 
-   ![](../Images/sc900lab3-image6.png)
+1. Now you will attempt to sign in to an application that meets the criteria for Conditional Access policy.  Open Microsoft Edge and in the address bar, enter **https://portal.azure.com**. 
 
-1. Now you will attempt to sign in to an application that meets the criteria for MFA.  Open Microsoft Edge and in the address bar, enter https://portal.azure.com.
+1. A pop-up window appears indicating "You don't have access to this."  This is a result of the conditional access policy that blocks your access to all Microsoft admin portals.
 
-1. You will see a window indicating, More information required.  Select **Next**.  Note, this will initiate the MFA registration process, as this is the first time you are accessing the cloud app that was identified in the conditional access policy.  This registration process is required only once.   An alternative to having the user go through the registration process is to have the admin configure the authentication method to use.
-
-   ![](../Images/more-info-debrab(1).png)
-
-1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. For expediency in this lab exercise, you will choose a different method.  Select **I want to set up a different method**.  From the Chose a different method pop-up window, select the **drop-down arrow** and select **Phone** then select **Confirm**.
-
-    ![](../Images/sc900lab3-image7.png)
-
-1. In the window that opens, ensure your country is selected then enter the mobile phone number you wish to use and ensure that **Text me a code** is selected, then press **Next**.
-    ![](../Images/sc900lab3-image8.png)
-
-1. Enter the code sent to mobile number and click **Next**, then the screen will display **SMS verified Your phone was registered successfully**, select **Next** then select **Done**, this completes the one-time registration process.
-
-    ![](../Images/sc900lab3-image9.png)
-
-1. You will likely get a message indicating that your sign-in timed out.  Just enter the password **SC900-Lab** and select **Sign in**.
-
-    ![](../Images/sc900lab3-image10.png)
-
-1. You will see a window prompting **Verify your identity**, select your phone number to receive the code.
-
-    ![](../Images/sc900lab3-image11.png)
-   
-1. You will see a window prompting you to enter the code that was sent to your phone.  Enter the code and select the **Verify** button.  When prompted to stay signed in, select **No**. This is the experience that you will experience anytime you access a Microsoft Azure Management cloud application, such as the Azure Portal, per the MFA policy.
-
-1. You should now be able to access the Azure portal.  The Azure portal is a Microsoft Azure Management application and therefore requires multi-factor authentication, per the conditional access policy that was created.  
+   ![](../Images/no-access.png)
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting Sign out. Then the close all the browser windows.
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    - If you receive a success message, you can proceed to the next task.
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+   <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />   
 
 ## Review
 In this lab, you have completed:
