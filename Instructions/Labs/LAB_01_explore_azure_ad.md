@@ -157,7 +157,7 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
 1. Log in to the Microsoft 365 admin center. Since you are already signed in as <inject key="Username" enableCopy="false" />, you will be automatically logged in when you access the portal.
 
-     ![](../Images/T3-S12b.png)
+     ![](../Images/T3-S12a.png)
     
 1. From the left navigation panel, under **users**, select **Active users**.
 
