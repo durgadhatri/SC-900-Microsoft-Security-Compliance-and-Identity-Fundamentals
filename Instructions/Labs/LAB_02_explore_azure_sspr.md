@@ -127,7 +127,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 >**Important:** Before proceeding with this task, in your Mobile phone, download the **Microsoft Authenticator App**.
 
-In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages or a personal email account that you can access.
+In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages.
  
 1. Open Microsoft Edge.
 
