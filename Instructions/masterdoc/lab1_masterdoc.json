@@ -1,1 +1,16 @@
-
+[
+  {
+    "Name": "Explore Microsoft Entra ID",
+    "Language": "English",
+    "Files": [
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/durgadhatri/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/refs/heads/Oct-2024/Instructions/Labs/LabIntrov2.md",
+        "Order": 1
+      },
+      {
+        "RawFilePath": "https://raw.githubusercontent.com/durgadhatri/SC-900-Microsoft-Security-Compliance-and-Identity-Fundamentals/refs/heads/Oct-2024/Instructions/Labs/LAB_01_explore_azure_ad.md",
+        "Order": 2
+      }
+    ]
+  }
+]
