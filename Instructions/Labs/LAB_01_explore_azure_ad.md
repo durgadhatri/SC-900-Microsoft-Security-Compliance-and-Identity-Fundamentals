@@ -212,7 +212,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. You are now prompted to Update your password. In the Current password field, enter the temporary password that you have provided earlier.
 
-1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
+1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  **Note**: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
      ![](../Images/sc900-image20.png)
 
