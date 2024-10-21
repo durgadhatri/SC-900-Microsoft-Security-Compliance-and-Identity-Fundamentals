@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Configure Password reset for users
 + Task 3: Registration process for a self-service password reset
 + Task 4: Process of resetting your password
-+ Task 5: View the Audit logs and the Usage & insights data associated with password reset
++ Task 5: View the Audit logs and the Usage & insights data associated with password reset.
 
 ## Estimated timing: 15-20 minutes
 
@@ -81,7 +81,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
     >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/adele-reset-password-(1)-1.png)
+     ![](../Images/Passwordreset1.png)
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
@@ -103,9 +103,9 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. From the left navigation panel of Password reset, select **Authentication Methods**.
 
-1. In the Number of methods required to rest, select **1**. Note the information box on the screen.
+1. In the Number of methods required to reset, select **1**. Note the information box on the screen.
 
-1. Notice the different methods available to users.  **Email** and **Mobile phone (SMS only)** should already be checked; if not, select them and click save.
+1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
 
    ![](../Images/auth-methods-(1).png)
 
@@ -127,7 +127,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 >**Important:** Before proceeding with this task, in your Mobile phone, download the **Microsoft Authenticator App**.
 
-In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages or a personal email account that you can access.
+In this task, you, as user Adele Vance, will go through the registration process for a self-service password reset.  This task requires that you have access to a mobile device where you can receive text messages.
  
 1. Open Microsoft Edge.
 
@@ -167,12 +167,13 @@ In this task, you, as user Adele Vance, will go through the registration process
 1. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
 1. Sign out of the Office 365 page and close your browser window.
-
+  
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+    <validation step="40262c29-497d-4b45-a9cb-48830f9bb272" />
 
 ## Task 4 (Optional): Process of resetting your password
 
