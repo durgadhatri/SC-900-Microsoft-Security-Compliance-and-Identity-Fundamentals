@@ -85,7 +85,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     ![](../Images/sc900-image9.png)
 
-    **Note:** Refresh the page to see the newly created group. 
+    **Note:** Kindly refresh the screen if the newly created group is not visible.
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -99,6 +99,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 In this task, you’ll learn how to create a new user in the Microsoft Entra ID and explore some of the services that can be managed at the user level.
 
 1. In Microsoft Entra ID Overview page, from the left navigation select **Users** under the **Manage** section.
+
+    ![](../Images/T3-S1.png)
 
 1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
