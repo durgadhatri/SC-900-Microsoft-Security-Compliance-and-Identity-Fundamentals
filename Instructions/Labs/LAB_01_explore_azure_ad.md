@@ -155,23 +155,35 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
      ![](../Images/T3-S11.png)
 
-1. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. Log in to the Microsoft 365 admin center. Since you are already signed in as <inject key="Username" enableCopy="false" />, you will be automatically logged in when you access the portal.
 
-    ![](../Images/sc900-image17-1.png)
+     ![](../Images/T3-S12b.png)
     
-1. Select the **X** on the top right of the screen to close the License assignments window.
+1. From the left navigation panel, under **users**, select **Active users**.
 
-1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+     ![](../Images/T3-S13.png)
 
-1. Return to the Microsoft Entra ID Overview page
+1. From the list of users, select **Sara Perez**.
+
+     ![](../Images/T3-S14.png)
+
+1. A window will open displaying the user's information. Select the **Licenses and apps tab (1)**. Check the box for **Microsoft 365 E3 license (2)** and click **Save changes (3)**. A notification at the top of the screen will confirm that the license assignment was successful. Close the window by clicking the **X (4)** in the top-right corner.
+
+     ![](../Images/T3-S15.png)
 
 1. You have successfully created and configured a user in Microsoft Entra ID.
 
-1. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
+1. Navigate back to the Microsoft Azure Portal and return to the Microsoft Entra ID Overview page. **Copy** the **email address** of the newly created user (e.g., sara@azureholxxxx.onmicrosoft.com), as you will use it to sign in for the next task.
 
    >**Note** : You can retrieve the email ID from the environment details page.
 
+     ![](../Images/T3-S16.png)
+
 1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
+
+     ![](../Images/T3-S17a.png)
+
+     ![](../Images/T3-S17b.png)
 
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
     > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
@@ -186,9 +198,9 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-1. In the address bar enter **login.microsoft.com**.
+1. In the address bar enter **[login.microsoft.com](https://login.microsoft.com)** or https://login.microsoft.com.
 
-1. Sign in as **sara@azureholxxxx.onmicrosoft.com**.
+1. Sign in using the email address **sara@azureholxxxx.onmicrosoft.com** that you copied in step 17 of Task 3.
 
    ![](../Images/sc900-image18.png)
 
@@ -206,7 +218,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. You should now be successfully signed in to Microsoft 365.
 
-     ![](../Images/sc900-image21.png)
+     ![](../Images/S4-T4.png)
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
