@@ -159,7 +159,7 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
      ![](../Images/T3-S12a.png)
     
-1. From the left navigation panel, under **users**, select **Active users**.
+1. From the left navigation panel, under **users (1)**, select **Active users (2)**.
 
      ![](../Images/T3-S13.png)
 
