@@ -173,7 +173,7 @@ In this task, you, as user Adele Vance, will go through the registration process
     > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
     > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
  
-      <validation step="40262c29-497d-4b45-a9cb-48830f9bb272" />
+    <validation step="40262c29-497d-4b45-a9cb-48830f9bb272" />
 
 ## Task 4 (Optional): Process of resetting your password
 
