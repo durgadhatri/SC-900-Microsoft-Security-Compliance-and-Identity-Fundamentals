@@ -10,7 +10,7 @@ In this lab, you will complete the following tasks:
 
 + Task 1: Reset the password for the user
 + Task 2: Assign an Azure AD role in Privileged Identity Management
-+ Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
++ Task 3: Sign in to the Microsoft Entra Admin Center to access the Privileged Identity Management
 
 ## Estimated timing: 60 minutes
 
@@ -22,7 +22,7 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will reset the password for the user Diego Siciliani. This step is needed so you can initially sign in as the user in subsequent tasks.
  
-1. If you are not already signed into the Azure portal, sign in to the Azure portal at https://portal.azure.com, with the Azure credentials.
+1. Open Microsoft Edge, and in the address bar, enter **https://entra.microsoft.com**.
    
 1. On **Sign in to Microsoft Azure** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
 
@@ -32,23 +32,17 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
    * Password: <inject key="AzureAdUserPassword"></inject>
    
-1. In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page, type **Microsoft Entra ID** and press the **Enter** key.  
-
-1. From the left navigation panel under **Manage** section, select **Users**.
+1. From the left navigation panel, expand **Identity**, expand **Users**, then select **All users**.  
 
 1. Select **Diego Siciliani** from the list of users.
 
-1. Select **Reset password** from the top of the page. Since you have not previously signed in as Diego you don’t know his password and will need to reset the password.
+1. Select **Reset password** from the top of the page. Since you haven't previously signed in as Diego, you don’t know his password, and will need to reset the password.
 
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
    >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
            
-1. Close the password reset window by selecting the **X** at the top right corner of the page.
-
-1. Close Diego’s profile window by selecting the **X** at the top right corner of the page.
-
-1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Microsoft Entra ID page.
+1. From the left navigation panel, select **Home** to return the home page for the Microsoft Entra admin center.
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
@@ -56,15 +50,13 @@ In this task, you, as the admin, will reset the password for the user Diego Sici
 
 In this task, you, as the admin, will assign Diego an Azure AD role in Privileged Identity Management.
 
-1. Go to the Microsoft Entra ID page.  
+1. Open the browser tab for the home page of the Microsoft Entra admin center.  
 
-1. From the left navigation panel under **Manage** section, select **Identity Governance**.
+1. From the left navigation panel, under "Identity", expand **Identity Governance**, then select **Privileged Identity Management**, and in the Get started page, select **Manage** under Manage access.
 
-1. From the main window, ensure **Getting started** is underlined then from the right navigation panel, under **Role Assignments**, select **Manage Microsoft Entra roles**.
+   ![](../Images/pim-gettingstarted.png)
 
-   ![](../Images/L4T2S3.png)
-
-1. In the Privileged Identity Management window, select **Roles** under **Manage**. In the search bar in roles page, search for **User Administrator**
+1. You're now in the Roles page.  In the search bar, on the top of the page, enter **user**.  From the search results, select **User Administrator**.
 
    ![](../Images/L4T2S4.1.png)
 
@@ -90,7 +82,7 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. In the Assignment end fields, change the date to today’s date (note the default setting is one year from today, so you need to change the year). For the time, set the time to two hours from the current time.  After you have set the time field for the time when the Assignment ends, press the tab key on your keyboard and select **Assign** at the bottom of the page.  
 
-    ![](../Images/lab-4-1.png)
+    ![](../Images/pim-addassignment.png)
 
 1. This takes you back to the Assignments window.  After a few seconds, you should see Diego Siciliani listed in the User Administrator table, along with the details of the assignment.  If after a few seconds you still don't see the update, select **Refresh** from the top of the page.
 
@@ -102,17 +94,20 @@ In this task, you, as the admin, will assign Diego an Azure AD role in Privilege
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
 
-   > **Congratulations** on completing the task! Now, it's time to validate it ,Here are the steps:
-   - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+    - If you receive a success message, you can proceed to the next task.
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
+      <validation step="3bf29fd2-7b87-4aad-bd94-71ff0483cd5f" />
   
 ## Task 3: Sign in to the Azure Portal, to access the Privileged Identity Management
 
-In this task you, as Diego Siciliani, will sign in to the Azure Portal, to access the Privileged Identity Management capability of Microsoft Entra ID to activate your assignment as User administrator.  Once activated you will make some configuration changes to an existing user. Note: For this task, you will need access to a mobile device to which you have immediate access and can receive text messages.
+In this task you, as Diego Siciliani, will sign in to Microsoft Entra admin center, to access the Privileged Identity Management capability of Microsoft Entra to activate your assignment as User administrator. Once activated you'll make some configuration changes to an existing user. 
 
-1. Open Microsoft Edge.  In the address bar of the browser, enter **portal.azure.com**.
+> Note: For this task, you'll need access to a mobile device to use with the Microsoft Authenticator app.
+
+1. Open Microsoft Edge. In the address bar of the browser, enter **Entra.microsoft.com**.
 
 1. Sign in as Diego Siciliani.
    
@@ -121,17 +116,13 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
     1. Since the password you entered was only a temporary password you need to update it now. Enter the current password.  For the new password and confirm password fields enter **SC900-Lab** and select **Sign in**
     1. When prompted to stay signed- in, select **Yes**.
 
-1. From the main Welcome page, under Azure services, select **Microsoft Entra ID**.
+1. From the left navigation panel, expand **Identity Governance** then select **Privileged Identity Management**.
    
-1. From the left navigation panel, select **Identity Governance**.
-
-1. From the left navigation panel, under Privileged Identity Management, select **Microsoft Entra Roles**.
-
-1. On the **Privileged Identity Management | Quick start** page, from the left navigation panel, select **My roles**.  You are now seeing information for your Azure AD roles.  You will see that you, Diego, is assigned the User administrator role.
+1. From the left navigation panel, select **My roles**. You're now seeing information for your eligible assignments. You'll see that you, Diego, are assigned the User administrator role.
 
 1. In the last column of the table, labeled action, select **Activate**.
 
-    ![](../Images/myroles.png)
+    ![](../Images/activate-role.png)
 
 1. You will see a warning icon indicating Additional verification is required.  Select **Click to continue**.  Recall that the PIM settings for the User administrator role require multi-factor authentication.  Additionally, since Diego’s contact information for use with MFA (authentication methods) was not previously configured, he must register his information, to be able to use MFA.  Although he will have to do MFA anytime he signs in as a user admin, within the assignment period, the MFA registration process is required only once. 
 
@@ -139,52 +130,57 @@ In this task you, as Diego Siciliani, will sign in to the Azure Portal, to acces
 
 1. You are notified that more information is required, select **Next**.
 
-1. In the Keep your account secure window, you have the option to select the method to use for MFA.  Microsoft Authenticator is one option. Select **Next** Twice.  Download the Microsoft Authenticator app from PlayStore/AppStore to your Mobile Phone, open the application and Scan the QR Code. select the **App Lock OK** on Phone and select **next** in the Lab, provide the verification code on Shown in the Lab sign in page in the Mobile Phone to Authenticate using the Authenticator App then select **Next**. Select **Done**
+1. The window that appears and the steps that follow are for the Microsoft Authenticator app method. .
+    1. If you already have the Microsoft Authenticator app installed on your mobile device select **Next**. Otherwise, select **Download now** and follow the steps.
+    1. You'll begin to setup your account.  Select **Next**.
+    1. Using the Microsoft Authenticator app on your mobile device, select the **+** to add an account and select **Work or school account**.
+    1. Select the option to **Scan the QR code**, then using your mobile device, scan the QR code on your PC screen .
+    1. Using the Microsoft Authenticator app on your mobile device, scan the QR code.
+    1. Follow the steps on your PC and mobile device, then select **Next**.
+    1. Once you've setup your security info, you'll see a Success window.  Select **Done**.
 
     ![](../Images/settings_authenticator_app_new.png)
 
-   
 1. The Activate User Administrator window appears.  You are required to enter a reason for the activation.  In the box that appears, enter any reason you want (max of 500 characters), then select **Activate**.
 
     ![](../Images/lab-4-2.png)
 
 1. You will see the status (3 stages of progress), as the activation is processed.
 
-    ![](../Images/3-stage10.png)
+    ![](../Images/3-stage.png)
 
 1. Once the activation is completed you are returned to the My roles | Azure AD roles page, where you will see a notification stating you have just activated a role.  Select **Click here** to view your active roles.  If you notice the end time is different than what was originally configured, select the refresh key on the top of the page (it may take a few minutes to refresh).
    
-1. Close the window, by selecting the **X** on the top right corner of the screen.
+1. Return to the home page of the Microsoft Entra admin center by selecting **Home** from the left navigation panel. 
    
-1. Close the Privileged Identity Management | Quickstart window by selecting the **X** on the top right corner of the screen.
-   
-1. Close the Identity Governance window by selecting the **X** on the top right corner of the screen.
-   
-1. You are now back on the Microsoft Entra ID page.  As an Azure AD user administrator, you can create users and groups, manage licenses, and more.  From the left navigation panel, select **Users**.
+1. As a Microsoft Entra ID user administrator, you can create users and groups, manage licenses, and more. From the left navigation panel, expand **Identity**, select **All Users**.
    
 1. From the users list, select **Bianca Pisani**.
 
-    ![](../Images/lab-4-3.png)
+    ![](../Images/select-bianca.png)
    
-1. From the left navigation panel, under **Manage** section select **Licenses**.
+1. From the left navigation panel, select **Groups**.
 
-1. Notice how Bianca has no licenses assigned.  From the top of the page, select **+ Assignments**. 
+1. Notice the groups to which Bianca is already assigned. From the top of the page, select **+ Add Memberships**.
 
-1. Under Select licenses, select **Office 365 E3** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
+1. From the list of groups, select **Mark 8 Project Team**.
 
-    ![](../Images/sc900lab4-image9.png)
+1. From the bottom of the page, select **Select**.
 
-1. Close out of the updated license assignments page, by selecting the **X** on the top right corner of the page.
-   
-1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
+    ![](../Images/add-group-to-bianca.png)
+
+1. On the Groups page, notice that the Mark 8 Project Team group has been added to the list (if you don't immediately see it it listed, select teh **Refresh** button).
+
+1. Sign out by selecting on the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows.
    
 1. The duration of the user admin role is limited to the time that was configured.
 
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-   - Click the Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation Page.
-   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    - If you receive a success message, you can proceed to the next task.
+    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+  
+      <validation step="8e3654ca-357a-4da8-b947-b5b897cd526b" />
 
 ## Review
 In this lab, you have completed:
