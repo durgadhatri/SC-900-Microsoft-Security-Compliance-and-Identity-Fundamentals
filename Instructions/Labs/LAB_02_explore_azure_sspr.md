@@ -13,7 +13,7 @@ In this lab, you will complete the following tasks:
 + Task 2: Configure Password reset for users
 + Task 3: Registration process for a self-service password reset
 + Task 4: Process of resetting your password
-+ Task 5: View the Audit logs and the Usage & insights data associated with password reset
++ Task 5: View the Audit logs and the Usage & insights data associated with password reset.
 
 ## Estimated timing: 15-20 minutes
 
