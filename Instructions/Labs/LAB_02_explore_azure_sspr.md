@@ -167,12 +167,13 @@ In this task, you, as user Adele Vance, will go through the registration process
 1. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
 1. Sign out of the Office 365 page and close your browser window.
-
+  
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+ 
+    <validation step="40262c29-497d-4b45-a9cb-48830f9bb272" />
 
 ## Task 4 (Optional): Process of resetting your password
 
