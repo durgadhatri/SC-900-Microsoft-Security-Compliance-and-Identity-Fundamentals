@@ -23,9 +23,9 @@ In this task you will explore the Service Trust portal and the different types o
 
 1. Within the virtual machine(VM) on the left, click Microsoft edge shortcut (Medge) on the desktop and enter **https://servicetrust.microsoft.com/**.  This will bring you to the landing page for the Service Trust Portal. The Service Trust Portal contains details about Microsoft's implementation of controls and processes that protect our cloud services and the customer data therein. 
 
-1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in, select **Sign in**.
+1. To access some of the resources on the Service Trust Portal, you must log in as an authenticated user with your Microsoft cloud services account and review and accept the Microsoft Non-Disclosure Agreement for Compliance Materials. On the top, right hand corner of the landing page the for the Service Trust Portal, you will see the option to Sign in, which will be under the any certifications or regulatory standards > click on ISO/IEC > click on Lock Symbol to **Sign in**
 
-    ![](../Images/sc-900-lab11-3.png) 
+    ![](../Images/new_portal_securitycompliance.png) 
 
 1. On **Sign in** blade, you will see a login screen, in that enter the following email/username and then click on **Next**. 
    * Email/Username: <inject key="AzureAdUserEmail"></inject>
@@ -34,10 +34,6 @@ In this task you will explore the Service Trust portal and the different types o
    * Password: <inject key="AzureAdUserPassword"></inject>
    
 1. if prompted, select **Agree** to accept the Microsoft Non-Disclosure Agreement for Compliance Materials.
-    
-1. Scroll down on the page and notice the different categories of information available. From the **Certifications, Regulations, and Standards category** Select **ISO/IEC**.
-
-   ![](../Images/sc-900-11-4.png)
 
 1. Note the description on the top of the page and available applicable documents. Select the **ellipsis(...)** under the More Options and then select **Save to Library**. A window will pop up asking if you want to subscribe to this document.  Select **Yes**. A window will pop up for notification settings, note the different settings and select **Daily** and Select **Save**.
 
