@@ -43,11 +43,9 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
    >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
    >**Note**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
 
-1. Close the password reset window by selecting the **X** at the top right corner of the page.
+1. Close the password reset window by selecting the X at the top right corner of the page, then close out of the Debra Berger window by selecting the X at the top right corner of the page.
 
-1. Close users window by selecting the **X** at the top right corner of the page.
-
-1. Close the All users window by selecting the **X** at the top right corner of the page. You should now be on the Microsoft Entra ID page.
+1. From the left navigation panel, select Home to return the home page for the Microsoft Entra admin center.
 
 1. Keep the browser page open, as you will in the subsequent tasks.
 
