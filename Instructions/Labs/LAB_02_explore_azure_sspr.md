@@ -81,7 +81,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
     >**IMPORTANT**: Make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
 
-     ![](../Images/adele-reset-password-(1)-1.png)
+     ![](../Images/Passwordreset.png)
 
 1. Close the password reset window by selecting the **X** at the top right corner of the page.
 
