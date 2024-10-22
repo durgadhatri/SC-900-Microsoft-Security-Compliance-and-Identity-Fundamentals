@@ -174,7 +174,7 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
 1. A window will open displaying the user's information. Select the **Licenses and apps tab (1)**. Check the box for **Microsoft 365 license (2)** and click **Save changes (3)**. A notification at the top of the screen will confirm that the license assignment was successful. Close the window by clicking the **X (4)** in the top-right corner.
 
-     ![](../Images/T3-S15.png)
+     ![](../Images/T3-S15a.png)
 
 1. You have successfully created and configured a user in Microsoft Entra ID.
 
