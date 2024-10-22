@@ -121,29 +121,35 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. Go to the **Microsoft Entra ID** home page.
 
-1. From the left navigation pane, select **Password reset**.  
+1. From the left navigation pane, select **Password reset(2)** under **Manage(1).
+
+   ![](../Images/select-password-reset.png)
 
 1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says "select group" and note what it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
-1. From the left navigation panel of Password reset, select **Authentication Methods**.
+1. From the left navigation panel of Password reset, select **Authentication Methods**(1).
 
-1. In the Number of methods required to reset, select **1**. Note the information box on the screen.
+1. In the Number of methods required to reset, select **1**(2). Note the information box on the screen.
 
-1. Notice the different methods available to users.  **Email** and **Mobile phone** should already be checked; if not, select them and click save.
+1. Notice the different methods available to users.  **Email** and **Mobile phone**(3) should already be checked; if not, select them and click save.
 
-   ![](../Images/auth-methods-(1).png)
+   ![](../Images/password-reset-auth.png)
 
-1. From the left navigation panel of Password reset, select **Registration**.  
+1. From the left navigation panel of Password reset, select **Registration(1)**.  
 
-1. Ensure the setting to Require users to register when signing in is set to **Yes**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of 180 and click save if any changes have been made.  Take note of the information box on the page.
+1. Ensure the setting to Require users to register when signing in is set to **Yes(2)**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of **180(3)** and click save if any changes have been made.  Take note of the information box on the page.
 
-1. From the left navigation panel of Password reset, select **Notifications**.  
+   ![](../Images/password-reset-registration.png)
 
-1. Ensure the setting to Notify users on password resets is set to **Yes**.  Leave the setting for Notify all admins when other admins reset their password to **No**.
+1. From the left navigation panel of Password reset, select **Notifications(1)**.  
+
+1. Ensure the setting to Notify users on password resets is set to **Yes(2)**.  Leave the setting for Notify all admins when other admins reset their password to **No(3)**.
+
+   ![](../Images/password-reset-notification.png)
 
 1. Note how the Password reset navigation pane also includes options to view audit logs and Usage & insights.
 
-     ![](../Images/registration-(1).png)
+   ![](../Images/password-reset-auditlog-usage.png)    
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
