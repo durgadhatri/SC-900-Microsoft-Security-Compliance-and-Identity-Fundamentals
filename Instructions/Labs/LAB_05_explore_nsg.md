@@ -67,7 +67,7 @@ In this lab, you will complete the following tasks:
 
 1. From the deployment blade or from the Notification area, click **Go to resource**. 
 
->**Note**: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
+   >**Note**: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
 
 1. Note the name of the network interface, **sc900-winvmxxx** (the XXX will be specific to the network interface of your VM).
 
@@ -85,7 +85,7 @@ In this lab, you will complete the following tasks:
 
    ![Picture 1](../Images/08.png)
    
-1. From the left navigation panel, under **Networking** section select **Network settings**.
+1. On **sc900-winvmxxx** virtual machine blade, navigate to **Networking**, select **Network Settings**, scroll down, and click on **Add Network Security Group**. Next, click on **Create Port Rule** and select the **Inbound Port Rule** tab from the dropdown menu. Please note that there is currently no network security group associated with the virtual machine's network interface or the subnet linked to it.
 
    ![Picture 1](../Images/add_network.png)
     
@@ -121,7 +121,16 @@ In this lab, you will complete the following tasks:
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 
-1. Select the **Associate**, above search box.
+1. Select the **Associate (1)**, and choose for the **sc900-winvmxxx** from the drop down.
+
+   ![](../Images/associate-1.png)
+
+   >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
+     - Go to the **sc900-winvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+
+       ![](../Images/sc-900.png)
+   
+     - Then, proceed to complete steps 6 and 7.     
 
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
 
