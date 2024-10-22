@@ -92,6 +92,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
 > **Note :** Note: Skip this step if the **Edit status & action plan** option is not clickable.
 
+
      ![Picture 1](../Images/L9-T2-S5a.png)
 
      ![Picture 1](../Images/L9-T2-S5b.png)
