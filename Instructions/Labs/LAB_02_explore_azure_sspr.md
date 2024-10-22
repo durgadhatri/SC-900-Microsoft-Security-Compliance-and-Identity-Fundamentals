@@ -161,41 +161,70 @@ In this task, you, as user Adele Vance, will go through the registration process
  
 1. Open Microsoft Edge.
 
-1. Go to [login.microsoftonline.com](https://www.office.com) portal.
+1. Go to [login.microsoftonline.com](https://login.microsoft.com) portal.
+
+1. You will be prompted to sign, Click on **Use another account**.
+
+    ![](../Images/use-another-acc.png)
 
 1. Sign in as Adele Vance,
-    1. In the Sign in window enter **Adelev@azureholxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab in the Lab Guide section) then select **Next**.
-    2. Enter the password you noted in the earlier task. Select **Sign in**.
-    3. When prompted to stay signed- in, select **Yes**.
+    1. In the Sign in window enter **adelev@azureholxxxxx.onmicrosoft.com** (where xxxxxx can be found in the **Environment** Tab beside the Lab Guide section) then select **Next**.
+       
+       ![](../Images/username-env.png)
 
-1. Since this is your first sign-in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC900-Lab** in the confirm password field.  Select **Sign in**.  
+       ![](../Images/username-enter.png)
+       
+    3. Enter the password you noted in the earlier task. Select **Sign in**.
 
+       ![](../Images/password-enter.png) 
+
+1. Since this is your first sign-in as Adele Vance, you will be prompted to reset your password.  Enter your old password.  For your new password enter **SC900-Lab**. Enter **SC900-Lab** in the confirm password field.  Select **Sign in**.
+
+    ![](../Images/UpdatePassword.png)
+   
    >**Note:** we are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
 1. A pop-up displays indicating that **Action Required**. his is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button. Then When prompted to stay signed- in, select **Yes**.
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
-   ![](../Images/default-secure(1).png)
+   ![](../Images/Actionrequired1.png) 
 
-   ![](../Images/more-info(1).png)
+1. In the Keep your account secure window, The window that appears and the steps that follow are for the Microsoft Authenticator app method.Select **I want to set up a different authenticator app (1)**
+   > **Note**: If you dont have the Microsoft Authenticator app installed on your mobile device , select **Download now** and follow the steps.
 
-   ![](../Images/stay-sign-in(1).png)
-
-1. In the Keep your account secure window, you have the option to select the method to use for MFA. Microsoft Authenticator is one option. Select **I want to set up a different authenticator app (1)**. On the **Authenticator app**, select **Next (2)**.
-
-   ![](../Images/img-1.png)
+   ![](../Images/auth0.png)
 
 1. On the **Set up your account** page opens, select **Next**.
 
-1. **Scan the QR code** through your phone. On the phone, inside the **Authenticator app** select **Work or school account**, and scan the QR code. Select **Next** on the **Keep your account secure** page. Enter the code, which is shown on the Authenticator app.
+   ![](../Images/auth1.png)
 
-1. Now, Enter the phone number where you can receive a text code and select the **Next** button. A new window opens indicating a code was just sent to the phone you entered.  Enter the code you are received and select **Next**. A window opens indicating **Verification complete. Your phone has been registered.** Select **Next**. Select **Done**, on the **Success!** page.
+1. **Scan the QR code** through your phone. On the phone, inside the **Authenticator app** select **Work or school account**, and scan the QR code. Select **Next**.
+
+   ![](../Images/auth3.png)
+
+1. On the **Keep your account secure** page. Enter the code, which is shown on the Authenticator app.
+
+1. Now, Enter the phone number where you can receive a text code and select the **Next** button.
+
+   ![](../Images/auth6.png)
+  
+1. A new window opens indicating a code was just sent to the phone you entered.  Enter the code you are received and select **Next**.
 
    ![](../Images/enter-code(1).png)
 
+1. A window opens indicating **Verification complete. Your phone has been registered.** Select **Next**.
+
+   ![](../Images/auth7.png)
+   
+1. Select **Done**, on the **Success!** page.
+
+   ![](../Images/auth8.png)
+
 1. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
+   ![](../Images/MS365.png)
+   
 1. Sign out of the Office 365 page and close your browser window.
   
     > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
