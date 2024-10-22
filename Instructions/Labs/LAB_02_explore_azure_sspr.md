@@ -163,7 +163,7 @@ In this task, you, as user Adele Vance, will go through the registration process
 
 1. Go to [login.microsoftonline.com](https://login.microsoft.com) portal.
 
-1. You will be prompted to sign, Click on **Use another account**.
+1. You will be prompted to sign-in, Click on **Use another account**.
 
     ![](../Images/use-another-acc.png)
 
