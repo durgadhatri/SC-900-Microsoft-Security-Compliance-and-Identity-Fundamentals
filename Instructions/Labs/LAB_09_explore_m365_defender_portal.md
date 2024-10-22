@@ -84,7 +84,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
      ![Picture 1](../Images/L9-T2-S3.png)
 
-1. Select **Recommended actions** from the top of the page. Notice the information available in the table. Select the **first items** from the list and review the available information in the window that opens.
+1. Select **Recommended actions (1)** from the top of the page. Notice the information available in the table. Select the **first items (2)** from the list and review the available information in the window that opens.
 
      ![Picture 1](../Images/L9-T2-S4.png)
 
