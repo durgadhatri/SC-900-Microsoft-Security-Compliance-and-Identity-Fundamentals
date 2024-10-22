@@ -80,7 +80,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
      ![Picture 1](../Images/L9-T2-S2.png)
 
-1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
+1. The **overview** page also includes **top Recommended actions**, **comparison**, **history**, and additional resources.
 
      ![Picture 1](../Images/L9-T2-S3.png)
 
