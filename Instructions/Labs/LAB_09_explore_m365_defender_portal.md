@@ -32,29 +32,29 @@ In this lab, you will complete the following tasks:
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**, and then select **Security** under **Admin centers**.
 
-     ![Picture 1](../Images/T1-S6.png)
+     ![Picture 1](../Images/L9-T1-S6.png)
 
 1. A new browser page opens. Since you are already signed in, your email will be listed. You can select your email address, <inject key="AzureAdUserEmail"></inject> to log in to the Microsoft Defender portal. 
 
-     ![Picture 1](../Images/T1-S7.png)
+     ![Picture 1](../Images/L9-T1-S7.png)
 
 1. If this is your first time visiting the Microsoft 365 Defender portal, you may see a pop-up window offering a quick tour or **information** about the Microsoft Defender portal. Select **Take a quick tour**. Read the description provided in each pop-up window, then select **Next**. Continue through the tour until you get to the end, then select **Done**.
 
-     ![Picture 1](../Images/T1-S8.png)
+     ![Picture 1](../Images/L9-T1-S8.png)
 
 1. The welcome page of the Microsoft 365 Defender portal, shows many of the common cards that security teams need. The composition of cards and data is dependent on the user role. Scroll through the page to view the default set of cards for your role as global admin.
 
-     ![Picture 1](../Images/T1-S9.png)
+     ![Picture 1](../Images/L9-T1-S9.png)
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
    
      ![Picture 1](../Images/T1-S10a.png)
    
-     ![Picture 1](../Images/T1-S10b.png)
+     ![Picture 1](../Images/L9-T1-S10b.png)
    
 1. Selecting the ellipses on the top-right of any card will provide the option to **Remove**.  
 
-     ![Picture 1](../Images/T1-S11.png)
+     ![Picture 1](../Images/L9-T1-S11.png)
 
 1. You can also move the cards around. Hover your mouse cursor over the title bar of any card,  when you will get a cross shaped cursor select the card and move it to your desired location.
    
@@ -64,7 +64,7 @@ In this lab, you will complete the following tasks:
 
 1. The left navigation panel provides links/access to information that is part of Microsoft’s Extended Detection and Response (XDR solution) which includes incidents & alerts, hunting, action center, threat analytics, secure score and more.  It also includes quick access to Microsoft Defender for Endpoint (the links listed under Endpoints, Defender for Office for 365 (links listed under Email and Collaboration), Microsoft Defender for Cloud Apps (links under Cloud apps).  Explore these options by selecting some of the links.   To return to the home page of the Microsoft 365 Defender portal, select **Home** on the left navigation panel.
 
-     ![Picture 1](../Images/T1-S14.png)
+     ![Picture 1](../Images/L9-T1-S14.png)
 
 1. Keep the browser window open.
 
