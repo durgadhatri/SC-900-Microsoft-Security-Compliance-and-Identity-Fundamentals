@@ -112,7 +112,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
      ![Picture 1](../Images/L9-T2-S9.png)
 
-1. Select the **filter** icon to filter the view by Identity, Apps, Devices, and Data. To return to the Microsoft 365 Defender home page, select the **X** on the top-right corner. Choose **Home** from the left navigation panel.
+1. Select the **filter** icon present beside the Calender Icon to filter the view by Identity, Apps, Devices, and Data. To return to the Microsoft 365 Defender home page, select the **X** on the top-right corner. Choose **Home** from the left navigation panel.
 
     ![Picture 1](../Images/L9-T2-S10.png)
     
