@@ -29,7 +29,13 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/AAD-Search.png)
 
-1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups** under **Manage** and then select **New group**.
+1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups(2)** under **Manage(1)**.
+
+   ![](../Images/select-groups.png)
+   
+1. From the **Groups** page select **New group**.
+
+   ![](../Images/new-group.png)
    
 1. Populate the **New Group** fields as follows and Select **Create**
 
