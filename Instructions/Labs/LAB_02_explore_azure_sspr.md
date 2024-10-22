@@ -181,7 +181,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Open Microsoft Edge.
 
-1. Go to [login.microsoftonline.com](https://www.office.com) portal.
+1. Go to [login.microsoft.com](https://login.microsoft.com) portal.
 
 1. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
