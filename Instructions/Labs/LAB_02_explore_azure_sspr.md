@@ -73,7 +73,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-created-group.png)
  
-1. From the left navigation pane, select **Members** under **Manage**.
+1. From the left navigation pane, select **Members (2)** under **Manage (1)**.
 
    ![](../Images/choose-members.png)
 
