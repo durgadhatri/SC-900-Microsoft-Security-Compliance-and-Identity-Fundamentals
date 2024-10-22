@@ -191,8 +191,7 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
    ![](../Images/sc900-forgetpassword.png)
 
-1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.  If during the registration you selected email, the Get back into your account window will indicate You will receive an email containing a verification code at your alternate email address.  Select **Email**. 
-
+1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.
    ![](../Images/verification(1).png)
 
 1. Enter the verification code then press **Next**.
