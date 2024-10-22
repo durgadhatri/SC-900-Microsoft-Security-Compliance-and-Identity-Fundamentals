@@ -45,7 +45,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
     3. Group description: **Add an optional description to your group(3)**.
        
-    ![](../Images/new-group-fields.png)
+    ![](../Images/new-group-field.png)
 
 1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset**. 
 
