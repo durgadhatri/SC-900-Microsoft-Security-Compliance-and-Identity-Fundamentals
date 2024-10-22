@@ -71,8 +71,10 @@ Feel free to start, stop, or restart your virtual machine as needed from the **R
    ![](../Images/Sign-in-no.png)
  
 8. If a **Welcome to Microsoft Azure** pop-up window appears, simply click "Cancel" to skip the tour.
+
+   ![](../Images/Azure-cancel-tour.png)
  
-9. Click "Next" from the bottom right corner to embark on your Lab journey!
+10. Click "Next" from the bottom right corner to embark on your Lab journey!
  
      ![Start Your Azure Journey](../Images/sc900-image(3).png)
  
