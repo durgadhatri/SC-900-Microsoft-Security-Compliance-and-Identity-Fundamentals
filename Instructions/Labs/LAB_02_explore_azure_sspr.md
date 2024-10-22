@@ -47,7 +47,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
        
     ![](../Images/new-group-field.png)
 
-1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset**. 
+1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset** under **Manage**.
+
+   ![](../Images/select-password-reset.png)
 
 1. From the **Properties** page, under the option **Self-service password reset enabled** is selected and click on **Select group**.
 
