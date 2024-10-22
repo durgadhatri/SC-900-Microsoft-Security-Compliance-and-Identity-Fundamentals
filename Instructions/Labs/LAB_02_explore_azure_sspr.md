@@ -288,15 +288,19 @@ In this task, you, as the administrator, will briefly view the Audit logs and th
   
      * When prompted to stay signed- in, select **Yes**. 
 
-1. Select **Azure Active Directory**.  
+1. Select **Azure Active Directory**.
+
+   ![](../Images/AAD-Search.png)
 
 1. From the left navigation pane, select **Password reset**.
 
+   ![](../Images/select-password-reset.png)
+
 1. From the left navigation pane, select **Audit logs (1)**.  Notice the information available and the available filters. 
 
-1. Note that you can download logs. To download Select **Download (2)**, You can even format the download as CSV or JSON then click on **Download(3)** if required.
+1. Note that you can download logs. To download Select **Download (2)**, You can even format the download as CSV or JSON then click on **Download (3)** if required.
 
-   ![](../Images/audit-download.png)
+   ![](../Images/audit-download1.png)
 
 1. Close the window by selecting the **X** on the top right corner of the screen.
 
