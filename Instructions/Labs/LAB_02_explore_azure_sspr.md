@@ -25,7 +25,9 @@ In this lab, you will complete the following tasks:
 
 In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecurityUsers group.  Also, you will be resetting the user’s password so that you can do the first-time login, as the user, and register for SSPR.
 
-1.  In the Azure portal, in the **Search resources, services, and docs** text box at the top of the Azure portal page,  type **Microsoft Entra ID** and press the **Enter** key.
+1. In the Azure portal, in the **Search resources, services, and docs (G+/)** text box at the top of the Azure portal page,  type **Microsoft Entra ID** and press the **Enter** key.
+
+   ![](../Images/AAD-search.png)
 
 1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups** under **Manage** and then select **New group**.
    
