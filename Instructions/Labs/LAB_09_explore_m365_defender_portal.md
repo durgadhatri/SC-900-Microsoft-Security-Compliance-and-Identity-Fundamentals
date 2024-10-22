@@ -48,7 +48,7 @@ In this lab, you will complete the following tasks:
 
 1. The cards displayed can be customized to your preference.  Select **+ Add cards**. A Window opens indicating that you already have all the cards on your home page.  Close the window by select the **X** on top-right corner of the window.
    
-     ![Picture 1](../Images/T1-S10a.png)
+     ![Picture 1](../Images/L9-T1-S10a.png)
    
      ![Picture 1](../Images/L9-T1-S10b.png)
    
