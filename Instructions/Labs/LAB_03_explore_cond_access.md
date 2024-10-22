@@ -149,11 +149,11 @@ In this task, you will see the impact of the conditional access policy, from the
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting Sign out. Then the close all the browser windows.
    
    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - If you receive a success message, you can proceed to the next task.
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at cloudlabs-support@spektrasystems.com. We are available 24/7 to help you out.
+   > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   > - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help.
 
-   <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />   
+   <validation step="b9582d28-5224-4989-bd2e-79d113c4f946" />  
 
 ## Review
 In this lab, you have completed:
