@@ -36,14 +36,26 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
+     ![](../Images/Asc-900-image1.png)
+
 1. Select **Debra Berger** from the list of users.
+
+    ![](../Images/Asc-900-image2.png)
 
 1. Select **Reset password** from the top of the page. Since you have not previously signed in as Debra Berger you don’t know her password and will need to reset the password.
 
+    ![](../Images/Asc-900-image3.png)
+
 1. When the password reset window opens, select **Reset Password** and copy the password.
 
+     ![](../Images/Asc-900-image4.png)
+
+     ![](../Images/Asc-900-image5.png)
+   
    >**Note**: Kindly make a note of the new password, as you will need it in a subsequent task, to be able to sign in as the user.
    >**Note**: Make a note of the User principal name, as you will need it in a subsequent task, to be able to sign in as the user.
+
+     ![](../Images/Asc-900-image6.png)
 
 1. Close the password reset window by selecting the X at the top right corner of the page, then close out of the Debra Berger window by selecting the X at the top right corner of the page.
 
