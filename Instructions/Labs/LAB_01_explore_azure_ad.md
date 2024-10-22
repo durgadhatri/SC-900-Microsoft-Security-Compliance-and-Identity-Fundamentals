@@ -1,4 +1,4 @@
-
+ 
 # Lab-01: Explore Microsoft Entra ID User Settings
 
 ## Lab scenario
@@ -71,6 +71,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. On the Microsoft Entra ID page, from left navigation pane select **Groups** under the **Manage** section and then select **New group**.
 
+    ![](../Images/T2-S1.png)
+
 1. Populate the **New Group** fields as follows and Select **Create**
 
     1. Group type: **Microsoft 365**.
@@ -81,19 +83,24 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     4. Group description: **Add an optional description to your group**.
 
-    ![](../Images/sc900-image9.png)
-   
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+        ![](../Images/sc900-image9.png)
+
+       > **Note:** Kindly refresh the screen if the newly created group is not visible.
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. > - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+ <validation step="6be841cf-5bd0-4c51-9b70-a308b628beb9" />
 
 ## Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 
 In this task, you’ll learn how to create a new user in the Microsoft Entra ID and explore some of the services that can be managed at the user level.
 
 1. In Microsoft Entra ID Overview page, from the left navigation select **Users** under the **Manage** section.
+
+    ![](../Images/T3-S1.png)
 
 1. Notice that your tenant is already configured with users. Select **+ New user** at the top of the page and select **create new user** from the drop down.
 
@@ -143,35 +150,47 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
     ![](../Images/sc900-image15.png)
     
-1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.  
+1. From the left navigation panel select **Licenses**.  Notice that there are no license assignments found for this user.
+To add a license, click on **Go to the Microsoft 365 admin center** from the alert message.
 
-1. To add a license select **+ Assignments** from the top of the main window.
+     ![](../Images/T3-S11.png)
 
-     ![](../Images/sc900-image16.png)
+1. Log in to the Microsoft 365 admin center. Since you are already signed in as <inject key="Username" enableCopy="false" />, you will be automatically logged in when you access the portal.
 
-1. Under Select licenses, select **Office 365 E5 without Audio Conferencing** then select the **Save** button on the bottom of the screen. A notification on the top right corner of the screen should show that license assignments succeeded.
-
-    ![](../Images/sc900-image17-1.png)
+     ![](../Images/T3-S12a.png)
     
-1. Select the **X** on the top right of the screen to close the License assignments window.
+1. From the left navigation panel, under **users (1)**, select **Active users (2)**.
 
-1. Select the **Refresh icon** at the top of the page to confirm the license assignments.
+     ![](../Images/T3-S13.png)
 
-1. Return to the Microsoft Entra ID Overview page
+1. From the list of users, select **Sara Perez**.
+
+     ![](../Images/T3-S14.png)
+
+1. A window will open displaying the user's information. Select the **Licenses and apps tab (1)**. Check the box for **Microsoft 365 license (2)** and click **Save changes (3)**. A notification at the top of the screen will confirm that the license assignment was successful. Close the window by clicking the **X (4)** in the top-right corner.
+
+     ![](../Images/T3-S15.png)
 
 1. You have successfully created and configured a user in Microsoft Entra ID.
 
-1. Copy the email id of the  recently created user to use the email id to sign in for the next task (sara@azureholxxxx.onmicrosoft.com)
+1. Navigate back to the Microsoft Azure Portal and return to the Microsoft Entra ID Overview page. **Copy** the **email address** of the newly created user (e.g., sara@azureholxxxx.onmicrosoft.com), as you will use it to sign in for the next task.
 
    >**Note** : You can retrieve the email ID from the environment details page.
 
+     ![](../Images/T3-S16.png)
+
 1. Sign out from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then the close all the browser windows.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Click Lab Validation tab located at the upper right corner of the lab guide section and navigate to the Lab Validation tab.
-    > - Hit the Validate button for the corresponding task.
-    > - If you receive a success message, you can proceed to the next task. If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     ![](../Images/T3-S17a.png)
+
+     ![](../Images/T3-S17b.png)
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. > - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+     
+<validation step="23fc9a6d-edce-49f8-99f4-7f3727e3124f" />
 
 ## Task 4: Sign in to the user first time
 
@@ -179,9 +198,9 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. Open Microsoft Edge.
 
-1. In the address bar enter **login.microsoft.com**.
+1. In the address bar enter **[login.microsoft.com](https://login.microsoft.com)** or https://login.microsoft.com.
 
-1. Sign in as **sara@azureholxxxx.onmicrosoft.com**.
+1. Sign in using the email address **sara@azureholxxxx.onmicrosoft.com** that you copied in step 17 of Task 3.
 
    ![](../Images/sc900-image18.png)
 
@@ -193,13 +212,13 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. You are now prompted to Update your password. In the Current password field, enter the temporary password that you have provided earlier.
 
-1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  Note: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
+1. In the New password field enter, **SC900-Lab**.  In the Confirm your password field enter SC900-Lab, then select Sign in.  **Note**: As a best practice, a more secure password should be used. This password is chosen, for expediency and only for the purpose of this lab.
 
      ![](../Images/sc900-image20.png)
 
 1. You should now be successfully signed in to Microsoft 365.
 
-     ![](../Images/sc900-image21.png)
+     ![](../Images/T4-S4.png)
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
