@@ -48,6 +48,9 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
+    ![](../Images/T1-S9a.png)
+
+    ![](../Images/T1-S9b.png)
 1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
    ![](../Images/sc900-image6.png)
