@@ -184,7 +184,7 @@ In this task, you, as user Adele Vance, will go through the registration process
    
    >**Note:** we are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
-1. A pop-up displays indicating that **Action Required**. his is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button. Then When prompted to stay signed- in, select **Yes**.
+1. A pop-up displays indicating that **Action Required**. his is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
@@ -221,7 +221,7 @@ In this task, you, as user Adele Vance, will go through the registration process
 
    ![](../Images/auth8.png)
 
-1. You can now complete your sign-in. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
+1. You'r sign-in has been completed now. You should be on the Office 365 landing page. If you see that your sign-in time has expired, just reenter the password, SC900-Lab.
 
    ![](../Images/MS365.png)
    
