@@ -186,7 +186,7 @@ In this task, you, as user Adele Vance, will go through the registration process
    
    >**Note:** we are using this password only for the convenience of the lab. As a best practice, you would typically enter a more secure password.
 
-1. A pop-up displays indicating that **Action Required**. his is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
+1. A pop-up displays indicating that **Action Required**. This is because as a member of the SSPRSecurityUsers group, the configuration requires its members to register when they sign in. Select the **Next** button.
 
     >**Note**:  An alternative to having users do the registration, themselves, is for admins to directly configure the authentication methods when they add a user. This requires admins to know and set the ​phone numbers and email addresses that users use to perform a self-service password reset, and reset a user’s password.
 
