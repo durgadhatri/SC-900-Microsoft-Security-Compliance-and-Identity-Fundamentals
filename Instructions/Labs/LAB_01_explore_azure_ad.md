@@ -40,25 +40,25 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-   ![](../Images/sc900-image4.png)
+    ![](../Images/sc900-image4.png)
 
 1. Under Admin centers, select **Identity** (you may need to scroll down).  
 
-   ![](../Images/sc900-image5.png)
+    ![](../Images/sc900-image5.png)
 
 1. A new browser page opens to the My Dashboard page of the Microsoft Entra admin center. From the dashboard’s main windows, you will see several tiles, including the Organization’s Identity tile ( the tenant and the Azure AD edition), a tile for users and groups, and more.
 
 1. From the left navigation pane, under favorites select **Identity**.  In the main window, you will see another navigation panel that lists all the services that are available in Azure AD. To the right, you will see information about the tenant and links to identity types you can create and featured services.  
 
-   ![](../Images/sc900-image6.png)
+    ![](../Images/sc900-image6.png)
  
 1. Now open a new browser window and in the address bar, enter **portal.azure.com**.  Since you are already signed in as <inject key="Username" enableCopy="false" /> and you originally used those same credentials to redeem your Azure pass, you should be logged in as the admin when you access the Azure portal.  You can verify this by checking the email on the top-right corner of the page and hovering your mouse over the user icon.
 
-   ![](../Images/SC-900-4x.png)
+    ![](../Images/SC-900-4x.png)
 
 1. The Azure portal’s landing page shows Azure services, including Virtual Machine, storage accounts, databases, and much more.
 
-   ![](../Images/sc900-image7.png)
+    ![](../Images/sc900-image7.png)
 
 1. Select More Services, then select Microsoft Entra ID. If you don't immediately see it, you can enter Microsoft Entra ID on the blue search bar and select Microsoft Entra ID from result list.
 
@@ -68,7 +68,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. You are now seeing the Microsoft Entra ID for your Microsoft 365 tenant. Whichever approach you use to access Microsoft Entra ID services (the Microsoft 365 admin portal or the Azure portal) you end up in the same place – the Microsoft Entra ID where you can administer all the Azure AD services.
 
-   ![](../Images/lab1-1.png)
+    ![](../Images/lab1-1.png)
    
 1. Keep this browser page open for the next task.
 
