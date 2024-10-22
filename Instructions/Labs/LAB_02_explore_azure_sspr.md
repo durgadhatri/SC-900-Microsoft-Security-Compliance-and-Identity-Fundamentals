@@ -175,6 +175,8 @@ In this task, you, as user Adele Vance, will go through the registration process
        ![](../Images/username-enter.png)
        
     3. Enter the password you noted in the earlier task. Select **Sign in**.
+  
+       >**Note:** If you face any issue while entering the password which states to either incorrect password. Login as <inject key="AzureAdUserEmail"></inject> to the Azure portal reset the password for the user again and note the Temporary password [ Follow step 19 and 20 from Task 1 ]
 
        ![](../Images/password-enter.png) 
 
