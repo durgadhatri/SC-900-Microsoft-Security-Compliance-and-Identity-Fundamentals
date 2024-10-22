@@ -244,24 +244,30 @@ In this task, you, as user Adele Vance, will go through the process of resetting
 
 1. Sign in as Adele Vance, by entering your email **Adele@azureholxxxx.onmicrosoft.com** (user email id of Adel Vance)and select the **Next** button. You may, instead, see a Pick an account window open, if so, select the account for Adele Vance.
 
-1. From the Enter password window, select **Forgot my password**. 
+1. From the Enter password window, select **Forgot my password**.
+
+   ![](../Images/forget-pass-0.png)   
 
 1. The Get back into your account window opens. Verify that the email for Adele Vance, Adele@azureholxxxx.onmicrosoft.com, is shown in the email or username box.  If not, enter it. In the empty box, enter the characters displayed in the image or the words from the audio. Once you have entered them, select **Next**.
 
-   ![](../Images/sc900-forgetpassword.png)
+   ![](../Images/forget-pass.png)
 
-1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter your mobile phone number.  Once you have entered it, select the **Text button**.
-   ![](../Images/verification(1).png)
-
-1. Enter the verification code then press **Next**.
+1. The screen shows Get back into your account and shows Verification step 1 > choose a new password. Leave the default setting **Text my mobile phone**.  You are prompted to enter the code sent to your mobile phone numbe.  Once you have entered it, select the **Next button**.
+   ![](../Images/forget-pass-1.png)
 
 1. In the next screen you are prompted to enter the new password and confirm the new password.  Enter those now and select the **Finish** button.
 
+    ![](../Images/forget-pass-2.png)
+
 1. You will see a message on the screen that your password has been reset.  Select **click here** to sign in with your new password.
+
+   ![](../Images/forget-pass-3.png)
 
 1. From the Pick an account information box, select **Adele@azureholxxxx.onmicrosoft.com**, enter your new password, then select the **Sign in** button.  If you are prompted to Stay signed in. select **No**.
 
 1. You should now be on the Office 365 Page.
+
+    ![](../Images/MS365.png)
 
 1. Sign out by selecting the user icon next to the email address on the top right corner of the screen and selecting **Sign out**. Then the close all the browser windows
 
