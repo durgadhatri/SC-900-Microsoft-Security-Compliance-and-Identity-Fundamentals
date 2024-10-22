@@ -83,16 +83,16 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
     4. Group description: **Add an optional description to your group**.
 
-    ![](../Images/sc900-image9.png)
+        ![](../Images/sc900-image9.png)
 
-    **Note:** Kindly refresh the screen if the newly created group is not visible.
+       > **Note:** Kindly refresh the screen if the newly created group is not visible.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-     
-       <validation step="6be841cf-5bd0-4c51-9b70-a308b628beb9" />
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. > - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+ <validation step="6be841cf-5bd0-4c51-9b70-a308b628beb9" />
 
 ## Task 3: Create a new user in the Microsoft Entra ID and explore some of the services
 
@@ -185,12 +185,12 @@ To add a license, click on **Go to the Microsoft 365 admin center** from the ale
 
      ![](../Images/T3-S17b.png)
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    > - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
-    > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. > - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
+> - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
      
-       <validation step="23fc9a6d-edce-49f8-99f4-7f3727e3124f" />
+<validation step="23fc9a6d-edce-49f8-99f4-7f3727e3124f" />
 
 ## Task 4: Sign in to the user first time
 
