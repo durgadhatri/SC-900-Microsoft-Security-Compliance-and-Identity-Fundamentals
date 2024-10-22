@@ -223,7 +223,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
 1. You should now be successfully signed in to Microsoft 365.
 
-     ![](../Images/T4-S4.png)
+     ![](../Images/T4-S4a.png)
 
 1. **Sign out** from all the browser tabs by clicking on the user icon next to the email address on the top right corner of the screen. Then close all the browser windows.
 
