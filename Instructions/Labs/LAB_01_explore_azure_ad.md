@@ -37,6 +37,7 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
        * Password : **<inject key="AzureAdUserPassword"></inject>** 
           
 
+
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
    ![](../Images/sc900-image4.png)
