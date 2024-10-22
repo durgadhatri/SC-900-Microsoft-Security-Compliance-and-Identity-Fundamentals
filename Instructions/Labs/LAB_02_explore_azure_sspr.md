@@ -37,15 +37,15 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/new-group.png)
    
-1. Populate the **New Group** fields as follows and Select **Create**
+1. Populate the **New Group** fields as follows and Select **Create(4)**
 
-    1. Group type: **Security**.
+    1. Group type: **Security(1)**.
 
-    2. Group name: **SSPRSecurityGroupUsers**.
+    2. Group name: **SSPRSecurityGroupUsers(2)**.
 
-    3. Group description: **Add an optional description to your group**.
+    3. Group description: **Add an optional description to your group(3)**.
        
-    ![](../Images/sc-900lab-02.png)
+    ![](../Images/new-group-fields.png)
 
 1. Navigate back to the **Microsoft Entra ID** home page, from the left navigation menu, select **Password reset**. 
 
