@@ -28,16 +28,14 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. Sign in with the following credentials.
     
-    1. In the Sign in window enter following email  then select **Next**.
+    -  In the Sign in window enter following email  then select **Next**.
 
        * Email : **<inject key="AzureAdUserEmail"></inject>**
      
-    1. Enter the admin following password and select **Sign in**.
+    -  Enter the admin following password and select **Sign in**.
 
        * Password : **<inject key="AzureAdUserPassword"></inject>** 
           
-
-
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
     ![](../Images/sc900-image4.png)
@@ -93,7 +91,8 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
        > **Note:** Kindly refresh the screen if the newly created group is not visible.
 
 > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. > - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
+> - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task.
+> - Alternatively, you can navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
 > - If not, carefully read the error message and retry the step, following the instructions in the lab guide. 
 > - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
@@ -129,15 +128,15 @@ In this task, you’ll learn how to create a new user in the Microsoft Entra ID 
 
    1. Usage location: **United States** (select the drop-down then scroll down to find this option). Configuring usage location is required for assigning licenses.
 
-     ![](../Images/sc900-image(11).png)
+      ![](../Images/sc900-image(11).png)
    
 1. In the **Assignments** tab :
 
-    1. Click **Add Group**,this displays the available groups.  Notice the list of available groups.
+    - Click **Add Group**,this displays the available groups.  Notice the list of available groups.
 
-    2. Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 group selected.  
+    - Select **Operations**, you may need to scroll down, then press **Select**. Notice how the text next to groups has been updated to reflect 1 group selected.  
 
-      ![](../Images/sc900-image12.png)
+       ![](../Images/sc900-image12.png)
 
 1. Next to Roles, select **Add role**. The list of Directory roles appears.  Scroll down to view the various built-in roles, to view the various roles, but don’t change the user role.  Close out of this window by selecting the **X** on the top right-hand corner of the page.
 
@@ -209,7 +208,7 @@ In this task, you will sign in as Sara Perez, for the first time.
 
    ![](../Images/sc900-image18.png)
 
- >**Note** : You can retrieve the email ID from the environment details page.
+   >**Note** : You can retrieve the email ID from the environment details page.
 
 1. Enter the temporary password that you have provided earlier.
 
