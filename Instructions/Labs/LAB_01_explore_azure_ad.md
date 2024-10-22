@@ -28,11 +28,11 @@ As a subscriber to Microsoft 365 you're already using Microsoft Entra ID.  In th
 
 1. Sign in with the following credentials.
     
-    i. In the Sign in window enter following email  then select **Next**.
+    1. In the Sign in window enter following email  then select **Next**.
 
        * Email : **<inject key="AzureAdUserEmail"></inject>**
      
-    ii. Enter the admin following password and select **Sign in**.
+    1. Enter the admin following password and select **Sign in**.
 
        * Password : **<inject key="AzureAdUserPassword"></inject>** 
           
