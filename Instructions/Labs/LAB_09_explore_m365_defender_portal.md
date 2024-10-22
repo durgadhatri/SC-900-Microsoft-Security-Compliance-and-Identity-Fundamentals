@@ -74,27 +74,47 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
 1. From the Welcome page of the Microsoft 365 Defender portal, select **Microsoft Secure Score**, from the title bar of the card (the text will turn blue).  Alternatively, you can select **Secure score** from the left navigation panel.
  
-     ![Picture 1](../Images/sc-900-lab-9-2.png)
+     ![Picture 1](../Images/L9-T2-S1.png)
 
 1. The Microsoft Secure Score page opens to the Overview tab.  Microsoft Secure Score is a measurement of an organization's security posture. Your organization’s secure score is shown as a percentage, along with the number of points you've achieved out of the total possible points and broken down by category. Select **Include**, next to where it says Your secure score.  A small window opens that allows you to include the achievable score, Planned score, and Current license score in the breakdown of your organization's secure score.  Select  **Include** again to close the window.
 
-     ![Picture 1](../Images/sc-900-lab-9-3.png)
+     ![Picture 1](../Images/L9-T2-S2.png)
 
 1. The overview page also includes top improvement actions, comparison score, history, and additional resources.
 
-1. Select **Recommended actions** from the top of the page.  Notice the information available in the table, for each item, which includes score impact and points achieved.  
+     ![Picture 1](../Images/L9-T2-S3.png)
 
-1. Selecting an item from the list provides detailed information.  Select **Require MFA for Administrative roles** and review the available information.  Select **Edit status & action plan**.  In the window that opens, note the status options available. Select the **X** at the top right corner to close this window
+1. Select **Recommended actions** from the top of the page. Notice the information available in the table. Select the **first items** from the list and review the available information in the window that opens.
 
-     ![Picture 1](../Images/sc900-recAction.png)
+     ![Picture 1](../Images/L9-T2-S4.png)
 
-1. Select the **History** tab from the top of the page. Select an item from the history table.  A detailed page for the selected item opens.  Explore the options available.  To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
+1. Select **Edit status & action plan (1)**. In the window that opens, note the status options available. Select the **X (2)** at the top right corner to close this window.
 
-     ![Picture 1](../Images/sc900-his.png)
+> **Note :** Note: Skip this step if the **Edit status & action plan** option is not clickable.
 
-1. From the top of the page, select **Metrics & trends**.  Note the available information.  From the top-right corner of the page, select the **calendar icon**.  You can narrow down the view to a custom date range.  Selecting the **filter icon**, allows you to filter the view by Identity, Apps, Devices and Data.  Close the window and select **Home** from the left navigation panel to return to the Microsoft 365 Defender home page.
+     ![Picture 1](../Images/L9-T2-S5a.png)
 
-    ![Picture 1](../Images/sc900-mandt.png)
+     ![Picture 1](../Images/L9-T2-S5b.png)
+
+1. Now, select the **Implementation (1)** tab to view the information related to implementation. Select the **X (2)** at the top right corner to close this window.
+
+     ![Picture 1](../Images/L9-T2-S6.png)
+
+1. Select the **History (1)** tab from the top of the page. Select an **item (2)** from the history table. 
+
+     ![Picture 1](../Images/L9-T2-S7.png)
+
+1. When a detailed page for the selected item opens, explore the options available. To exit out of the details page and return to the History page, select the **X** on the top-right corner of the page.
+
+     ![Picture 1](../Images/L9-T2-S8.png)
+
+1. From the top of the page, select **Metrics & trends (1)**.  Note the available information. From the top-right corner of the page, select the **calendar icon (2)**. You can narrow down the view to a custom date range.
+
+     ![Picture 1](../Images/L9-T2-S9.png)
+
+1. Select the **filter** icon to filter the view by Identity, Apps, Devices, and Data. To return to the Microsoft 365 Defender home page, select the **X** on the top-right corner. Choose **Home** from the left navigation panel.
+
+    ![Picture 1](../Images/L9-T2-S10.png)
     
     
     >**Note:** If you can't see details on the **History** and **Metrics & treads** tabs, this is because after making configuration changes. it will take about 24 hours to update.
