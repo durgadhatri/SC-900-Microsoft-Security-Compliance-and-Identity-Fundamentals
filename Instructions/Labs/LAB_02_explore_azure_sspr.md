@@ -27,7 +27,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. In the Azure portal, in the **Search resources, services, and docs (G+/)** text box at the top of the Azure portal page,  type **Microsoft Entra ID** and press the **Enter** key.
 
-   ![](../Images/AAD-search.png)
+   ![](../Images/AAD-Search.png)
 
 1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups** under **Manage** and then select **New group**.
    
