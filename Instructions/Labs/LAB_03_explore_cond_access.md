@@ -71,14 +71,14 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. From the left navigation pane, expand **Protection** then select **Conditional Access** and click on **+ Create new policy**. 
 
-   ![](../Images/create-policy.png)
+   ![](../Images/Asc-900-image7.png)
    
    >**Note**: If you see a message at the bottom "It looks like you're about to manage your organization's security configurations. That's great! You must first disable security defaults before enabling a Conditional Access policy", click on **Disable security defaults**, and select **Disable** from the drop down menu.
    > ![](../Images/disable-security-defaults.png)
 
 1. Enter the following details,
 
-    - In the Name field, enter **Block admin portals**.
+    - In the Name field, enter **MFA Test Policy**.
 
     - Under Users, select **0 users and groups selected**.
 
@@ -92,17 +92,21 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
     ![](../Images/sc900lab3-image4.png)
 
-1. Under **Target resources**, select **No target resources are selected**.
+1. Under **Target resources**, select **No target resources are selected (1)**. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure 
+   **Cloud apps (2)** is highlighted and **Include** is selected (underlined), then select **Select apps (3)**.  under **Select** click on **None (4)**, then the window 
+   to Select Cloud apps opens.
 
-1. You will now see the option to Include or Exclude cloud apps or user actions.  Make sure **Cloud apps** is highlighted and **Include** is selected (underlined), then select **Select apps**.  under **Select** click on **None**, then the window to Select Cloud apps opens.
-
+     ![](../Images/Asc-900-image8.png)
+   
 1. In the search bar, Type/Search and select **Microsoft admin portals**, then press **Select** at the bottom of the page.  Notice the warning.  
     
-    ![](../Images/mirco_01.png)
+    ![](../Images/Asc-900-image9.png)
 
-1. Under Network, select **Any network or location**.  Review the options but do not select any options.
+1. Under Network, select **Not Configured**.  Review the options but do not select any options.
    
-    ![](../Images/select-network.png)
+    ![](../Images/Asc-900-image10.png)
+
+    ![](../Images/Asc-900-image11.png)
 
 1. Under Conditions, select **0 conditions selected**.  Notice the different options you can configure.  Through the policy, you can control user access based on signals from conditions like risk, device platform, location, client apps, or device state.  For example, you could include a condition for the policy to apply for any location except selected or trusted locations such as your headquarters’ network.  For this policy, do not set any conditions.
 
@@ -110,15 +114,15 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 
 1. The Grant window opens.  Ensure **Block access** is selected and then press **Select** at the bottom of the page.
 
-    ![](../Images/grant-controls.png)
+    ![](../Images/Asc-900-image12.png)
 
 1. At the bottom of the page, Under Enable policy, select **On**, then press the **Create button**.
 
-    ![](../Images/lab3-1.png)
+    ![](../Images/Asc-900-image13.png)
 
-1. After a few seconds, the **Block admin portals** policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
+1. After a few seconds, the **MFA Test Policy** policy should appear in the list of conditional access policies (if needed, select **Refresh** at the top of the page).
 
-    ![](../Images/policy-created.png)
+    ![](../Images/Asc-900-image14.png)
 
 1. Sign out of Azure and close your browser windows.
 
