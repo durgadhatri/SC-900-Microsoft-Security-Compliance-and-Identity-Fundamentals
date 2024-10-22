@@ -31,7 +31,9 @@ In this task, you, as the admin, will reset the password for the user Debra Berg
 1. Now enter the following password and click on **Sign in**.
    
    * Password: <inject key="AzureAdUserPassword"></inject>
-   
+
+1. On the **Stay signed in ?** select **No**.   
+
 1. From the left navigation pane, expand **Identity**, expand **Users**, then select **All users**.
 
 1. Select **Debra Berger** from the list of users.
