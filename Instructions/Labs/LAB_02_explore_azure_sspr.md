@@ -51,13 +51,17 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-password-reset.png)
 
-1. From the **Properties** page, under the option **Self-service password reset enabled** is selected and click on **Select group**.
+1. On the **Password reset | Properties** page, under **Self service password reset enabled**, choose **Selected (1)** option and then select your Microsoft Entra ID group,by clicking on the **No group selected**.
 
-1. On the **Password reset | Properties** page, under **Self service password reset enabled**, choose **Selected (1)** option.
+   ![](../Images/password-reset-properties.png)
+   
+1. Select **SSPRSecurityGroupUsers (1)** group, after that choose **Select (2)**.
 
-1. Browse for and select your Microsoft Entra ID group, **SSPRSecurityGroupUsers (2)**, after that choose **Select (3)**, then select **save (4)**.
+   ![](../Images/password-reset-properties1.png)
 
-   ![](../Images/aad-password-reset(1)-1.png)
+1. Once you Microsoft Entra ID group is seleted, make sure that it appears under **Select Group(1)** and then click on **Save(1)**.
+
+   ![](../Images/password-reset-properties2.png)
    
 1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
  
