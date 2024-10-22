@@ -121,7 +121,7 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. Go to the **Microsoft Entra ID** home page.
 
-1. From the left navigation pane, select **Password reset(2)** under **Manage(1)**.
+1. From the left navigation pane, select **Password reset**.
 
    ![](../Images/select-password-reset.png)
 
