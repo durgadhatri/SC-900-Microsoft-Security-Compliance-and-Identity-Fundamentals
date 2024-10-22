@@ -90,8 +90,7 @@ In this task, you will explore how Microsoft Secure Score can help an organizati
 
 1. Select **Edit status & action plan (1)**. In the window that opens, note the status options available. Select the **X (2)** at the top right corner to close this window.
 
-> **Note :** Note: Skip this step if the **Edit status & action plan** option is not clickable.
-
+   > **Note :** Note: Skip this step if the **Edit status & action plan** option is not clickable.
 
      ![Picture 1](../Images/L9-T2-S5a.png)
 
