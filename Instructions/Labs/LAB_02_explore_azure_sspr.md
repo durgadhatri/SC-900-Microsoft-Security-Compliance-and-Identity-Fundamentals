@@ -59,7 +59,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/password-reset-properties1.png)
 
-1. Once you Microsoft Entra ID group is seleted, make sure that it appears under **Select Group(1)** and then click on **Save(1)**.
+1. Once you Microsoft Entra ID group is selected, make sure that it appears under **Select group(1)** and then click on **Save(1)**.
 
    ![](../Images/password-reset-properties2.png)
    
