@@ -65,7 +65,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. Close the Properties window of Password reset by selecting the X at the top right corner of the page.
    
-1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section.
+1. In Microsoft Entra ID Overview page, click on the **Groups (2)** blade under the **Manage (1)** section.
 
    ![](../Images/select-groups.png)
   
