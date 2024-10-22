@@ -62,16 +62,28 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 1. Once you Microsoft Entra ID group is selected, make sure that it appears under **Select group(1)** and then click on **Save(1)**.
 
    ![](../Images/password-reset-properties2.png)
+
+1. Close the Properties window of Password reset by selecting the X at the top right corner of the page.
    
-1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section.
+
+   ![](../Images/select-group.png)
+  
+1. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
+
+   ![](../Images/select-created-group.png)
  
-1. From the left navigation pane, select **Members (1)** under **Manage**.
+1. From the left navigation pane, select **Members** under **Manage**.
 
-1. From the top of the page, select **+ Add members (2)**.  
+   ![](../Images/choose-members.png)
 
-1. In the Search box, enter **Adele (3)**.  Once the user, **Adele Vance (4)**, appears below the search box, select it then press **Select (5)** from the bottom of the page.
+1. From the top of the page, select **+ Add members**.
 
-    ![](../Images/sspr-add-member(1)-1.png)
+   ![](../Images/choose-members1.png) 
+
+1. In the Search box, enter **Adele (1)**.  Once the user, **Adele Vance (2)**, appears below the search box, select it then press **Select (3)** from the bottom of the page.
+
+   ![](../Images/choose-members2.png)
    
 1. Close out of the SSPRSecurityUsers window, selecting the **X** on the top right corner of the screen,
 
