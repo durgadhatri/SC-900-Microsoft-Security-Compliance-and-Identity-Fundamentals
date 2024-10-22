@@ -21,6 +21,8 @@ In this lab, you will complete the following tasks:
   
 ## Task 1:  In this task you will create a Windows 10 virtual machine
 
+In this task, you’ll create a Windows 10 virtual machine to set up an isolated environment for testing and development purposes.
+
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual Machines**, and then select **Virtual Machines** under services. Virtual Machines.
 
      ![Picture 1](../Images/sc900-lab5-1.png)
@@ -47,29 +49,29 @@ In this lab, you will complete the following tasks:
    | **Licensing** |  select **I confirm I have an eligible Windows 10 license with multi-tenant hosting rights**, so that a checkmark appears in the box. |
    | **Select** | **Next: Disks**. | 
         
-1. You are now in the **Disks** tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default and select **Next: Networking >**.
+1. You are now in the **Disks** tab for the VM configuration, change the OS disk type to **Standard SSD** and Leave all other settings to the default .
 
     ![Picture 1](../Images/sc900-lab5-2.png)
       
-1. You are now in the Networking tab for the VM configuration.  Fill in the following information (for anything not listed, leave the default settings):
-    
-    - NIC network security group:  select **None**.  Note: the reason you are selecting None at this step is because we want want to take you through the steps of setting up an NSG from scratch, which are covered in the subsequent tasks.
+1. Switch to the **Networking** tab, and configure the following setting:
+
+    | Settings | Values |
+    | -- | -- |
+    | NIC network security group | **None**|
 
       ![Picture 1](../Images/sc900-5-11.png)
 
-1. Select **Next:  Management >**.
+1. Leave the remaining defaults and then click the **Review + create** button at the bottom of the page.
 
-1. You are now in the Management tab for the VM configuration.  Leave all settings to the default and select **Next: Monitoring>**.
+1. Once Validation is passed click the **Create** button. It can take about five minutes to deploy the virtual machine.
 
-1. You are now in the Monitoring tab for the VM configuration.  Leave all settings to the default and select **Next: Advanced>**.
+1. Monitor the deployment. It may take a few minutes for the resource group and virtual machine to be created. 
 
-1. You are now in the Advanced tab for the VM configuration.  Leave all settings to the default and select **Next: Tags>**.
+1. From the deployment blade or from the Notification area, click **Go to resource**. 
 
-1. You are now in the Tags tab for the VM configuration.  Leave all settings to the default and select **Next: Review + Create>**.
+   >**Note**: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
 
-1. Review the configuration for your VM.  A few points to note: This VM has a public IP address and no NIC network security group.  From a security perspective this leaves the VM exposed.  We will address this in a subsequent task. Select Create.  It may take several minutes for the VM deployment to complete.
-
-1. Note the name of the network interface, **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM).
+1. Note the name of the network interface, **sc900-winvmxxx** (the XXX will be specific to the network interface of your VM).
 
 1. Once the VM deployment is complete, select **Go to resource**.
    
@@ -81,26 +83,27 @@ In this lab, you will complete the following tasks:
 
 1. Open the downloaded file and select **Connect**. 
 
-   > **Note:** The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must 
-be configured.  You'll do that in the next task, when you create a network security group.
+   > **Note:** The port prerequisite is not met.  In order to satisfy the prerequisite, an inbound network security rule with the destination port 3389, used by RDP, must be configured.  You'll do that in the next task, when you create a network security group.
 
    ![Picture 1](../Images/08.png)
    
-1. From the left navigation panel, under **Networking** section select **Network settings**.
+1. On **sc900-winvmxxx** virtual machine blade, navigate to **Networking**, select **Network Settings**, scroll down, and click on **Add Network Security Group**. Next, click on **Create Port Rule** and select the **Inbound Port Rule** tab from the dropdown menu. Please note that there is currently no network security group associated with the virtual machine's network interface or the subnet linked to it.
+
+   ![Picture 1](../Images/add_network.png)
     
-     - The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
-     - Select **Effective security rules 0** link.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
+- The default view is for inbound port rules.  Note that the network interface for this VM has no network security groups configured.  The same is true if you select Outbound port rules.
+- Select **Effective security rules 0** link.  Note that it says, "No network security groups or applications security groups are associated with the network interface".
 
-1. Leave this browser tab open.
+<validation step="24fbcf68-d975-439f-9d37-7e35ffd329f4" />
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
-
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
 
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
+
+In this task, you’ll create a network security group, assign it to the VM’s network interface, and set up a new inbound rule to allow RDP traffic.
 
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Network security groups**, and then select **Network security groups** under services (do not select Network security groups classic).
 
@@ -122,7 +125,16 @@ be configured.  You'll do that in the next task, when you create a network secur
 
 1. From the left navigation pane on the NSG-SC900 page, under Settings, select **Network interfaces**.
 
-1. Select the **Associate**, above search box.
+1. Select the **Associate (1)**, and choose for the **sc900-winvmxxx** from the drop down.
+
+   ![](../Images/associate-1.png)
+
+   >**Note**: **If the option is disabled in the dropdown for network interface associations, follow below steps:**
+     - Go to the **sc900-winvmxxx** network interface, select **Network Security Group (1)** under settings. You will see the currently selected NSG; click on it, choose **None (2)** from the dropdown, and Click on **save (3)** .
+
+       ![](../Images/sc-900.png)
+   
+     - Then, proceed to complete steps 6 and 7.     
 
 1. In the associate network interface page, select **sc900-winvmXXX** (the XXX will be specific to the network interface of your VM). then select **ok** on the bottom of the window. As the interface is being associated you will see a notification box in the top right corner of the screen.
 
@@ -152,13 +164,16 @@ be configured.  You'll do that in the next task, when you create a network secur
   
     > **Note:** Once the rule is provisioned, it will appear on the list of inbound rules (you may need to refresh the screen). On the newly added rule, you'll see a warning sign.  As stated above, we're using RDP to only for testing purposes and to demonstrate the functionality of the NSG. Select the newly added rule.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+
+<validation step="8ecbe441-8eed-4208-8da0-bbd3c55a6f26" />
+
+> **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+- Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+- If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+- If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
       
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
+
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab,
@@ -193,6 +208,8 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. Keep the browser tab open you'll use it the next task.
 
 ## Task 4: Allow outbound internet traffic to validate that you can connect to the internet
+
+In this task, you’ll configure outbound internet traffic for the VM to ensure it can successfully connect to the internet for validation.
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Network settings**.
 
@@ -233,12 +250,13 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 
 1. In this task you successfully configured an outbound rule in your NSG, to block outbound internet traffic.
 
-    > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
-    - Navigate to the Lab Validation Page, from the upper right corner in the lab guide section.
-    - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
-    - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
-    - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+   <validation step="ce6c9e7b-b43c-4e76-8684-24dca8019552" />
 
+   > **Congratulations** on completing the task! Now, it's time to validate it. Here are the steps:
+   - Hit the Validate button for the corresponding task. If you receive a success message, you can proceed to the next task. 
+   - If not, carefully read the error message and retry the step, following the instructions in the lab guide.
+   - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
+    
 ## Review
 In this lab, you have completed:
 - In this task you will create a Windows 10 virtual machine
