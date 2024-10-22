@@ -21,6 +21,8 @@ In this lab, you will complete the following tasks:
   
 ## Task 1:  In this task you will create a Windows 10 virtual machine
 
+In this task, you’ll create a Windows 10 virtual machine to set up an isolated environment for testing and development purposes.
+
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Virtual Machines**, and then select **Virtual Machines** under services. Virtual Machines.
 
      ![Picture 1](../Images/sc900-lab5-1.png)
@@ -101,6 +103,8 @@ In this lab, you will complete the following tasks:
 
 ## Task 2:  Create a network security group and assign the network interface of the VM to that NSG and create a new inbound rule for RDP traffic
 
+In this task, you’ll create a network security group, assign it to the VM’s network interface, and set up a new inbound rule to allow RDP traffic.
+
 1. On Azure Portal page, in **Search resources, services and docs (G+/)** box at the top of the portal, enter **Network security groups**, and then select **Network security groups** under services (do not select Network security groups classic).
 
 1. From the top of Network security groups page, select **+ Create**.
@@ -169,6 +173,7 @@ In this lab, you will complete the following tasks:
 - If you need any assistance, please contact us at labs-support@spektrasystems.com. We are available 24/7 to help you out.
       
 ## Task 3: Test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM
+
 In this task, you'll test the newly created inbound NSG rule to confirm that you can establish a remote desktop (RDP) connection to the VM.  Once inside the VM you'll work check outbound connectivity to the internet from the VM. 
 
 1. Open the SC900-WinVM – Microsoft Azure Tab on your browser.If you previously closed the browser tab,
@@ -203,6 +208,8 @@ In this task, you'll test the newly created inbound NSG rule to confirm that you
 1. Keep the browser tab open you'll use it the next task.
 
 ## Task 4: Allow outbound internet traffic to validate that you can connect to the internet
+
+In this task, you’ll configure outbound internet traffic for the VM to ensure it can successfully connect to the internet for validation.
 
 1. You should be on the SC900-WinVM | Networking page. If you previously closed the browser tab, select the blue search bar on the top of the page and select Virtual machines, then select the VM, **SC900-WinVM**, then select **Network settings**.
 
