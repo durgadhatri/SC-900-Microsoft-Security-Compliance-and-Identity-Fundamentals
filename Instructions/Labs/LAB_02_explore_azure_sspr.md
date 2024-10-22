@@ -67,7 +67,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
    
 1. In Microsoft Entra ID Overview page, click on the **Groups** blade under the manage section.
 
-   ![](../Images/select-group.png)
+   ![](../Images/select-groups.png)
   
 1. In the Search groups field, select **SSPRSecurityGroupUsers**.  It will take you to the configuration option for this group.
 
