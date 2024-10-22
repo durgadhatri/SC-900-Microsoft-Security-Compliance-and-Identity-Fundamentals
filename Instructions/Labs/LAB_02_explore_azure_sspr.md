@@ -29,7 +29,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/AAD-Search.png)
 
-1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups(2)** under **Manage(1)**.
+1. On the **Microsoft Entra ID** page, from the left navigation menu, select **Groups (2)** under **Manage (1)**.
 
    ![](../Images/select-groups.png)
    
@@ -37,13 +37,13 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/new-group.png)
    
-1. Populate the **New Group** fields as follows and Select **Create(4)**
+1. Populate the **New Group** fields as follows and Select **Create (4)**
 
-    1. Group type: **Security(1)**.
+    1. Group type: **Security (1)**.
 
-    2. Group name: **SSPRSecurityGroupUsers(2)**.
+    2. Group name: **SSPRSecurityGroupUsers (2)**.
 
-    3. Group description: **Add an optional description to your group(3)**.
+    3. Group description: **Add an optional description to your group (3)**.
        
     ![](../Images/new-group-field.png)
 
@@ -59,7 +59,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/password-reset-properties1.png)
 
-1. Once you Microsoft Entra ID group is selected, make sure that it appears under **Select group(1)** and then click on **Save(1)**.
+1. Once you Microsoft Entra ID group is selected, make sure that it appears under **Select group (1)** and then click on **Save (1)**.
 
    ![](../Images/password-reset-properties2.png)
 
@@ -89,7 +89,7 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
 1. Return to the **Microsoft Entra ID** page.
 
-1. From the left navigation panel select **Users(2)** under **Manage(1)**.
+1. From the left navigation panel select **Users (2)** under **Manage (1)**.
 
    ![](../Images/select-users.png)
    
@@ -97,9 +97,9 @@ In this task, you, as the admin, will add user, Adele Vance, into the SSPRSecuri
 
    ![](../Images/select-users1.png)
 
-1. Select **Reset password(1)** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
+1. Select **Reset password (1)** from the top of the page. Since you have not previously signed in as Adele Vance, you will need to reset the password
 
-1. When the Reset password window opens, select **Reset Password(2)**.  
+1. When the Reset password window opens, select **Reset Password (2)**.  
 
    ![](../Images/Passwordreset1.png)
 
@@ -127,23 +127,23 @@ In this task, you, as the admin, will learn how to configure Password reset for 
 
 1. The properties for self-service password reset are displayed.  Ensure that **Self-service reset** is **selected** for the group which is listed, the **SSPRSecurityUsers**.  Put your cursor over the information icon next to where it says "select group" and note what it says, "Defines the group of users who are allowed to reset their own passwords." You must include users in the group, you can’t individually select users.  Also, if you change the group, then the group you select replaces the group currently listed.  As such, it is recommended that you simply add users to the SSPR group.  Lastly, note the blue information box, "These settings only apply to end users in your organization. Admins are always enabled for self-service password reset and are required to use two authentication methods to reset their password."
 
-1. From the left navigation panel of Password reset, select **Authentication Methods**(1).
+1. From the left navigation panel of Password reset, select **Authentication Methods** (1).
 
-1. In the Number of methods required to reset, select **1**(2). Note the information box on the screen.
+1. In the Number of methods required to reset, select **1** (2). Note the information box on the screen.
 
-1. Notice the different methods available to users.  **Email** and **Mobile phone**(3) should already be checked; if not, select them and click save.
+1. Notice the different methods available to users.  **Email** and **Mobile phone** (3) should already be checked; if not, select them and click save.
 
    ![](../Images/password-reset-auth.png)
 
-1. From the left navigation panel of Password reset, select **Registration(1)**.  
+1. From the left navigation panel of Password reset, select **Registration (1)**.  
 
-1. Ensure the setting to Require users to register when signing in is set to **Yes(2)**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of **180(3)** and click save if any changes have been made.  Take note of the information box on the page.
+1. Ensure the setting to Require users to register when signing in is set to **Yes (2)**.  Leave the Number of days before users are asked to re-confirm their authentication information, to the default of **180 (3)** and click save if any changes have been made.  Take note of the information box on the page.
 
    ![](../Images/password-reset-registration.png)
 
-1. From the left navigation panel of Password reset, select **Notifications(1)**.  
+1. From the left navigation panel of Password reset, select **Notifications (1)**.  
 
-1. Ensure the setting to Notify users on password resets is set to **Yes(2)**.  Leave the setting for Notify all admins when other admins reset their password to **No(3)**.
+1. Ensure the setting to Notify users on password resets is set to **Yes (2)**.  Leave the setting for Notify all admins when other admins reset their password to **No (3)**.
 
    ![](../Images/password-reset-notification.png)
 
