@@ -34,68 +34,89 @@ In this task you will gain an understanding of what sensitivity labels can do by
 
 1. From the left navigation pane of the Microsoft 365 admin center, select **Show all**.
 
-    ![](../Images/sc-900-jap1.png)
+    ![](../Images/L13-T1-S5.png)
 
-1. Under Admin centers, select **Compliance**.  A new browser page opens to the welcome page of the Microsoft Purview.  
+1. Under **Admin centers (1)**, select **Compliance (2)**.
 
-    ![](../Images/sc-900-jap2.png)
+    ![](../Images/L13-T1-S6.png)
+
+1. A new browser page opens.Since you are already signed in, your email will be listed. You can select your email address, to log in to Microsoft Purview.
     
-    ![](../Images/sc-900-jap3.png)
+    ![](../Images/L13-T1-S7.png)
 
-1. From the left navigation panel of the Microsoft Purview, under Solutions, select **Information protection** and in the dropdown select **Overview** and click on **Turn on now**.
+1.Upon logging in to the portal, a pop-up window will appear. Choose **Go to classic portal** in the pop-up.
 
-    ![](../Images/sc-900-jap4.png)
+    ![](../Images/L13-T1-S8.png)
+   
+1. Now, click on **Switch** next to the **Microsoft 365 compliance portal** option to return to the classic portal.
 
-1. In the yellow information box, indicates that Your organization has not turned on the ability to process content in Office online files that have encrypted sensitivity labels applied and are stored in OneDrive and SharePoint.  Select Turn on now.  Once you do this, there can be a delay for the setting to propagate through the system.
+    ![](../Images/L13-T1-S9.png)
 
-1. Now select **Labels** from the left navigation pane and then select **Create a label**
+1. You are now located on the homepage of the classic Microsoft Purview portal.
 
-    ![](../Images/sc-900-jap6.png)
+    ![](../Images/L13-T1-S10.png)
 
-1. Configuration starts provide a name and description for your label. Select **Next** at the bottom of the page.
+1. In the left navigation panel of Microsoft Purview, go to **Solutions (1)**, select **Information Protection (2)**, and then choose **Overview (3)**. On the overview page, click **Turn on now (4)** inside the yellow information box to enable processing of encrypted sensitivity labels in Office online files stored in OneDrive and SharePoint.
+   > **Note**: There can be a delay for the setting to propagate through the system. Refresh the Page once.
 
-    | Setting | Action |
+    ![](../Images/L13-T1-S11.png)
+
+1. Now select **Labels** from the left navigation panel and then select **Create a label**
+
+    ![](../Images/L13-T1-S12.png)
+
+1. On the new label configuration page, enter the details provided below and click **Next (4)**.
+
+    | Setting | Values |
     | -- | -- |
-    | **Name** text box | Enter **Confidential-Finance** |
-    | **Display name** text box | Enter **Confidential-Finance** |
-    | **Description for users** text box | Enter **Confidential-Finance Demo** | 
+    | **Name** | **Confidential-Finance (1)** |
+    | **Display name** | **Confidential-Finance (2)** |
+    | **Description for users** | **Confidential-Finance Demo (3)** | 
 
-    ![](../Images/sc-900-jap7.png)
+    ![](../Images/L13-T1-S13.png)
 
-1. Note the scope for this label.  The scope is set to **Items**.  Read the description but don’t change anything.  Select **Next** at the bottom of the page.
+1. Note the scope for this label is set to **Items**. Read the description but **do not** change any settings. Select **Next** at the bottom of the page.
 
       ![](../Images/sc-900-jap8.png)
 
-1. On the Choose protection settings for labeled items select the **Apply or remove encryption** and **Apply content marking**, then select **Next**.
+1. On the Choose protection settings for labeled items page, select **Apply or remove encryption (1)*** and **Apply content marking (2)** options, then click **Next (3)**.
 
-    ![](../Images/sc-900-jap9.png)
+    ![](../Images/L13-T1-S15.png)
+
+1. Under **Access Control (1)** section, scroll down and click on **Assign Permissions**.
+
+    ![](../Images/L13-T1-S16.png)
     
-1. The Encryption window shows the configuration for the encryption settings. Review the information box under Configure encryption settings and review the configured settings. Notice how the user access to content is set to never expire.  You can also assign permissions to specific users and groups By clicking on the **Assign permission**.
-    
-    ![](../Images/sc-900-jap10.png)
-  
-1. Click on **+Add Users or Groups**, select your **user name**  and **Megan Bowen** and click on **Add** then back to Assign permission page, Click on **Save**.and so only they can interact with content that has this label applied.  Under users and groups, the tenant is defined so all users in your tenant can view content that has this label.  The finance team is also listed and they have co-author permissions.  Don’t change any settings.  Select **Next** on the bottom of the page.
+1. Click on **+Add Users or Groups** in the **Assign Permissions** page that shows up. 
 
-      ![](../Images/sc-900-jap11.png)
-      
-      ![](../Images/sc-900-jap12.png)
-      
-      ![](../Images/sc-900-jap13.png)
-      
-      ![](../Images/sc-900-jap14.png)
-      
+    ![](../Images/L13-T1-S17.png)
 
-1. On the content markings page, take note of the information box on the top of the page. Turn on the Content Making and select **Add a watermark**, **Add a header**, & **Add a footer**, and click on **Customize text** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails.  The content marking associated with this label is a watermark. Select **Next** on the bottom of the page.
+1. select your username **odl_user_<inject key="deploymentID"></inject>** and **Megan Bowen** and click on **Add**.
 
-      ![](../Images/sc-900-jap16.png)
+    ![](../Images/L13-T1-S18.png)
 
-1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails** and Read the description of auto-labeling on the top of the page and the information box below it. Select **Next** on the bottom of the page.
+1. On the Assign permissions page, check the users you selected in the previous step. These users can interact with the content that has this label applied. Then, click **Save**.
 
-      ![](../Images/sc-900-jap17.png)
+    ![](../Images/L13-T1-S19.png)
+
+1. Under Users and groups, the tenant is defined, allowing all users in your tenant to view content with this label. The finance team is also listed and has co-author permissions. Do not change any settings. Select **Next** on the bottom of the page.
+
+    ![](../Images/L13-T1-S20.png)
+
+
+1. On the content markings page, take note of the information box on the top of the page. **Turn on (1)** the Content Making and select **Add a watermark (2)**, **Add a header (3)**, & **Add a footer (4)**. Click on **Customize text (5),(6),(7)** on each and provide the text **customize watermark test** and click on **Save**.  Content markings will be applied to the documents but only headers and footers will be applied to email messages. In other words, watermarks are not applied to emails. The content marking associated with this label is a watermark. Select **Next (8)** on the bottom of the page.
+
+    ![](../Images/L13-T1-S21.png)
+
+    ![](../Images/L13-T1-S21b.png)
+
+1. You are now in the Auto-labeling for files and emails window. Turn on the **Auto-labeling for files and emails (1)** and read the description of auto-labeling on the top of the page and the information box below it. Select **Next (2)** on the bottom of the page.
+
+    ![](../Images/L13-T1-S22.png)
 
 1. This next window defines protection settings for groups, and sites that have this label applied. This is not enabled, select **Next** on the bottom of the page.
 
-      ![](../Images/sc-900-jap18.png)
+    ![](../Images/L13-T1-S23.png)
 
 1. This next window is a preview feature to automatically apply this label to Azure database columns (such as SQL, Synapse, and more) that contain the sensitive info types you choose. This features is not enabled. Select **Next** on the bottom of the page.
 
@@ -104,7 +125,7 @@ In this task you will gain an understanding of what sensitivity labels can do by
       
 1.  Review the settings and click on **Create label**.
 
-      ![](../Images/sc-900-jap20.png)
+      ![](../Images/L13-T1-S25.png)
       
 1. Click on **Done** on next window.   
 
@@ -159,6 +180,8 @@ In this task you will gain an understanding of what sensitivity labels can do by
     >**Note**- The label created cannot be deleted, it can only be edited. 
 
 1. From the left navigation panel, select Home to return to the Microsoft Purview.
+
+    ![](../Images/L13-T1-S38.png)   
 
 1. Keep this page open, you will use it in the next task.
 
