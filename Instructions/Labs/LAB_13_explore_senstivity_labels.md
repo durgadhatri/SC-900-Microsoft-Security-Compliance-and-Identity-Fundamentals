@@ -223,6 +223,8 @@ In addition to content marking, the label protection setting was set for encrypt
 
    ![](/Instructions/Images/L13-T3-S2.png) 
 
+   ![](/Instructions/Images/L13-T3-S3.png) 
+
 1. Select **Attach** and you will find the word document you recently created to which you applied the label **Test-label**. Select **Share link** and press **Send**.
 
    ![](/Instructions/Images/L13-T3-S4.png) 
