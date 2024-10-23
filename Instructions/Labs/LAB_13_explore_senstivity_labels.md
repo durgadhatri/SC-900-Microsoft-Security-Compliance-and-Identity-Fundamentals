@@ -192,21 +192,23 @@ In this task, you will go through the process of applying a label from the persp
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Word icon** and select **Open in new tab**. 
 
-   ![](/Instructions/Images/lab13-1-5.png) 
+   ![](/Instructions/Images/L13-T2-S1.png) 
 
 1. Select **+ New blank document**, then enter some text on the page.  On the blue bar on the top of the page, select the down-arrow, next to where it says DocumentXX - Saved, and in the File Name box enter, **Test-label**.
 
-   ![](/Instructions/Images/L13T2S2.png)
+   ![](/Instructions/Images/L13-T2-S2.png) 
 
 1. From the top menu bar, select **Sensitivity**. From the drop down select **Confidential-Finance** (**Note:** If the option is not available, it will take sometime to reflect, and if selecting the label shows error label cannot be added to Word on web, please try refreshing the page once or sign-out and sign-in again).
 
-      ![](../Images/95.png)      
+   ![](/Instructions/Images/L13-T2-S3.png)     
 
 1. From the top menu bar, select **View**, then select **Reading view**.
 
-      ![](../Images/96.png)            
+    ![](/Instructions/Images/L13-T2-S4.png)            
 
-1. Notice how the document includes the watermark.  
+1. Notice how the document includes the watermark. 
+
+    ![](/Instructions/Images/L13-T2-S5.png) 
 
 1. Close the Microsoft Word tabs that are open on your browser to exit from Word.
 
@@ -215,7 +217,7 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. From the Microsoft Purview home page, select the **app launcher icon**, and **right click on the Outlook icon** and select **Open in new tab**.
 
-      ![](../Images/lab13-1-6.png)
+   ![](/Instructions/Images/L13-T3-S1.png) 
 
 1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the .OnMicrosoft.com domain and enter **Test** in the subject line.
 
