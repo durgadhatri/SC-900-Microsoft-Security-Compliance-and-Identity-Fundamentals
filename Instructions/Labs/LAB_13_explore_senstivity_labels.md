@@ -20,15 +20,13 @@ In this lab, you will complete the following tasks:
 ## Task 1: Explore the capabilities of sensitivity labels
 In this task you will gain an understanding of what sensitivity labels can do by going through the settings for an existing sensitivity label that have been created and the corresponding policy to publish the label.
 
-1. If you not alredy login to admin center, the address bar of Microsoft edge enter **admin.microsoft.com**.
-
-1. Sign in with your admin credentials.
+1. Open Microsoft Edge. In the address bar enter https://admin.microsoft.com to log in to the Microsoft 365 Portal.
    
-1. In the Sign in window enter you will see a login screen, in that enter the following email/username and then click on **Next**. 
+1. In the Sign-in window, enter the following **email/username** and click on **Next**.
 
     * Email/Username: <inject key="AzureAdUserEmail"></inject>
 
-1. Now enter the password and click on Sign in.
+1. Now enter the password and click on **Sign in**.
    
    * Password: <inject key="AzureAdUserPassword"></inject>
   
