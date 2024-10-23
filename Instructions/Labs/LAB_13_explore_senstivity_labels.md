@@ -221,11 +221,11 @@ In addition to content marking, the label protection setting was set for encrypt
 
 1. Select **New message** from the top left corner of the screen.  Enter an email address to which you have access and is not part of the .OnMicrosoft.com domain and enter **Test** in the subject line.
 
-1. Select **Attach**.
+   ![](/Instructions/Images/L13-T3-S2.png) 
 
-1. Select **OneDrive**.
+1. Select **Attach** and you will find the word document you recently created to which you applied the label **Test-label**. Select **Share link** and press **Send**.
 
-1. From the list that shows up, select the document you created and to which you applied the label **Test-label**. Select **Share link** and press **Send**.
+   ![](/Instructions/Images/L13-T3-S4.png) 
 
 1. Check the email to which you sent the document.  Note, the email may be directed to your junk folder.  When you attempt to open the attached word file you will see a notification that you do not have permission to open the document.
 
